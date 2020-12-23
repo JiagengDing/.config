@@ -2,3 +2,341 @@
 	sr = "narth"
 	r = "atith"
 	sss = "artts"
+2b5cbefe6ebe7ffc1e38d811f0c8a35d|file:///Users/JiagengDing/tt.py|2|1|V|python
+	sr = "narth"
+5139fa4f7fd1ef56f8cf98c002231f45|file:///Users/JiagengDing/tt.py|2|1|V|python
+	r = "atith"
+430e0d2eb251ac812099dad06842ec36|file:///Users/JiagengDing/tt.py|2|1|V|python
+	sss = "artts"
+b54a723ad4c7d509aff57b93bf47c98d|file:///Users/JiagengDing/tt.md|1|1|V|markdown
+	nihao | ni | ni
+	---
+	1     | 1  | 1
+6b916263cd62bc7e855873c51212452f|file:///Users/JiagengDing/.config/nvim/init.vim|572|1|V|vim
+	color snazzy
+57b76bbfe51c58cdd236141c75c888ff|file:///Users/JiagengDing/.config/nvim/init.vim|387|1|V|vim
+	Plug 'bling/vim-bufferline'
+7258886edf3ccf039a511178e891bdcd|file:///Users/JiagengDing/.config/nvim/init.vim|552|1|V|vim
+	" ===
+	" === Dress up my vim
+	" ===
+	set termguicolors " enable true colors support
+	"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+	"set background=dark
+	"let ayucolor="mirage"
+	"let g:oceanic_next_terminal_bold = 1
+	"let g:oceanic_next_terminal_italic = 1
+	"let g:one_allow_italics = 1
+b444f8b497128ac3340bdee0ba6da10a|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|2|1|V|markdown
+	|----|--------|----|----|
+ce3f372a94d179db0a781f6d6df6f98c|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|8|1|V|markdown
+	<++>
+ad66e33d00657492dd5abb3063dcfd19|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|7|1|V|markdown
+	1[](<++>) <++>
+ba331a40dedc395e13a3627850e2d527|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|7|1|V|markdown
+	kiniiiiieeeeiiiiiiiiiiq
+aca8b989f36c361d4fb1b4d52ed3d9f7|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|6|1|V|markdown
+	
+	## Fundamentals
+4edfa894185d1f4cf62788083dab1d63|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|7|1|V|markdown
+	"nin"				
+994d06622c761cbceb384fd10a0b53f3|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|8|5|v|markdown
+	Characters
+b007be300f03bbdb7d99ff1e12e38ebf|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|8|1|V|markdown
+	### 'Characters'
+	### Categories
+	#### Hedge Fund and Private Equity Funds
+	#### Real Estate/Commodities/Infrastructure
+	### Strategies
+	#### Absolute Return
+	#### Market Segmentation
+	#### Concentrated Protfolios
+	### Benefits
+	#### ShapeRatio=(Rp-Rf)/sigma(p), higher Rp and lower sigma
+	### Risk
+	#### SharpeRatio may be biased upward
+	### Partnership
+	#### LImited Partner(LP)
+	#### General Partner(GP)
+	### Fee Structure
+	#### Management Fee and Incentive Fee
+	## Hedge Fund
+	### 投资特点
+	### FoFs
+	####  Benefits and Drawbacks
+	### Strategies
+	#### Event Driven
+	##### Merger Abitrage
+	##### Distresssed Securties
+	##### Activist Shareholder
+	##### Special Situations
+	#### Relative Value
+	##### Fixed Income Convertible Arbitrage
+	##### Fixed Income Asset Backed(ABS)
+	##### Fixed Income General
+	##### Volatility
+	##### Multi-strategies
+	#### Macro
+	#### Equity Hedge
+	##### Market Neutral
+	##### Fundamental Growth
+	##### Fundamental Value
+	##### Quantitative Directional
+	##### Sector Specific
+	### Calculations
+	#### Management Fee
+	##### Year-End
+	##### Year-Begin
+	#### Incentive Fee
+	##### Net/Independent of mgt fee
+	##### High water mark
+	##### Hurdle rate
+	###### Hard
+	###### Soft
+	#### Return after Fees
+	#### Valuation Issues
+	##### Common Approach:(bid+ask)/2
+	##### Conservative Approach:bid price for long position and ask price for short price
+	#### Valuation in Highly Illiquid Investments
+	##### Reporting NAV:is based on quoted market price
+	##### Trading NAV:incorporates liquidity discounts
+	#### Due Diligence
+	## Private Equity
+	### Categories
+	#### Leverage Buyouts(LBOS)
+	#### Venture Capital(VC)
+	#### Developmental Capital
+	#### Distressed Investing
+	### Benefits and Risks
+	#### high average return
+	#### low correlation
+	#### underestimation of volatility and correlation
+	##### survivorship bias
+	##### backfill bias
+	### Fee Structure
+	#### management fee
+	#### incentive fee
+	##### clawback provision
+	##### set escrow account
+	### potfolio company valuation
+	#### market/comparable approach
+	#### discounted after-tax cash flow approach
+	#### asset-based approach
+	### LBO
+	#### buyin/buyout
+	#### attractive companies for LBO
+	### VC
+	#### formative stage
+	##### angel investing
+	##### seed stage financing
+	##### early stage financing
+	#### later stage
+	#### mazzanine-stage
+	### exit strategies
+	#### trade sale
+	#### initial public offerings(IPO)
+	#### recapitalization
+	#### secondary sale
+	#### write-off/liquidation
+	### due diligence
+	## Real Estate and Infrastructure
+	### why
+	#### high total return
+	#### anti inflation
+	### Categories
+	#### debt/equity
+	#### direct/indirect
+	### index
+	#### appraisal/repeat sales/REIT
+	### valuation method
+	#### comparable sales/income/cost
+	### risk of RE
+	### infrastructure
+	#### categories
+	##### brownfield
+	##### greenfield
+	#### forms
+	##### directly
+	##### Master Limited Partnerships(MLPs)
+	#### Risks and Returns
+	##### brownfield:lower
+	##### greenfield:higher
+	## Commodity
+	### Characteristics
+	### Investment Vehicles
+	#### commodity derivertives
+	#### commodity exchange-traded funds(ETF)
+	#### equities directly linked to a commodity
+	#### managed future funds
+	#### individual managed accounts
+	#### specialized funds in specific conmmodity sectors
+	### Commodity Futures
+	#### formula
+	##### future price ≈ spot price(1+r)+storage costs -convenience yield
+	#### convenience yield
+	##### contango
+	###### futurePrice>spotPrice
+	* little or no covenience yield
+	##### backwardation
+	###### futurePrice<spotPrice
+	* high covenience yield
+	#### three sources of returns
+	##### collateral yield（抵押收益率）
+	##### Roll Yield（展期收益率）
+	###### positive in backwardation
+	###### negative in contango
+	##### Yield from changes in spot price(Spot Yield)
+3dd7aa0eaaf86ce7edebc38ddfeffb92|file:///Users/JiagengDing/tt.py|2|5|V|python
+	    pass
+fb5f038ce23063f5865ebbf449e3b2eb|file:///Users/JiagengDing/tt.py|1|1|V|python
+	print("hello world!"):
+	a = 1 + 1
+3f9178c25b78ed8bed19091bcb62e266|file:///Users/JiagengDing/tt.py|4|4|v|python
+	condition
+53573d5cd4ac3a23a1ce9f70d5691245|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|28|1|V|snippets
+	Gilles Castel
+f0ed9e4f93154ab46698b4457cbc0cea|file:///Users/JiagengDing/tt.tex|22|1|V|tex
+	\frac{}{\frac{}{}}
+485e4d6099a378cbd2fdc96547586345|file:///Users/JiagengDing/tt.tex|22|1|V|tex
+	123123123123123123123123123123123\frac{}{dd}12i3
+5cefdc5ff55d03623fb0907359317518|file:///Users/JiagengDing/.config/nvim/init.vim|438|1|V|vim
+	Plug 'KeitaNakamura/tex-conceal.vim'
+96c409fbae7bf756792dcf05f1e07837|file:///Users/JiagengDing/tt.tex|22|1|V|tex
+	Yours sincerely,
+3070de5352485dd6a6f4db66da0a1691|file:///Users/JiagengDing/tt.tex|22|1|V|tex
+	Jiageng Ding
+1356051a324c5ce42c61a1a674b964e9|file:///Users/JiagengDing/tt.tex|23|1|V|tex
+	\frac{}{}
+489b00bdce6dbd88f14ed7fdb4d5b8d5|file:///Users/JiagengDing/tt.tex|25|1|V|tex
+	\usepackage{makecell}%处理表格宏包
+5daae6f34bdee6aa719a874cf3a140eb|file:///Users/JiagengDing/tt.tex|24|1|V|tex
+	\usepackage{xcolor}
+	
+73e10dc20df9ace4c6040eed774764e5|file:///Users/JiagengDing/tt.tex|23|1|V|tex
+	\usepackage{listings}%导入代码块包
+713dad58412d0c50e16a83f7f2bbc226|file:///Users/JiagengDing/tt.tex|22|1|V|tex
+	\usepackage{fontspec, xunicode, xltxtra}
+2fc32c2a01db607de51fd23d6898e960|file:///Users/JiagengDing/tt.tex|21|1|V|tex
+	\setlength{\parindent}{2em}
+0b55134d0ade7dfa83d57589fdb699d0|file:///Users/JiagengDing/tt.tex|20|1|V|tex
+	\renewcommand {\thetable} {\thesection{}-\arabic{table}}%对表格编码修改
+1ca3dc87d0aafe12eb6d87a7c14a9993|file:///Users/JiagengDing/tt.tex|19|1|V|tex
+	%\zihao{-4}%设置小四号字
+2265f1309467c9087be32eff45e52076|file:///Users/JiagengDing/tt.tex|17|1|V|tex
+	\CTEXsetup[number=\arabic{subsubsection}]{subsubsection}             %subsubsection形式改为1，2，3，...
+54c7c988e3bdaf416012021467444b53|file:///Users/JiagengDing/tt.tex|15|1|V|tex
+	\CTEXsetup[name={（,）}]{subsection}                                 
+9828d11959d3561247e066b5fb57257f|file:///Users/JiagengDing/tt.tex|15|1|V|tex
+	\CTEXsetup[number={\chinese{subsection}}]{subsection}                %subsection形式改为（一,二,三,...）                         
+e6d59a243905cfa4654ebdb1bcde9e6e|file:///Users/JiagengDing/tt.tex|14|1|V|tex
+	\CTEXsetup[number={\chinese{section}}]{section}                      %section形式改为一,二,三,..
+2a756e25224ad5c16bb711929ba8eed5|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\begin{thebibliography}{99}
+54482f9ce9a20a18ca91fe7168d0b9e6|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{} 张玲.财务危机预警分析判别模型[M].数量经济技术经济研究，2000，(3).
+66557b1f1085191ad1532a8690d83137|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{} 王劲潇. 基于Z-Score模型下我国中小企业财务预警研究[D].东华大学,2013.
+2bc2f0dcbe2e97c94414766c65e6ba92|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{}（加）约翰·赫尔（John C. Hull）著.期权、期货及其他衍生产品[M].北京：机械工业出版社.2018.
+3048344b9a41e35358f79c48cb3e1dbf|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{}（加）约翰·赫尔著.风险管理与金融机构[M].北京：机械工业出版社.2008.
+837c23ddd1bc7a671adc11e2d255d6a3|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{}（美）麦金尼（McKinney W.）著；唐学韬译.利用Python进行数据分析[M].北京：机械工业出版社.2016.
+6ebc30357385477e98b1e6cdd8be44a3|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{} 熊正德,文慧,熊一鹏.我国外汇市场与股票市场间波动溢出效应实证研究——基于小波多分辨的多元BEKK-GARCH(1,1)模型分析[J].中国管理科学,2015,23(04):30-38.
+5a89b6ae09f1be0ddcd3256169ac40c7|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\bibitem{} 成城. 基于GARCH模型的上证指数波动率特征分析[D].山东大学,2014.
+22d90aba5e121facb26bfc8df588abc6|file:///Users/JiagengDing/tt.tex|45|1|V|tex
+	\end{thebibliography}
+123c42f9be1db9f3d31d80af01bb4713|file:///Users/JiagengDing/tt.tex|36|10|v|tex
+	section name
+8b04d5e3775d298e78455efc5ca404d5|file:///Users/JiagengDing/tt.tex|37|12|v|tex
+	first
+7294d36a5920751196981382090fb767|file:///Users/JiagengDing/tt.tex|35|1|V|tex
+	\label{sec:ff}
+07781b197959476d30956afb9dfea219|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	thir is my.thir ir my. thir is mykk
+93b05c90d14a117ba52da1d743a43ab1|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\frac{1}{2}
+9df743fb4a026d67e85ab08111c4aedd|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\frac{3}{4}
+972e98812fd2f1ffa9f4a417e808cbdf|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\hat{z}
+2a95aaaf954c2187999c6357b04a58dd|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\hat{x}
+4737de3980e0e4a8139d800c47cca626|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\overline{a}
+a068e9d5cfdca492a9bbbcc8d296989f|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\vec{v}
+5e3bedeaeb5deb1039acf2ed98489637|file:///Users/JiagengDing/tt.tex|40|1|V|tex
+	\end{document}
+d978b5cf7b5760c76ee41094e60d01d5|file:///Users/JiagengDing/tt.tex|39|1|V|tex
+	\section{first}%
+0981497245ba757d80bef2d673f903df|file:///Users/JiagengDing/tt.tex|34|1|V|tex
+	\section{ff}%
+870aa9fee62011dd5547a1db7ca7d740|file:///Users/JiagengDing/tt.tex|32|1|V|tex
+	$a_1+a_{12}+a_{13}$
+3e34726671f80dc5a545166ddfe8d3f3|file:///Users/JiagengDing/tt.tex|30|1|V|tex
+	$a^2+b^3+a^{c}=A^{1}$
+0508ff299479132565c13d60039cccbd|file:///Users/JiagengDing/tt.tex|28|1|V|tex
+	%└────────────────────────────┘
+6701de11437183ec1bbfa60bf968a9f6|file:///Users/JiagengDing/tt.tex|27|1|V|tex
+	%│ This is my first Snippets! │
+bd2a23667bbe958ed4d2179afd6593a5|file:///Users/JiagengDing/tt.tex|26|1|V|tex
+	%┌────────────────────────────┐
+015c26071da402f61060623067832bbc|file:///Users/JiagengDing/tt.tex|24|1|V|tex
+	.\] 
+46ae92c49f5c75b78fd23a00529846e2|file:///Users/JiagengDing/tt.tex|23|1|V|tex
+	x^2 + y^2 =z^2
+2cead9b217e5596912f9c49a7b59052b|file:///Users/JiagengDing/tt.tex|21|1|V|tex
+	$p$ is a value
+c145cca0e53b32f47f9cf4ee0229881c|file:///Users/JiagengDing/tt.tex|20|2|V|tex
+		$p$-value
+c4e6db2fa9b325c6e299dedadbb0a510|file:///Users/JiagengDing/tt.tex|19|2|V|tex
+		$p$is a value
+1443c5abf96b437642b80e5b81f9939d|file:///Users/JiagengDing/tt.tex|17|1|V|tex
+	\begin{document}
+44d711fcd9abc8a5d74f7e7a83397e02|file:///Users/JiagengDing/tt.tex|15|1|V|tex
+	\renewcommand{\baselinestretch}{1}%设置1 倍行距
+e630e6644d5e17a524d329a81ff0035e|file:///Users/JiagengDing/tt.tex|14|1|V|tex
+	\usepackage{setspace}
+1ac759380f6e366648bf4c2eff87f2c5|file:///Users/JiagengDing/tt.tex|13|1|V|tex
+	\usepackage{float}
+ab0f71d78226bd4895fdaf29b33a20ae|file:///Users/JiagengDing/tt.tex|9|1|V|tex
+	\usepackage{titlesec}%修改章节字体
+fbd0ff8d06de28ba7b764983bcc7d1f7|file:///Users/JiagengDing/tt.tex|8|1|V|tex
+	\usepackage{fancyhdr}%页眉页脚
+a407b89c0858cb2dd4aa7527245f9942|file:///Users/JiagengDing/tt.tex|7|1|V|tex
+	\usepackage{lastpage} %总页数
+0ccdcc18b91145f29209bea36ceffa5c|file:///Users/JiagengDing/tt.tex|6|1|V|tex
+	\usepackage[top=2.5cm,bottom=2cm,left=2.5cm,right=2cm,headheight=1.5cm]{geometry}
+b543c6c6a7938a200ca581fbcd7e0cfa|file:///Users/JiagengDing/tt.tex|5|1|V|tex
+	\usepackage{amsmath}
+107472a91ecf32719fe6e6bbfdd90432|file:///Users/JiagengDing/tt.tex|4|1|V|tex
+	\usepackage{ctex}
+c18c0173c52aad177c7b856529c7aaa0|file:///Users/JiagengDing/tt.tex|3|1|V|tex
+	\documentclass[a4paper,12pt]{book}%A4纸，小四号字
+908595e1ef5818a0efa79960fbb9b964|file:///Users/JiagengDing/tt.tex|6|1|V|tex
+	\begin{s}
+dcfeb6442cec3b86edccff58d74d27b2|file:///Users/JiagengDing/tt.tex|6|1|V|tex
+	\end{something}
+cb5aa002e79636dbe194aee6c4aa2742|file:///Users/JiagengDing/tt.tex|11|2|V|tex
+		\label{sec:first}
+7a3ccd77646273b8209b1fb0be4340f3|file:///Users/JiagengDing/tt.tex|13|1|V|tex
+	$\bm{F}$
+9410472afe02124669d4cd842b1e997b|file:///Users/JiagengDing/tt.tex|15|1|V|tex
+		 \bm{F}
+639e898918505c2dfc248d32fdb6ec7f|file:///Users/JiagengDing/tt.tex|15|2|V|tex
+	 \end{equation}
+7dc21ef3af82a38c4c4371fd16f1b58a|file:///Users/JiagengDing/tt.tex|14|2|V|tex
+	 \begin{equation}
+3d61c43ee3cd7213d0d5f63b23d37f26|file:///Users/JiagengDing/tt.tex|11|2|V|tex
+		\section{first}%
+bd4d0a4e732d21e1edae1c4f0dfe826e|file:///Users/JiagengDing/tt.tex|10|2|V|tex
+		$x^2$
+858e931a8a2fd3f9c4f83511784f61fa|file:///Users/JiagengDing/tt.tex|5|1|V|tex
+	\usepackage{geometry}
+bd34c1168728301e824658e512142973|file:///Users/JiagengDing/tt.tex|4|1|V|tex
+	\documentclass{book}
+437b930db84b8079c2dd804a71936b5f|file:///Users/JiagengDing/ttt.tex|3|8|v|tex
+	something

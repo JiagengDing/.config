@@ -1,0 +1,1122 @@
+2020-11-21 23:02:02: "Profile directory: /Users/JiagengDing/.config/joplin-desktop"
+2020-11-21 23:02:02: "KeychainService: checking if keychain supported"
+2020-11-21 23:02:02: "KeychainService: tried to set and get password. Result was:", "mytest"
+2020-11-21 23:02:02: "Client ID: 88d064b89bb243ce9896246a66667497"
+2020-11-21 23:02:02: "First start: detected locale as en_GB"
+2020-11-21 23:02:02: "Trying to load 0 master keys..."
+2020-11-21 23:02:02: "Loaded master keys: 0"
+2020-11-21 23:02:02: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:02:02: "ResourceFetcher: Auto-added resources: 0"
+2020-11-21 23:02:02: "Running migration: 20"
+2020-11-21 23:02:02: "Running migration: 27"
+2020-11-21 23:02:02: "Running migration: 33"
+2020-11-21 23:02:02: "SearchEngine: Updating FTS table..."
+2020-11-21 23:02:03: "Trying to load 0 master keys..."
+2020-11-21 23:02:03: "Loaded master keys: 0"
+2020-11-21 23:02:03: "Trying to load 0 master keys..."
+2020-11-21 23:02:03: "Loaded master keys: 0"
+2020-11-21 23:02:03: "Trying to load 0 master keys..."
+2020-11-21 23:02:03: "Loaded master keys: 0"
+2020-11-21 23:02:03: "app.start: doing regular boot"
+2020-11-21 23:02:03: "Trying to load 0 master keys..."
+2020-11-21 23:02:03: "Loaded master keys: 0"
+2020-11-21 23:02:03: "Trying to load 0 master keys..."
+2020-11-21 23:02:03: "Loaded master keys: 0"
+2020-11-21 23:02:03: "Trying to load 0 master keys..."
+2020-11-21 23:02:03: "Loaded master keys: 0"
+2020-11-21 23:02:03: "RevisionService::runInBackground: Starting background service with revision collection interval 600000"
+2020-11-21 23:02:04: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:02:04: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:02:07: "RevisionService::maintenance: Starting..."
+2020-11-21 23:02:07: "RevisionService::maintenance: Service is enabled"
+2020-11-21 23:02:07: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-21 23:02:07: "RevisionService::maintenance: Done in 140ms"
+2020-11-21 23:02:12: "SearchEngine: Updating FTS table..."
+2020-11-21 23:02:13: "SearchEngine: Updated FTS table in 38ms. Inserted: 5. Deleted: 0"
+2020-11-21 23:02:33: "ResourceService::indexNoteResources: Start"
+2020-11-21 23:02:33: "ResourceService::indexNoteResources: Completed"
+2020-11-21 23:02:33: "ResourceService::deleteOrphanResources:", "[]"
+2020-11-21 23:02:34: "Preparing scheduled sync"
+2020-11-21 23:02:34: "Saving updated Dropbox auth."
+2020-11-21 23:02:34: "Synchroniser is missing credentials - manual sync required to authenticate."
+2020-11-21 23:03:40: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:03:45: "CommandService::execute:", "synchronize", "[false]"
+2020-11-21 23:03:45: "Preparing scheduled sync"
+2020-11-21 23:03:45: "Starting scheduled sync"
+2020-11-21 23:04:06: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joglin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joglin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:04:06: "Operations completed: "
+2020-11-21 23:04:06: "Total folders: 1"
+2020-11-21 23:04:06: "Total notes: 5"
+2020-11-21 23:04:06: "Total resources: 3"
+2020-11-21 23:04:06: "There was some errors:"
+2020-11-21 23:04:06: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joglin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joglin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:04:07: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:04:40: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:05:07: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:05:09: "CommandService::execute:", "synchronize", "[false]"
+2020-11-21 23:05:09: "Preparing scheduled sync"
+2020-11-21 23:05:09: "Starting scheduled sync"
+2020-11-21 23:05:30: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:05:30: "Operations completed: "
+2020-11-21 23:05:30: "Total folders: 1"
+2020-11-21 23:05:30: "Total notes: 5"
+2020-11-21 23:05:30: "Total resources: 3"
+2020-11-21 23:05:30: "There was some errors:"
+2020-11-21 23:05:30: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:05:31: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:09:47: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:10:30: "Running background sync on timer..."
+2020-11-21 23:10:30: "Preparing scheduled sync"
+2020-11-21 23:10:30: "Starting scheduled sync"
+2020-11-21 23:10:51: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:10:51: "Operations completed: "
+2020-11-21 23:10:51: "Total folders: 1"
+2020-11-21 23:10:51: "Total notes: 5"
+2020-11-21 23:10:51: "Total resources: 3"
+2020-11-21 23:10:51: "There was some errors:"
+2020-11-21 23:10:51: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:10:52: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:11:09: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:11:10: "CommandService::execute:", "synchronize", "[false]"
+2020-11-21 23:11:10: "Preparing scheduled sync"
+2020-11-21 23:11:10: "Starting scheduled sync"
+2020-11-21 23:11:31: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:11:31: "Operations completed: "
+2020-11-21 23:11:31: "Total folders: 1"
+2020-11-21 23:11:31: "Total notes: 5"
+2020-11-21 23:11:31: "Total resources: 3"
+2020-11-21 23:11:31: "There was some errors:"
+2020-11-21 23:11:31: "Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+Error: Not a valid URL:  https://dav.jianguoyun.com/dav/joplin/info.json
+    at Object.shim.fetch (/Applications/Joplin.app/Contents/Resources/app.asar/lib/shim-init-node.js:330:28)
+    at WebDavApi.exec (/Applications/Joplin.app/Contents/Resources/app.asar/lib/WebDavApi.js:389:26)
+    at FileApiDriverWebDav.get (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api-driver-webdav.js:164:38)
+    at /Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:250:42
+    at tryAndRepeat (/Applications/Joplin.app/Contents/Resources/app.asar/lib/file-api.js:38:25)"
+2020-11-21 23:11:32: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:12:03: "RevisionService::maintenance: Starting..."
+2020-11-21 23:12:03: "RevisionService::maintenance: Service is enabled"
+2020-11-21 23:12:03: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-21 23:12:03: "RevisionService::maintenance: Done in 114ms"
+2020-11-21 23:13:43: "CommandService::execute:", "search", "[""]"
+2020-11-21 23:13:43: "CommandService::execute:", "synchronize", "[false]"
+2020-11-21 23:13:43: "Preparing scheduled sync"
+2020-11-21 23:13:43: "Starting scheduled sync"
+2020-11-21 23:13:44: "Sync target info:", "{"version":2}"
+2020-11-21 23:13:48: "BasicDelta: Report: {"timestamp":0,"older":0,"newer":24,"equal":0}"
+2020-11-21 23:13:48: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-added resources: 1"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-added resources: 2"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-added resources: 3"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-added resources: 4"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-added resources: 5"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:49: "ResourceFetcher: Auto-added resources: 6"
+2020-11-21 23:13:50: "Operations completed: "
+2020-11-21 23:13:50: "createRemote: 9"
+2020-11-21 23:13:50: "fetchingTotal: 30"
+2020-11-21 23:13:50: "fetchingProcessed: 30"
+2020-11-21 23:13:50: "createLocal: 20"
+2020-11-21 23:13:50: "Total folders: 2"
+2020-11-21 23:13:50: "Total notes: 11"
+2020-11-21 23:13:50: "Total resources: 9"
+2020-11-21 23:13:51: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:51: "ResourceFetcher: Auto-added resources: 0"
+2020-11-21 23:13:51: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:51: "ResourceFetcher: Auto-added resources: 0"
+2020-11-21 23:13:51: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-21 23:13:51: "ResourceFetcher: Auto-added resources: 0"
+2020-11-21 23:13:51: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:13:58: "SearchEngine: Updating FTS table..."
+2020-11-21 23:14:00: "SearchEngine: Updated FTS table in 2091ms. Inserted: 6. Deleted: 0"
+2020-11-21 23:14:11: "SearchEngine: Updating FTS table..."
+2020-11-21 23:14:11: "SearchEngine: Updated FTS table in 52ms. Inserted: 1. Deleted: 5"
+2020-11-21 23:14:21: "SearchEngine: Updating FTS table..."
+2020-11-21 23:14:21: "SearchEngine: Updated FTS table in 38ms. Inserted: 1. Deleted: 0"
+2020-11-21 23:14:31: "SearchEngine: Updating FTS table..."
+2020-11-21 23:14:31: "SearchEngine: Updated FTS table in 57ms. Inserted: 1. Deleted: 0"
+2020-11-21 23:14:43: "SearchEngine: Updating FTS table..."
+2020-11-21 23:14:43: "SearchEngine: Updated FTS table in 42ms. Inserted: 1. Deleted: 0"
+2020-11-21 23:14:56: "SearchEngine: Updating FTS table..."
+2020-11-21 23:14:56: "SearchEngine: Updated FTS table in 42ms. Inserted: 1. Deleted: 0"
+2020-11-21 23:15:04: "CommandService::execute:", "synchronize", "[false]"
+2020-11-21 23:15:04: "Preparing scheduled sync"
+2020-11-21 23:15:04: "Starting scheduled sync"
+2020-11-21 23:15:04: "Sync target info:", "{"version":2}"
+2020-11-21 23:15:10: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-21 23:15:10: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-21 23:15:12: "BasicDelta: Report: {"timestamp":1605971628000,"older":22,"newer":1,"equal":1}"
+2020-11-21 23:15:13: "Operations completed: "
+2020-11-21 23:15:13: "updateRemote: 1"
+2020-11-21 23:15:13: "deleteRemote: 6"
+2020-11-21 23:15:13: "fetchingTotal: 7"
+2020-11-21 23:15:13: "fetchingProcessed: 7"
+2020-11-21 23:15:13: "Total folders: 1"
+2020-11-21 23:15:13: "Total notes: 6"
+2020-11-21 23:15:13: "Total resources: 9"
+2020-11-21 23:15:14: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:20:13: "Running background sync on timer..."
+2020-11-21 23:20:13: "Preparing scheduled sync"
+2020-11-21 23:20:13: "Starting scheduled sync"
+2020-11-21 23:20:13: "Sync target info:", "{"version":2}"
+2020-11-21 23:20:13: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-21 23:20:13: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-21 23:20:14: "BasicDelta: Report: {"timestamp":1605971707000,"older":23,"newer":0,"equal":1}"
+2020-11-21 23:20:14: "Operations completed: "
+2020-11-21 23:20:14: "fetchingTotal: -"
+2020-11-21 23:20:14: "Total folders: 1"
+2020-11-21 23:20:14: "Total notes: 6"
+2020-11-21 23:20:14: "Total resources: 9"
+2020-11-21 23:20:15: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-21 23:22:03: "RevisionService::maintenance: Starting..."
+2020-11-21 23:22:03: "RevisionService::maintenance: Service is enabled"
+2020-11-21 23:22:03: "RevisionService::collectRevisions: Created revisions for 6 notes"
+2020-11-21 23:22:03: "RevisionService::maintenance: Done in 188ms"
+2020-11-22 00:16:24: "Running background sync on timer..."
+2020-11-22 00:16:24: "Preparing scheduled sync"
+2020-11-22 00:16:24: "Starting scheduled sync"
+2020-11-22 00:46:20: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 00:46:20: "Operations completed: "
+2020-11-22 00:46:20: "Total folders: 1"
+2020-11-22 00:46:20: "Total notes: 6"
+2020-11-22 00:46:20: "Total resources: 9"
+2020-11-22 00:46:21: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 02:02:34: "Running background sync on timer..."
+2020-11-22 02:02:34: "Preparing scheduled sync"
+2020-11-22 02:02:34: "Starting scheduled sync"
+2020-11-22 04:24:21: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 04:24:21: "Operations completed: "
+2020-11-22 04:24:21: "Total folders: 1"
+2020-11-22 04:24:21: "Total notes: 6"
+2020-11-22 04:24:21: "Total resources: 9"
+2020-11-22 04:24:22: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 05:01:34: "RevisionService::maintenance: Starting..."
+2020-11-22 05:01:34: "RevisionService::maintenance: Service is enabled"
+2020-11-22 05:01:34: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 05:01:34: "RevisionService::maintenance: Done in 414ms"
+2020-11-22 07:14:00: "Running background sync on timer..."
+2020-11-22 07:14:00: "Preparing scheduled sync"
+2020-11-22 07:14:00: "Starting scheduled sync"
+2020-11-22 09:49:12: "Sync target info:", "{"version":2}"
+2020-11-22 09:49:15: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 09:49:15: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 09:49:15: "BasicDelta: Report: {"timestamp":1605971707000,"older":23,"newer":2,"equal":1}"
+2020-11-22 09:49:15: "Operations completed: "
+2020-11-22 09:49:15: "createRemote: 6"
+2020-11-22 09:49:15: "fetchingTotal: 6"
+2020-11-22 09:49:15: "fetchingProcessed: 6"
+2020-11-22 09:49:15: "Total folders: 1"
+2020-11-22 09:49:15: "Total notes: 6"
+2020-11-22 09:49:15: "Total resources: 9"
+2020-11-22 09:49:16: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 15:16:43: "Running background sync on timer..."
+2020-11-22 15:16:43: "Preparing scheduled sync"
+2020-11-22 15:16:43: "Starting scheduled sync"
+2020-11-22 16:52:37: "RevisionService::maintenance: Starting..."
+2020-11-22 16:52:37: "RevisionService::maintenance: Service is enabled"
+2020-11-22 16:52:38: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 16:52:38: "RevisionService::maintenance: Done in 407ms"
+2020-11-22 16:54:39: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 16:54:39: "Operations completed: "
+2020-11-22 16:54:39: "Total folders: 1"
+2020-11-22 16:54:39: "Total notes: 6"
+2020-11-22 16:54:39: "Total resources: 9"
+2020-11-22 16:54:40: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 16:59:40: "Running background sync on timer..."
+2020-11-22 16:59:40: "Preparing scheduled sync"
+2020-11-22 16:59:40: "Starting scheduled sync"
+2020-11-22 16:59:40: "Sync target info:", "{"version":2}"
+2020-11-22 16:59:42: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 16:59:42: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 16:59:42: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 16:59:43: "Operations completed: "
+2020-11-22 16:59:43: "fetchingTotal: -"
+2020-11-22 16:59:43: "Total folders: 1"
+2020-11-22 16:59:43: "Total notes: 6"
+2020-11-22 16:59:43: "Total resources: 9"
+2020-11-22 16:59:44: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 17:02:38: "RevisionService::maintenance: Starting..."
+2020-11-22 17:02:38: "RevisionService::maintenance: Service is enabled"
+2020-11-22 17:02:38: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 17:02:38: "RevisionService::maintenance: Done in 112ms"
+2020-11-22 17:04:43: "Running background sync on timer..."
+2020-11-22 17:04:43: "Preparing scheduled sync"
+2020-11-22 17:04:43: "Starting scheduled sync"
+2020-11-22 17:04:43: "Sync target info:", "{"version":2}"
+2020-11-22 17:04:44: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 17:04:44: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 17:04:44: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 17:04:45: "Operations completed: "
+2020-11-22 17:04:45: "fetchingTotal: -"
+2020-11-22 17:04:45: "Total folders: 1"
+2020-11-22 17:04:45: "Total notes: 6"
+2020-11-22 17:04:45: "Total resources: 9"
+2020-11-22 17:04:46: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 17:09:45: "Running background sync on timer..."
+2020-11-22 17:09:45: "Preparing scheduled sync"
+2020-11-22 17:09:45: "Starting scheduled sync"
+2020-11-22 17:09:45: "Sync target info:", "{"version":2}"
+2020-11-22 17:09:47: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 17:09:47: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 17:09:47: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 17:09:47: "Operations completed: "
+2020-11-22 17:09:47: "fetchingTotal: -"
+2020-11-22 17:09:47: "Total folders: 1"
+2020-11-22 17:09:47: "Total notes: 6"
+2020-11-22 17:09:47: "Total resources: 9"
+2020-11-22 17:09:48: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 17:12:33: "Garbage collecting alarms..."
+2020-11-22 17:12:38: "RevisionService::maintenance: Starting..."
+2020-11-22 17:12:38: "RevisionService::maintenance: Service is enabled"
+2020-11-22 17:12:38: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 17:12:38: "RevisionService::maintenance: Done in 113ms"
+2020-11-22 17:14:47: "Running background sync on timer..."
+2020-11-22 17:14:47: "Preparing scheduled sync"
+2020-11-22 17:14:47: "Starting scheduled sync"
+2020-11-22 17:14:48: "Sync target info:", "{"version":2}"
+2020-11-22 17:14:49: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 17:14:49: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 17:14:49: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 17:14:49: "Operations completed: "
+2020-11-22 17:14:49: "fetchingTotal: -"
+2020-11-22 17:14:49: "Total folders: 1"
+2020-11-22 17:14:49: "Total notes: 6"
+2020-11-22 17:14:49: "Total resources: 9"
+2020-11-22 17:14:51: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 17:19:50: "Running background sync on timer..."
+2020-11-22 17:19:50: "Preparing scheduled sync"
+2020-11-22 17:19:50: "Starting scheduled sync"
+2020-11-22 17:19:50: "Sync target info:", "{"version":2}"
+2020-11-22 17:19:52: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 17:19:52: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 17:19:53: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 17:19:53: "Operations completed: "
+2020-11-22 17:19:53: "fetchingTotal: -"
+2020-11-22 17:19:53: "Total folders: 1"
+2020-11-22 17:19:53: "Total notes: 6"
+2020-11-22 17:19:53: "Total resources: 9"
+2020-11-22 17:19:54: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 17:22:38: "RevisionService::maintenance: Starting..."
+2020-11-22 17:22:38: "RevisionService::maintenance: Service is enabled"
+2020-11-22 17:22:38: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 17:22:38: "RevisionService::maintenance: Done in 153ms"
+2020-11-22 17:53:30: "Running background sync on timer..."
+2020-11-22 17:53:30: "Preparing scheduled sync"
+2020-11-22 17:53:30: "Starting scheduled sync"
+2020-11-22 17:55:51: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 17:55:51: "Operations completed: "
+2020-11-22 17:55:51: "Total folders: 1"
+2020-11-22 17:55:51: "Total notes: 6"
+2020-11-22 17:55:51: "Total resources: 9"
+2020-11-22 17:55:52: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 18:00:51: "Running background sync on timer..."
+2020-11-22 18:00:51: "Preparing scheduled sync"
+2020-11-22 18:00:51: "Starting scheduled sync"
+2020-11-22 18:01:14: "RevisionService::maintenance: Starting..."
+2020-11-22 18:01:14: "RevisionService::maintenance: Service is enabled"
+2020-11-22 18:01:14: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 18:01:14: "RevisionService::maintenance: Done in 129ms"
+2020-11-22 18:03:12: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 18:03:12: "Operations completed: "
+2020-11-22 18:03:12: "Total folders: 1"
+2020-11-22 18:03:12: "Total notes: 6"
+2020-11-22 18:03:12: "Total resources: 9"
+2020-11-22 18:03:13: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 18:09:09: "Running background sync on timer..."
+2020-11-22 18:09:09: "Preparing scheduled sync"
+2020-11-22 18:09:09: "Starting scheduled sync"
+2020-11-22 18:11:30: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 18:11:30: "Operations completed: "
+2020-11-22 18:11:30: "Total folders: 1"
+2020-11-22 18:11:30: "Total notes: 6"
+2020-11-22 18:11:30: "Total resources: 9"
+2020-11-22 18:11:31: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 18:12:11: "RevisionService::maintenance: Starting..."
+2020-11-22 18:12:11: "RevisionService::maintenance: Service is enabled"
+2020-11-22 18:12:11: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 18:12:11: "RevisionService::maintenance: Done in 110ms"
+2020-11-22 18:16:31: "Running background sync on timer..."
+2020-11-22 18:16:31: "Preparing scheduled sync"
+2020-11-22 18:16:31: "Starting scheduled sync"
+2020-11-22 18:16:31: "Sync target info:", "{"version":2}"
+2020-11-22 18:16:33: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 18:16:33: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 18:16:33: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 18:16:34: "Operations completed: "
+2020-11-22 18:16:34: "fetchingTotal: -"
+2020-11-22 18:16:34: "Total folders: 1"
+2020-11-22 18:16:34: "Total notes: 6"
+2020-11-22 18:16:34: "Total resources: 9"
+2020-11-22 18:16:35: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 18:21:34: "Running background sync on timer..."
+2020-11-22 18:21:34: "Preparing scheduled sync"
+2020-11-22 18:21:34: "Starting scheduled sync"
+2020-11-22 18:21:34: "Sync target info:", "{"version":2}"
+2020-11-22 18:21:36: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 18:21:36: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 18:21:36: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 18:21:37: "Operations completed: "
+2020-11-22 18:21:37: "fetchingTotal: -"
+2020-11-22 18:21:37: "Total folders: 1"
+2020-11-22 18:21:37: "Total notes: 6"
+2020-11-22 18:21:37: "Total resources: 9"
+2020-11-22 18:21:38: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 18:22:11: "RevisionService::maintenance: Starting..."
+2020-11-22 18:22:11: "RevisionService::maintenance: Service is enabled"
+2020-11-22 18:22:11: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 18:22:11: "RevisionService::maintenance: Done in 104ms"
+2020-11-22 18:26:37: "Running background sync on timer..."
+2020-11-22 18:26:37: "Preparing scheduled sync"
+2020-11-22 18:26:37: "Starting scheduled sync"
+2020-11-22 18:26:37: "Sync target info:", "{"version":2}"
+2020-11-22 18:26:39: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-22 18:26:39: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-22 18:26:40: "BasicDelta: Report: {"timestamp":1606009756000,"older":26,"newer":0,"equal":4}"
+2020-11-22 18:26:40: "Operations completed: "
+2020-11-22 18:26:40: "fetchingTotal: -"
+2020-11-22 18:26:40: "Total folders: 1"
+2020-11-22 18:26:40: "Total notes: 6"
+2020-11-22 18:26:40: "Total resources: 9"
+2020-11-22 18:26:41: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 21:34:38: "Profile directory: /Users/JiagengDing/.config/joplin-desktop"
+2020-11-22 21:34:38: "KeychainService: checking if keychain supported"
+2020-11-22 21:34:38: "KeychainService: check was already done - skipping. Supported:", "1"
+2020-11-22 21:34:38: "Client ID: 88d064b89bb243ce9896246a66667497"
+2020-11-22 21:34:38: "Trying to load 0 master keys..."
+2020-11-22 21:34:38: "Loaded master keys: 0"
+2020-11-22 21:34:38: "ResourceFetcher: Auto-add resources: Mode: always"
+2020-11-22 21:34:38: "ResourceFetcher: Auto-added resources: 0"
+2020-11-22 21:34:38: "Trying to load 0 master keys..."
+2020-11-22 21:34:38: "Loaded master keys: 0"
+2020-11-22 21:34:38: "Trying to load 0 master keys..."
+2020-11-22 21:34:38: "Loaded master keys: 0"
+2020-11-22 21:34:38: "Trying to load 0 master keys..."
+2020-11-22 21:34:38: "Loaded master keys: 0"
+2020-11-22 21:34:38: "app.start: doing regular boot"
+2020-11-22 21:34:39: "Trying to load 0 master keys..."
+2020-11-22 21:34:39: "Loaded master keys: 0"
+2020-11-22 21:34:39: "Trying to load 0 master keys..."
+2020-11-22 21:34:39: "Loaded master keys: 0"
+2020-11-22 21:34:39: "Trying to load 0 master keys..."
+2020-11-22 21:34:39: "Loaded master keys: 0"
+2020-11-22 21:34:39: "RevisionService::runInBackground: Starting background service with revision collection interval 600000"
+2020-11-22 21:34:40: "Preparing scheduled sync"
+2020-11-22 21:34:40: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-22 21:34:40: "Starting scheduled sync"
+2020-11-22 21:34:40: "CommandService::execute:", "search", "[""]"
+2020-11-22 21:34:43: "RevisionService::maintenance: Starting..."
+2020-11-22 21:34:43: "RevisionService::maintenance: Service is enabled"
+2020-11-22 21:34:43: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-22 21:34:43: "RevisionService::maintenance: Done in 115ms"
+2020-11-22 21:34:48: "SearchEngine: Updating FTS table..."
+2020-11-22 21:34:49: "SearchEngine: Updated FTS table in 1ms. Inserted: 0. Deleted: 0"
+2020-11-22 21:34:54: "CommandService::execute:", "toggleEditors", "[]"
+2020-11-22 21:34:58: "CommandService::execute:", "toggleEditors", "[]"
+2020-11-22 21:35:01: "CommandService::execute:", "textHorizontalRule", "[]"
+2020-11-22 21:35:02: "CommandService::execute:", "textHorizontalRule", "[]"
+2020-11-22 21:35:09: "ResourceService::indexNoteResources: Start"
+2020-11-22 21:35:09: "ResourceService::indexNoteResources: Completed"
+2020-11-22 21:35:09: "ResourceService::deleteOrphanResources:", "[]"
+2020-11-22 21:35:11: "CommandService::execute:", "textNumberedList", "[]"
+2020-11-22 21:35:12: "SearchEngine: Updating FTS table..."
+2020-11-22 21:35:12: "SearchEngine: Updated FTS table in 44ms. Inserted: 1. Deleted: 0"
+2020-11-22 21:35:25: "CommandService::execute:", "textLink", "[]"
+2020-11-22 21:35:25: "SearchEngine: Updating FTS table..."
+2020-11-22 21:35:25: "SearchEngine: Updated FTS table in 37ms. Inserted: 1. Deleted: 0"
+2020-11-22 21:35:31: "CommandService::execute:", "textCheckbox", "[]"
+2020-11-22 21:35:41: "SearchEngine: Updating FTS table..."
+2020-11-22 21:35:41: "SearchEngine: Updated FTS table in 75ms. Inserted: 1. Deleted: 0"
+2020-11-22 21:37:01: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-22 21:37:01: "Operations completed: "
+2020-11-22 21:37:01: "Total folders: 1"
+2020-11-22 21:37:01: "Total notes: 6"
+2020-11-22 21:37:01: "Total resources: 9"
+2020-11-22 21:37:01: "Updating all notifications..."
+2020-11-22 21:37:01: "Garbage collecting alarms..."
+2020-11-22 21:37:02: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 00:17:28: "Running background sync on timer..."
+2020-11-23 00:17:28: "Preparing scheduled sync"
+2020-11-23 00:17:28: "Starting scheduled sync"
+2020-11-23 00:17:49: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 00:17:49: "Operations completed: "
+2020-11-23 00:17:49: "Total folders: 1"
+2020-11-23 00:17:49: "Total notes: 6"
+2020-11-23 00:17:49: "Total resources: 9"
+2020-11-23 00:17:50: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 01:09:30: "RevisionService::maintenance: Starting..."
+2020-11-23 01:09:30: "RevisionService::maintenance: Service is enabled"
+2020-11-23 01:09:30: "RevisionService::collectRevisions: Created revisions for 1 notes"
+2020-11-23 01:09:30: "RevisionService::maintenance: Done in 623ms"
+2020-11-23 01:40:02: "Running background sync on timer..."
+2020-11-23 01:40:02: "Preparing scheduled sync"
+2020-11-23 01:40:02: "Starting scheduled sync"
+2020-11-23 01:40:23: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 01:40:24: "Operations completed: "
+2020-11-23 01:40:24: "Total folders: 1"
+2020-11-23 01:40:24: "Total notes: 6"
+2020-11-23 01:40:24: "Total resources: 9"
+2020-11-23 01:40:25: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 05:32:49: "Running background sync on timer..."
+2020-11-23 05:32:49: "Preparing scheduled sync"
+2020-11-23 05:32:49: "Starting scheduled sync"
+2020-11-23 05:33:11: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 05:33:11: "Operations completed: "
+2020-11-23 05:33:11: "Total folders: 1"
+2020-11-23 05:33:11: "Total notes: 6"
+2020-11-23 05:33:11: "Total resources: 9"
+2020-11-23 05:33:12: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 06:24:58: "RevisionService::maintenance: Starting..."
+2020-11-23 06:24:58: "RevisionService::maintenance: Service is enabled"
+2020-11-23 06:24:58: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-23 06:24:58: "RevisionService::maintenance: Done in 249ms"
+2020-11-23 07:46:11: "Running background sync on timer..."
+2020-11-23 07:46:11: "Preparing scheduled sync"
+2020-11-23 07:46:11: "Starting scheduled sync"
+2020-11-23 08:00:42: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 08:00:43: "Operations completed: "
+2020-11-23 08:00:43: "Total folders: 1"
+2020-11-23 08:00:43: "Total notes: 6"
+2020-11-23 08:00:43: "Total resources: 9"
+2020-11-23 08:00:44: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 09:17:37: "Running background sync on timer..."
+2020-11-23 09:17:37: "Preparing scheduled sync"
+2020-11-23 09:17:37: "Starting scheduled sync"
+2020-11-23 09:31:52: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 09:31:53: "Operations completed: "
+2020-11-23 09:31:53: "Total folders: 1"
+2020-11-23 09:31:53: "Total notes: 6"
+2020-11-23 09:31:53: "Total resources: 9"
+2020-11-23 09:31:54: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 09:32:42: "RevisionService::maintenance: Starting..."
+2020-11-23 09:32:42: "RevisionService::maintenance: Service is enabled"
+2020-11-23 09:32:42: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-23 09:32:42: "RevisionService::maintenance: Done in 139ms"
+2020-11-23 10:47:46: "Running background sync on timer..."
+2020-11-23 10:47:46: "Preparing scheduled sync"
+2020-11-23 10:47:46: "Starting scheduled sync"
+2020-11-23 11:02:11: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 11:02:11: "Operations completed: "
+2020-11-23 11:02:11: "Total folders: 1"
+2020-11-23 11:02:11: "Total notes: 6"
+2020-11-23 11:02:11: "Total resources: 9"
+2020-11-23 11:02:12: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 12:02:43: "Running background sync on timer..."
+2020-11-23 12:02:43: "Preparing scheduled sync"
+2020-11-23 12:02:43: "Starting scheduled sync"
+2020-11-23 12:03:05: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-23 12:03:05: "Operations completed: "
+2020-11-23 12:03:05: "Total folders: 1"
+2020-11-23 12:03:05: "Total notes: 6"
+2020-11-23 12:03:05: "Total resources: 9"
+2020-11-23 12:03:06: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 12:03:08: "RevisionService::maintenance: Starting..."
+2020-11-23 12:03:08: "RevisionService::maintenance: Service is enabled"
+2020-11-23 12:03:08: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-23 12:03:08: "RevisionService::maintenance: Done in 138ms"
+2020-11-23 16:27:27: "Running background sync on timer..."
+2020-11-23 16:27:27: "Preparing scheduled sync"
+2020-11-23 16:27:27: "Starting scheduled sync"
+2020-11-23 16:27:28: "Sync target info:", "{"version":2}"
+2020-11-23 16:43:05: "BasicDelta: Report: {"timestamp":1606009756000,"older":25,"newer":4,"equal":4}"
+2020-11-23 16:43:06: "Operations completed: "
+2020-11-23 16:43:06: "updateRemote: 1"
+2020-11-23 16:43:06: "createRemote: 1"
+2020-11-23 16:43:06: "fetchingTotal: 4"
+2020-11-23 16:43:06: "fetchingProcessed: 4"
+2020-11-23 16:43:06: "createLocal: 2"
+2020-11-23 16:43:06: "Total folders: 1"
+2020-11-23 16:43:06: "Total notes: 7"
+2020-11-23 16:43:06: "Total resources: 9"
+2020-11-23 16:43:07: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-23 16:43:16: "SearchEngine: Updating FTS table..."
+2020-11-23 16:43:16: "SearchEngine: Updated FTS table in 201ms. Inserted: 1. Deleted: 0"
+2020-11-24 03:36:10: "RevisionService::maintenance: Starting..."
+2020-11-24 03:36:10: "RevisionService::maintenance: Service is enabled"
+2020-11-24 03:36:10: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-24 03:36:10: "RevisionService::maintenance: Done in 661ms"
+2020-11-24 03:36:18: "Running background sync on timer..."
+2020-11-24 03:36:18: "Preparing scheduled sync"
+2020-11-24 03:36:18: "Starting scheduled sync"
+2020-11-24 03:36:40: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-24 03:36:40: "Operations completed: "
+2020-11-24 03:36:40: "Total folders: 1"
+2020-11-24 03:36:40: "Total notes: 7"
+2020-11-24 03:36:40: "Total resources: 9"
+2020-11-24 03:36:41: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 04:37:22: "Running background sync on timer..."
+2020-11-24 04:37:22: "Preparing scheduled sync"
+2020-11-24 04:37:22: "Starting scheduled sync"
+2020-11-24 04:51:40: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-24 04:51:41: "Operations completed: "
+2020-11-24 04:51:41: "Total folders: 1"
+2020-11-24 04:51:41: "Total notes: 7"
+2020-11-24 04:51:41: "Total resources: 9"
+2020-11-24 04:51:42: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 09:49:15: "Garbage collecting alarms..."
+2020-11-24 09:49:15: "RevisionService::maintenance: Starting..."
+2020-11-24 09:49:15: "RevisionService::maintenance: Service is enabled"
+2020-11-24 09:49:15: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-24 09:49:15: "RevisionService::maintenance: Done in 123ms"
+2020-11-24 11:02:22: "Running background sync on timer..."
+2020-11-24 11:02:22: "Preparing scheduled sync"
+2020-11-24 11:02:22: "Starting scheduled sync"
+2020-11-24 11:02:24: "Sync target info:", "{"version":2}"
+2020-11-24 11:02:25: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-24 11:02:25: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-24 11:02:25: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-24 11:02:26: "Operations completed: "
+2020-11-24 11:02:26: "fetchingTotal: -"
+2020-11-24 11:02:26: "Total folders: 1"
+2020-11-24 11:02:26: "Total notes: 7"
+2020-11-24 11:02:26: "Total resources: 9"
+2020-11-24 11:02:27: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 13:08:57: "Running background sync on timer..."
+2020-11-24 13:08:57: "Preparing scheduled sync"
+2020-11-24 13:08:57: "Starting scheduled sync"
+2020-11-24 13:08:58: "Sync target info:", "{"version":2}"
+2020-11-24 13:08:58: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-24 13:08:58: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-24 13:08:58: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-24 13:08:59: "Operations completed: "
+2020-11-24 13:08:59: "fetchingTotal: -"
+2020-11-24 13:08:59: "Total folders: 1"
+2020-11-24 13:08:59: "Total notes: 7"
+2020-11-24 13:08:59: "Total resources: 9"
+2020-11-24 13:09:00: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 13:13:01: "RevisionService::maintenance: Starting..."
+2020-11-24 13:13:01: "RevisionService::maintenance: Service is enabled"
+2020-11-24 13:13:01: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-24 13:13:01: "RevisionService::maintenance: Done in 113ms"
+2020-11-24 13:13:59: "Running background sync on timer..."
+2020-11-24 13:13:59: "Preparing scheduled sync"
+2020-11-24 13:13:59: "Starting scheduled sync"
+2020-11-24 13:13:59: "Sync target info:", "{"version":2}"
+2020-11-24 13:13:59: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-24 13:13:59: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-24 13:13:59: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-24 13:13:59: "Operations completed: "
+2020-11-24 13:13:59: "fetchingTotal: -"
+2020-11-24 13:13:59: "Total folders: 1"
+2020-11-24 13:13:59: "Total notes: 7"
+2020-11-24 13:13:59: "Total resources: 9"
+2020-11-24 13:14:01: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 13:18:59: "Running background sync on timer..."
+2020-11-24 13:18:59: "Preparing scheduled sync"
+2020-11-24 13:18:59: "Starting scheduled sync"
+2020-11-24 13:19:00: "Sync target info:", "{"version":2}"
+2020-11-24 13:19:01: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-24 13:19:01: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-24 13:19:01: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-24 13:19:01: "Operations completed: "
+2020-11-24 13:19:01: "fetchingTotal: -"
+2020-11-24 13:19:01: "Total folders: 1"
+2020-11-24 13:19:01: "Total notes: 7"
+2020-11-24 13:19:01: "Total resources: 9"
+2020-11-24 13:19:02: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 13:23:00: "RevisionService::maintenance: Starting..."
+2020-11-24 13:23:00: "RevisionService::maintenance: Service is enabled"
+2020-11-24 13:23:00: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-24 13:23:00: "RevisionService::maintenance: Done in 115ms"
+2020-11-24 13:24:00: "Running background sync on timer..."
+2020-11-24 13:24:00: "Preparing scheduled sync"
+2020-11-24 13:24:00: "Starting scheduled sync"
+2020-11-24 13:24:01: "Sync target info:", "{"version":2}"
+2020-11-24 13:24:02: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-24 13:24:02: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-24 13:24:02: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-24 13:24:03: "Operations completed: "
+2020-11-24 13:24:03: "fetchingTotal: -"
+2020-11-24 13:24:03: "Total folders: 1"
+2020-11-24 13:24:03: "Total notes: 7"
+2020-11-24 13:24:03: "Total resources: 9"
+2020-11-24 13:24:04: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 17:36:06: "Running background sync on timer..."
+2020-11-24 17:36:06: "Preparing scheduled sync"
+2020-11-24 17:36:06: "Starting scheduled sync"
+2020-11-24 17:36:07: "Sync target info:", "{"version":2}"
+2020-11-24 17:36:08: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-24 17:36:08: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-24 17:36:08: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-24 17:36:09: "Operations completed: "
+2020-11-24 17:36:09: "fetchingTotal: -"
+2020-11-24 17:36:09: "Total folders: 1"
+2020-11-24 17:36:09: "Total notes: 7"
+2020-11-24 17:36:09: "Total resources: 9"
+2020-11-24 17:36:10: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-24 23:20:20: "RevisionService::maintenance: Starting..."
+2020-11-24 23:20:20: "RevisionService::maintenance: Service is enabled"
+2020-11-24 23:20:20: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-24 23:20:20: "RevisionService::maintenance: Done in 222ms"
+2020-11-25 00:01:34: "Running background sync on timer..."
+2020-11-25 00:01:34: "Preparing scheduled sync"
+2020-11-25 00:01:34: "Starting scheduled sync"
+2020-11-25 00:16:36: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-25 00:16:36: "Operations completed: "
+2020-11-25 00:16:36: "Total folders: 1"
+2020-11-25 00:16:36: "Total notes: 7"
+2020-11-25 00:16:36: "Total resources: 9"
+2020-11-25 00:16:37: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-25 07:00:12: "Running background sync on timer..."
+2020-11-25 07:00:12: "Preparing scheduled sync"
+2020-11-25 07:00:12: "Starting scheduled sync"
+2020-11-25 10:01:36: "Sync target info:", "{"version":2}"
+2020-11-25 10:01:37: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-25 10:01:37: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-25 10:01:37: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-25 10:01:37: "Operations completed: "
+2020-11-25 10:01:37: "fetchingTotal: -"
+2020-11-25 10:01:37: "Total folders: 1"
+2020-11-25 10:01:37: "Total notes: 7"
+2020-11-25 10:01:37: "Total resources: 9"
+2020-11-25 10:01:38: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-25 11:51:24: "RevisionService::maintenance: Starting..."
+2020-11-25 11:51:24: "RevisionService::maintenance: Service is enabled"
+2020-11-25 11:51:24: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-25 11:51:24: "RevisionService::maintenance: Done in 196ms"
+2020-11-25 15:26:40: "Running background sync on timer..."
+2020-11-25 15:26:40: "Preparing scheduled sync"
+2020-11-25 15:26:40: "Starting scheduled sync"
+2020-11-25 15:26:41: "Sync target info:", "{"version":2}"
+2020-11-25 15:26:41: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-25 15:26:41: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-25 15:26:42: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-25 15:26:42: "Operations completed: "
+2020-11-25 15:26:42: "fetchingTotal: -"
+2020-11-25 15:26:42: "Total folders: 1"
+2020-11-25 15:26:42: "Total notes: 7"
+2020-11-25 15:26:42: "Total resources: 9"
+2020-11-25 15:26:43: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-26 11:50:00: "Running background sync on timer..."
+2020-11-26 11:50:00: "Preparing scheduled sync"
+2020-11-26 11:50:00: "Starting scheduled sync"
+2020-11-26 13:33:13: "Sync target info:", "{"version":2}"
+2020-11-26 13:33:14: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-26 13:33:14: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-26 13:33:14: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-26 13:33:15: "Operations completed: "
+2020-11-26 13:33:15: "fetchingTotal: -"
+2020-11-26 13:33:15: "Total folders: 1"
+2020-11-26 13:33:15: "Total notes: 7"
+2020-11-26 13:33:15: "Total resources: 9"
+2020-11-26 13:33:16: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-26 18:22:03: "RevisionService::maintenance: Starting..."
+2020-11-26 18:22:03: "RevisionService::maintenance: Service is enabled"
+2020-11-26 18:22:03: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-26 18:22:03: "RevisionService::maintenance: Done in 259ms"
+2020-11-27 01:36:22: "Running background sync on timer..."
+2020-11-27 01:36:23: "Preparing scheduled sync"
+2020-11-27 01:36:23: "Starting scheduled sync"
+2020-11-27 01:50:08: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-27 01:50:09: "Operations completed: "
+2020-11-27 01:50:09: "Total folders: 1"
+2020-11-27 01:50:09: "Total notes: 7"
+2020-11-27 01:50:09: "Total resources: 9"
+2020-11-27 01:50:10: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-28 14:49:21: "Running background sync on timer..."
+2020-11-28 14:49:21: "Preparing scheduled sync"
+2020-11-28 14:49:21: "Starting scheduled sync"
+2020-11-28 14:49:22: "Sync target info:", "{"version":2}"
+2020-11-28 14:49:23: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-28 14:49:23: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-28 14:49:23: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-28 14:49:23: "Operations completed: "
+2020-11-28 14:49:23: "fetchingTotal: -"
+2020-11-28 14:49:23: "Total folders: 1"
+2020-11-28 14:49:23: "Total notes: 7"
+2020-11-28 14:49:23: "Total resources: 9"
+2020-11-28 14:49:24: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-28 14:50:23: "RevisionService::maintenance: Starting..."
+2020-11-28 14:50:23: "RevisionService::maintenance: Service is enabled"
+2020-11-28 14:50:23: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-28 14:50:23: "RevisionService::maintenance: Done in 108ms"
+2020-11-28 14:54:23: "Running background sync on timer..."
+2020-11-28 14:54:23: "Preparing scheduled sync"
+2020-11-28 14:54:23: "Starting scheduled sync"
+2020-11-28 14:54:24: "Sync target info:", "{"version":2}"
+2020-11-28 14:54:24: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-28 14:54:24: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-28 14:54:25: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-28 14:54:25: "Operations completed: "
+2020-11-28 14:54:25: "fetchingTotal: -"
+2020-11-28 14:54:25: "Total folders: 1"
+2020-11-28 14:54:25: "Total notes: 7"
+2020-11-28 14:54:25: "Total resources: 9"
+2020-11-28 14:54:26: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-28 14:59:25: "Running background sync on timer..."
+2020-11-28 14:59:25: "Preparing scheduled sync"
+2020-11-28 14:59:25: "Starting scheduled sync"
+2020-11-28 14:59:25: "Sync target info:", "{"version":2}"
+2020-11-28 14:59:26: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-28 14:59:26: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-28 14:59:26: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-28 14:59:27: "Operations completed: "
+2020-11-28 14:59:27: "fetchingTotal: -"
+2020-11-28 14:59:27: "Total folders: 1"
+2020-11-28 14:59:27: "Total notes: 7"
+2020-11-28 14:59:27: "Total resources: 9"
+2020-11-28 14:59:28: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-28 15:00:23: "RevisionService::maintenance: Starting..."
+2020-11-28 15:00:23: "RevisionService::maintenance: Service is enabled"
+2020-11-28 15:00:23: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-28 15:00:23: "RevisionService::maintenance: Done in 110ms"
+2020-11-28 15:30:09: "Running background sync on timer..."
+2020-11-28 15:30:09: "Preparing scheduled sync"
+2020-11-28 15:30:09: "Starting scheduled sync"
+2020-11-28 15:30:09: "Sync target info:", "{"version":2}"
+2020-11-28 15:30:11: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-28 15:30:11: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-28 15:30:12: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-28 15:30:13: "Operations completed: "
+2020-11-28 15:30:13: "fetchingTotal: -"
+2020-11-28 15:30:13: "Total folders: 1"
+2020-11-28 15:30:13: "Total notes: 7"
+2020-11-28 15:30:13: "Total resources: 9"
+2020-11-28 15:30:14: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-28 15:51:57: "Running background sync on timer..."
+2020-11-28 15:51:57: "Preparing scheduled sync"
+2020-11-28 15:51:57: "Starting scheduled sync"
+2020-11-28 15:51:58: "Sync target info:", "{"version":2}"
+2020-11-28 15:51:58: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-28 15:51:58: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-28 15:51:58: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-28 15:51:59: "Operations completed: "
+2020-11-28 15:51:59: "fetchingTotal: -"
+2020-11-28 15:51:59: "Total folders: 1"
+2020-11-28 15:51:59: "Total notes: 7"
+2020-11-28 15:51:59: "Total resources: 9"
+2020-11-28 15:52:00: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-28 15:53:14: "RevisionService::maintenance: Starting..."
+2020-11-28 15:53:14: "RevisionService::maintenance: Service is enabled"
+2020-11-28 15:53:14: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-28 15:53:14: "RevisionService::maintenance: Done in 303ms"
+2020-11-28 23:07:57: "Running background sync on timer..."
+2020-11-28 23:07:57: "Preparing scheduled sync"
+2020-11-28 23:07:57: "Starting scheduled sync"
+2020-11-28 23:07:58: "Sync target info:", "{"version":2}"
+2020-11-29 00:31:46: "Could not retrieve remote date - defaulting to device date:", "FetchError: request to https://dav.jianguoyun.com/dav/joplin/temp/timeCheck341914.txt failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/temp/timeCheck341914.txt failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-29 01:16:51: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/locks/sync_desktop_88d064b89bb243ce9896246a66667497.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+Code: ENOTFOUND
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/locks/sync_desktop_88d064b89bb243ce9896246a66667497.json failed, reason: getaddrinfo ENOTFOUND dav.jianguoyun.com
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-29 01:16:51: "Operations completed: "
+2020-11-29 01:16:51: "Total folders: 1"
+2020-11-29 01:16:51: "Total notes: 7"
+2020-11-29 01:16:51: "Total resources: 9"
+2020-11-29 01:16:52: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-29 07:00:23: "RevisionService::maintenance: Starting..."
+2020-11-29 07:00:23: "RevisionService::maintenance: Service is enabled"
+2020-11-29 07:00:23: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-29 07:00:23: "RevisionService::maintenance: Done in 179ms"
+2020-11-29 08:00:56: "Running background sync on timer..."
+2020-11-29 08:00:56: "Preparing scheduled sync"
+2020-11-29 08:00:56: "Starting scheduled sync"
+2020-11-29 09:54:47: "FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: connect ETIMEDOUT 58.215.175.52:443
+Code: ETIMEDOUT
+FetchError: request to https://dav.jianguoyun.com/dav/joplin/info.json failed, reason: connect ETIMEDOUT 58.215.175.52:443
+    at ClientRequest.<anonymous> (/Applications/Joplin.app/Contents/Resources/app.asar/node_modules/node-fetch/index.js:133:11)
+    at ClientRequest.emit (events.js:210:5)
+    at ClientRequest.EventEmitter.emit (domain.js:476:20)
+    at TLSSocket.socketErrorListener (_http_client.js:406:9)
+    at TLSSocket.emit (events.js:210:5)
+    at TLSSocket.EventEmitter.emit (domain.js:476:20)
+    at emitErrorNT (internal/streams/destroy.js:92:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)"
+2020-11-29 09:54:47: "Operations completed: "
+2020-11-29 09:54:47: "Total folders: 1"
+2020-11-29 09:54:47: "Total notes: 7"
+2020-11-29 09:54:47: "Total resources: 9"
+2020-11-29 09:54:48: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-29 19:30:10: "Running background sync on timer..."
+2020-11-29 19:30:10: "Preparing scheduled sync"
+2020-11-29 19:30:10: "Starting scheduled sync"
+2020-11-29 19:30:16: "Sync target info:", "{"version":2}"
+2020-11-29 19:30:16: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-29 19:30:16: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-29 19:30:17: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-29 19:30:17: "Operations completed: "
+2020-11-29 19:30:17: "fetchingTotal: -"
+2020-11-29 19:30:17: "Total folders: 1"
+2020-11-29 19:30:17: "Total notes: 7"
+2020-11-29 19:30:17: "Total resources: 9"
+2020-11-29 19:30:18: "DecryptionWorker: cannot start because no master key is currently loaded."
+2020-11-29 21:31:04: "RevisionService::maintenance: Starting..."
+2020-11-29 21:31:04: "RevisionService::maintenance: Service is enabled"
+2020-11-29 21:31:04: "RevisionService::collectRevisions: Created revisions for 0 notes"
+2020-11-29 21:31:04: "RevisionService::maintenance: Done in 111ms"
+2020-11-29 22:39:34: "Running background sync on timer..."
+2020-11-29 22:39:34: "Preparing scheduled sync"
+2020-11-29 22:39:34: "Starting scheduled sync"
+2020-11-29 22:39:35: "Sync target info:", "{"version":2}"
+2020-11-29 22:39:36: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2020-11-29 22:39:36: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2020-11-29 22:39:36: "BasicDelta: Report: {"timestamp":1606120985000,"older":32,"newer":0,"equal":1}"
+2020-11-29 22:39:36: "Operations completed: "
+2020-11-29 22:39:36: "fetchingTotal: -"
+2020-11-29 22:39:36: "Total folders: 1"
+2020-11-29 22:39:36: "Total notes: 7"
+2020-11-29 22:39:36: "Total resources: 9"
+2020-11-29 22:39:37: "DecryptionWorker: cannot start because no master key is currently loaded."
