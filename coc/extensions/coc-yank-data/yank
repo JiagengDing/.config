@@ -507,3 +507,8 @@ e6a8b1436f78c65ad38f9a15b4914623|file:///Users/JiagengDing/.config/zsh/zshrc|127
 	l
 	l
 	l
+8d490e0948bc5dd0b83a8b56f91236da|file:///Users/JiagengDing/.config/zsh/zshrc|73|7|v|zsh
+	git checkout -- Test.txt
+99aa99220a55f5cacf7809308c8246b6|file:///Users/JiagengDing/.config/zsh/zshrc|72|6|v|zsh
+	git checkout -- Test.txt
+	
