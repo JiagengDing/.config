@@ -1,15 +1,17 @@
-/Users/JiagengDing/.config/.gitignore
+/Users/JiagengDing/.config/zsh/zshrc
 /Users/JiagengDing/.config/nvim/init.vim
+/Users/JiagengDing/.config/nvim/_machine_specific.vim
+/Users/JiagengDing/.config/nvim/Ultisnips/README.md
+/Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
 /Users/JiagengDing/ttt.tex
+/Users/JiagengDing/.config/.gitignore
 /Users/JiagengDing/.config/nvim/default_configs/_machine_specific_default.vim
 /Users/JiagengDing/.config/nvim/cursor.vim
 /Users/JiagengDing/tt.py
 /Users/JiagengDing/.zshrc
 /Users/JiagengDing/.config/nvim/plugged/vim-snippets/UltiSnips/tex.snippets
-/Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
 /Users/JiagengDing/.config/nvim/coc-settings.json
 /Users/JiagengDing/init.vim
-/Users/JiagengDing/.config/nvim/_machine_specific.vim
 /Users/JiagengDing/tt.md.html
 /Users/JiagengDing/tt.md
 /Users/JiagengDing/Desktop/tttt/test 2.jl
