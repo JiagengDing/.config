@@ -1,5 +1,125 @@
 [
   {
+    "id": "accc4b10-45bc-11eb-a59c-ab1632617ec8",
+    "content": [
+      "Blink",
+      "v. 眨眼；忽视；(灯光等)闪烁；望着 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/options.txt\t2755\t35"
+  },
+  {
+    "id": "a0906d40-45bc-11eb-a59c-ab1632617ec8",
+    "content": [
+      "bar",
+      "n. 条；酒吧；棒；障碍 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/options.txt\t2754\t19"
+  },
+  {
+    "id": "0e55fc60-45b7-11eb-950f-911818e26f27",
+    "content": [
+      "backslashes",
+      "n. 反斜线符号；挑顶 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/options.txt\t6506\t21"
+  },
+  {
+    "id": "c14ebf60-45b6-11eb-950f-911818e26f27",
+    "content": [
+      "comma",
+      "n. 逗号；【乐】(一段音乐中的)短暂停顿或间歇 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/options.txt\t6496\t57"
+  },
+  {
+    "id": "23c8f8f0-45b6-11eb-950f-911818e26f27",
+    "content": [
+      "substituted",
+      "v. 〈美〉代替；用…代替；【化】取代；作…代理者 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4918\t41"
+  },
+  {
+    "id": "14969770-45b6-11eb-950f-911818e26f27",
+    "content": [
+      "placeholder",
+      "n. （替代缺失部分的）占位符 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4918\t19"
+  },
+  {
+    "id": "06543b40-45b6-11eb-950f-911818e26f27",
+    "content": [
+      "hl-Conceal",
+      "hl-隐藏"
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4917\t14"
+  },
+  {
+    "id": "aa0f2080-45b4-11eb-b918-351409f38138",
+    "content": [
+      "argument",
+      "n. 争论；论点；观点；争吵 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4798\t16"
+  },
+  {
+    "id": "cc3dceb0-45b2-11eb-b918-351409f38138",
+    "content": [
+      "'showbreak'",
+      "“ showbreak”"
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4981\t59"
+  },
+  {
+    "id": "b7f082e0-45b2-11eb-b918-351409f38138",
+    "content": [
+      "folds",
+      "n. 折叠；褶痕；(起伏地的)凹处；【地】褶皱 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4951\t32"
+  },
+  {
+    "id": "a9b02280-45b2-11eb-b918-351409f38138",
+    "content": [
+      "terminal",
+      "n. 终端；航站楼；终端机；航空终点站 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4945\t40"
+  },
+  {
+    "id": "7e1458d0-45b2-11eb-b918-351409f38138",
+    "content": [
+      "Conceal",
+      "v. 隐藏；隐瞒；掩盖 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4918\t6"
+  },
+  {
+    "id": "7381be30-45b2-11eb-b918-351409f38138",
+    "content": [
+      "'colorcolumn'",
+      "web. 彩色列 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/syntax.txt\t4916\t48"
+  },
+  {
+    "id": "d1aaf3c0-451a-11eb-908e-7322ec6d8de6",
+    "content": [
+      "implementation",
+      "n. 执行；落实 "
+    ],
+    "path": "file:///Users/JiagengDing/.config/nvim/init.vim\t715\t39"
+  },
+  {
+    "id": "2864a160-4517-11eb-908e-7322ec6d8de6",
+    "content": [
+      "prompts",
+      "adj. 敏捷的；(回答等)及时的；【商】即期付款的 "
+    ],
+    "path": "file:///usr/local/Cellar/neovim/0.4.4/share/nvim/runtime/doc/options.txt\t5334\t51"
+  },
+  {
     "id": "0ba13070-43a5-11eb-9e37-37b73672f486",
     "content": [
       "Futures",

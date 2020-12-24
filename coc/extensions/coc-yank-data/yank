@@ -340,3 +340,153 @@ bd34c1168728301e824658e512142973|file:///Users/JiagengDing/tt.tex|4|1|V|tex
 	\documentclass{book}
 437b930db84b8079c2dd804a71936b5f|file:///Users/JiagengDing/ttt.tex|3|8|v|tex
 	something
+b8a67d29a1e999e11d572079f9077bf6|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|208|1|V|snippets
+	#######################
+a9c37857648d4d6fbafb3e4a68b217f6|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|204|1|V|snippets
+	######################3
+a635d5cc20efc16fb7608f8a1f017050|file:///Users/JiagengDing/ttt.tex|6|2|V|tex
+		┌───────┐
+44d86922014b03c2c558d4f0121a2ba4|file:///Users/JiagengDing/ttt.tex|6|2|V|tex
+		│ hello! │
+abe3afe787c8432c301242f4aa50d976|file:///Users/JiagengDing/ttt.tex|6|2|V|tex
+		└────────┘
+d471eea516607888422d67fb9de3d79f|file:///Users/JiagengDing/ttt.tex|3|1|V|tex
+	\documentclass[utf8]{book}
+a2c7817e825076fbb082a18e8d5ddc13|file:///Users/JiagengDing/ttt.tex|1|1|V|tex
+	%! Tex program = xelatex
+9a0364b9e99bb480dd25e1f0284c8555|file:///Users/JiagengDing/ttt.tex|99|4|v|tex
+	content
+2e1ed99e4aec7198b264ac7908e38b64|file:///Users/JiagengDing/ttt.tex|105|16|v|tex
+	htpb
+98b70cc6ebacd06c37a5a9b093406715|file:///Users/JiagengDing/ttt.tex|105|1|V|tex
+	\begin{figure}[h]
+ab0b01b345acd46aa4ecedc647900920|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\centering
+9cb7dbc979cf8d8a860787c645f00548|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\includegraphics[width=0.8\linewidth]{name.ext}
+b3f2c3583c545796e752d31f5ba0e80e|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\caption{\uname}%
+d26dc82b9a9e3b66d228cf69d9499b84|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\label{fig:name}
+b7770ba36eec4dd995eb70504d4a984d|file:///Users/JiagengDing/ttt.tex|105|1|V|tex
+	\end{figure}
+f2bc5995463f7da1b12968f995f89d6c|file:///Users/JiagengDing/ttt.tex|105|1|V|tex
+	\begin{figure}[htpb]
+0659f8aa3698ac3d729210fc45caa575|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\caption{niuiuv}%
+7378058d04c45c228eb65712f884487e|file:///Users/JiagengDing/ttt.tex|105|1|V|tex
+	\begin{table}[Phi]
+c6d4c0aa292b9d8da66380f4d530cca2|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\caption{caption}
+919216a8e829ae50de505ea1f2893b06|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\label{tab:label}
+47c557dd1a5abc6f9499da706e4d6601|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\begin{t(?1:abular)(?2:rray)}{c}
+91aeaff840457552980af2e771019c3f|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		(?1: & )
+6a5e3c4157e17ace615f855f784e5d73|file:///Users/JiagengDing/ttt.tex|105|2|V|tex
+		\end{t(?1:abular)(?2:rray)}
+4947d667bc186854ce5dfcd7f22b7cd6|file:///Users/JiagengDing/ttt.tex|105|1|V|tex
+	\end{table}
+38b4990b0c0f8a8d41f56945318ed9d5|file:///Users/JiagengDing/ttt.tex|110|1|V|tex
+	Package fontspec Warning: Font "FandolHei-Regular" does not contain requested Script "CJK".
+a0a182153d651a27982313b504ad7b89|file:///Users/JiagengDing/.config/nvim/init.vim|964|19|v|vim
+	n_enabled = 0
+	let maplocalleader=' '
+	set conceallevel=1
+	let g:tex_conceal='abdmg'
+	hi Conceal ctermbg=none
+3b3708c07d321145cb2b9d69b5a75612|file:///Users/JiagengDing/ttt.tex|113|1|V|tex
+	┌────────┐
+e25e9333d4acf9f9d962b886017c4223|file:///Users/JiagengDing/tt.md|9|7|v|markdown
+	<++> 
+9e925e9341b490bfd3b4c4ca3b0c1ef2|file:///Users/JiagengDing/tt.md|4|6|v|markdown
+	this
+0473d4c3ae14ea7aa29d2cbcf7f06979|file:///Users/JiagengDing/tt.md|9|16|v|markdown
+	hi this is my first
+cbc5785786a940b558e781880da772b1|file:///Users/JiagengDing/.config/nvim/init.vim|397|1|V|vim
+	"Plug 'theniceboy/eleline.vim'
+a0148a4c691267883c50c594431a594f|file:///Users/JiagengDing/.config/nvim/init.vim|386|1|V|vim
+	" Testing my own plugin
+70634e427773bbe448a8c26e9ed25691|file:///Users/JiagengDing/.config/nvim/init.vim|386|1|V|vim
+	" Plug 'theniceboy/vim-calc'
+72ab203b76e231b948119afb923c5975|file:///Users/JiagengDing/tt.md|12|1|V|markdown
+	|-|-|
+c115b79939b78939ff0c52e4d16f4064|file:///Users/JiagengDing/tt.md|6|1|^v|markdown
+	m
+	m
+	m
+b0d506a709769d6dfb75a76c8d4fe0b0|file:///Users/JiagengDing/tt.md|39|28|V|markdown
+	                              
+29b98053f3025102bef62df2512d7aaa|file:///Users/JiagengDing/tt.md|38|4|V|markdown
+	   \_/  |_|_| |_| |_|_|  \___|
+fd76ce351cacefe171f16c25f79cbb1e|file:///Users/JiagengDing/tt.md|37|3|V|markdown
+	  \ V / | | | | | | | | | (__ 
+2e9c18c17f0cc2690fded34a94306459|file:///Users/JiagengDing/tt.md|36|2|V|markdown
+	 \ \ / /| | '_ ` _ \| '__/ __|
+e609343c359d7d37eeab0792d4fbce45|file:///Users/JiagengDing/tt.md|35|1|V|markdown
+	\ \   / (_)_ __ ___  _ __ ___ 
+a2618a9d334c13f87e53bfe401164f68|file:///Users/JiagengDing/tt.md|34|1|V|markdown
+	__     ___                    
+21e3061163a4ea0080a7dae1fc8386f5|file:///Users/JiagengDing/.config/nvim/init.vim|650|1|V|vim
+	let g:ctrlp_map
+b7b1e314614cf326c6e2b6eba1540682|file:///Users/JiagengDing/.config/nvim/init.vim|424|3|v|vim
+	TODO
+740cbe4f51d9afd478a45ee8dcd8f77b|file:///Users/JiagengDing/tt.py|8|8|v|python
+	ition
+2954e92a9b4d0e998fe4893f8141649a|file:///Users/JiagengDing/tt.py|10|1|v|python
+	else
+ffe0fbd82bda4dd23ad96fcd4a64c3cc|file:///Users/JiagengDing/tt.py|9|5|V|python
+	    e
+652fca9c79b13821095f4fe3d57b9a0b|file:///Users/JiagengDing/tt.py|8|1|V|python
+	if :
+730de26cdf358aa91c60db11bd200570|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\makeatletter
+66c64515c3087bf4f0756afc77248a10|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\def\BState{\State\hskip-\ALG@thistlm}
+795d7e03a6ad3d933c4b90c4f4e0a7e2|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\makeatother
+7a1b522b97c9e6b3ef4c75dfd4cef002|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\begin{algorithm}[H]
+8a9460d6a6d5db9ac11d02f9f452d698|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\caption{}
+576b3055ca21b7191018e1112396fb31|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\begin{algorithmic}[1]
+c3abbe777e9b73a5f55fd21863bf2cea|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\Require
+5607b7a2c02da494aa6e9df1b441a90b|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\Ensure
+c2a89ceb147c4aa062f34d00eab01541|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\Function{ ${2} }{ }
+2c295378cddca18e6d33231430a45edc|file:///Users/JiagengDing/ttt.tex|117|2|V|tex
+		\If { }
+0f042704e3f949f1eb132490aa22ba62|file:///Users/JiagengDing/ttt.tex|117|3|V|tex
+			\Return
+f4d9976ab22f5cf19e9d224727b0e0da|file:///Users/JiagengDing/ttt.tex|117|2|V|tex
+		\ElsIf{ }
+355385d24d54a7e31bb776905b10c94b|file:///Users/JiagengDing/ttt.tex|117|3|V|tex
+			\Return { }
+a51ed3aa4a05dbe404b1d18847f3a5b7|file:///Users/JiagengDing/ttt.tex|117|2|V|tex
+		\Else \quad
+caca56222113ffefc2c306a68e18daca|file:///Users/JiagengDing/ttt.tex|117|3|V|tex
+			\Return{ }
+3ef724389d934759f9076f46ac761e24|file:///Users/JiagengDing/ttt.tex|117|2|V|tex
+		\EndIf
+8e700ea63dbb25852343932d97d9f3a1|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\EndFunction
+3cc81697ed38b9175fb9d7f9c08fbd98|file:///Users/JiagengDing/ttt.tex|117|1|V|tex
+	\State{ }
+320e41c825eeb6259bfa1cb799ee1a1a|file:///Users/JiagengDing/ttt.tex|128|1|V|tex
+	\end{algorithm}
+14eed2731b18304ed433775defd867c3|file:///Users/JiagengDing/ttt.tex|127|1|V|tex
+	\end{algorithmic}
+773c6a5c29d4ec3dcf931b33a296620d|file:///Users/JiagengDing/tt.py|4|5|V|python
+	if 1:
+	    pass
+	else:
+	    p
+270f5d9441b205e439b2ac9279ea824d|file:///Users/JiagengDing/.config/nvim/init.vim|588|11|v|vim
+	 ctermfg=254
+	
+9c67c16e4be5bf59d6462b817865f6b9|file:///Users/JiagengDing/.config/nvim/init.vim|82|5|v|vim
+	i-ci:ver30-iCursor

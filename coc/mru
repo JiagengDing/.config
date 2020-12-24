@@ -1,16 +1,27 @@
-/Users/JiagengDing/.config/.gitignore
 /Users/JiagengDing/.config/nvim/init.vim
 /Users/JiagengDing/ttt.tex
-/Users/JiagengDing/tt.tex
+/Users/JiagengDing/.config/nvim/default_configs/_machine_specific_default.vim
+/Users/JiagengDing/.config/nvim/cursor.vim
 /Users/JiagengDing/tt.py
+/Users/JiagengDing/.zshrc
+/Users/JiagengDing/.config/nvim/plugged/vim-snippets/UltiSnips/tex.snippets
 /Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
+/Users/JiagengDing/.config/nvim/coc-settings.json
+/Users/JiagengDing/init.vim
+/Users/JiagengDing/.config/nvim/_machine_specific.vim
+/Users/JiagengDing/tt.md.html
+/Users/JiagengDing/tt.md
+/Users/JiagengDing/Desktop/tttt/test 2.jl
+/private/var/folders/t1/k7f_k2cs0md3j_lcw7jv1tzh0000gn/T/tmpmua1Kg
+/Users/JiagengDing/aa.tex
+/Users/JiagengDing/.config/latexmkrc
+/Users/JiagengDing/.config/.gitignore
+/Users/JiagengDing/tt.tex
 /Users/JiagengDing/Desktop/.swp
 /Users/JiagengDing/local_document/Alternative Investment.md
 /Users/JiagengDing/local_document/形政.tex
 /Users/JiagengDing/local_document/Equity.md
-/Users/JiagengDing/.config/nvim/_machine_specific.vim
 /Users/JiagengDing/.config/ranger/rifle.conf
-/Users/JiagengDing/tt.md
 /Users/JiagengDing/.vim/vimrc
 /Users/JiagengDing/.vimrc
 /Users/JiagengDing/Desktop/mm.tex
