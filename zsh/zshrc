@@ -166,7 +166,7 @@ zinit wait lucid for \
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
+alias z="vim ~/.config/zsh/zshrc"
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 alias l=list
 alias r=ranger
@@ -194,3 +194,5 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+eval $(thefuck --alias f)
+fuck -r

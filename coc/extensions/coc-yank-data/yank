@@ -514,3 +514,7 @@ e6a8b1436f78c65ad38f9a15b4914623|file:///Users/JiagengDing/.config/zsh/zshrc|127
 	
 c42c93d3ea373c8183848ae0430a1794|file:///Users/JiagengDing/.config/zsh/zshrc|84|1|V|zsh
 	#their
+fd896b3db0ca0610001bfab6e0f8f091|file:///Users/JiagengDing/.zprofile|7|1|V|zsh
+	source .config/zsh/zshrc
+7b404cbafdd8f29326a55dcf9eea05c3|file:///Users/JiagengDing/.config/zsh/zshrc|198|1|V|zsh
+	# fuck --yeah
