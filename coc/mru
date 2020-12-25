@@ -1,4 +1,5 @@
 /Users/JiagengDing/.config/zsh/zshrc
+/Users/JiagengDing/.config/.gitignore
 /Users/JiagengDing/.config/nvim/init.vim
 <<<<<<< HEAD
 /Users/JiagengDing/.config/zsh/vi.zsh
@@ -14,7 +15,6 @@
 /Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
 =======
 >>>>>>> 222398b19f85b2a020fbdf66870bbae7ec19155d
-/Users/JiagengDing/.config/.gitignore
 /Users/JiagengDing/.config/nvim/default_configs/_machine_specific_default.vim
 /Users/JiagengDing/.config/nvim/cursor.vim
 /Users/JiagengDing/tt.py

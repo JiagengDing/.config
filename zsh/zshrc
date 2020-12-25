@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/JiagengDing/.oh-my-zsh"
+# export ZSH="/Users/JiagengDing/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -63,20 +63,84 @@ ZSH_THEME="awesomepanda"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
-# Standard plugins can be found in $ZSH/plugins/
-# Custom plugins may be added to $ZSH_CUSTOM/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git
-				zsh-syntax-highlighting
-				zsh-autosuggestions
-			)
-# plugins=(zsh-syntax-highlighting)
-# plugins=(zsh-autosuggestions)
+# # Which plugins would you like to load?
+# # Standard plugins can be found in $ZSH/plugins/
+# # Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# # Example format: plugins=(rails git textmate ruby lighthouse)
+# # Add wisely, as too many plugins slow down shell startup.
+# plugins=(git
+#         zsh-syntax-highlighting
+#         zsh-autosuggestions
+#       )
+# # plugins=(zsh-syntax-highlighting)
+# # plugins=(zsh-autosuggestions)
 
-source $ZSH/oh-my-zsh.sh
+# source $ZSH/oh-my-zsh.sh
 
+
+##################################3
+#zinit
+#################################33
+source ~/.zinit/bin/zinit.zsh
+
+# 快速目录跳转
+zinit ice lucid wait='1'
+zinit light skywind3000/z.lua
+
+# 语法高亮
+zinit ice lucid wait='0' atinit='zpcompinit'
+zinit light zdharma/fast-syntax-highlighting
+
+# 自动建议
+zinit ice lucid wait="0" atload='_zsh_autosuggest_start'
+zinit light zsh-users/zsh-autosuggestions
+
+# 补全
+zinit ice lucid wait='0'
+zinit light zsh-users/zsh-completions
+
+# 加载 OMZ 框架及部分插件
+zinit snippet OMZ::lib/completion.zsh
+zinit snippet OMZ::lib/history.zsh
+zinit snippet OMZ::lib/key-bindings.zsh
+zinit snippet OMZ::lib/theme-and-appearance.zsh
+zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
+zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
+
+zinit ice svn
+zinit snippet OMZ::plugins/extract
+
+zinit ice lucid wait='1'
+zinit snippet OMZ::plugins/git/git.plugin.zsh
+
+# # 加载 pure 主题
+# zinit ice pick"async.zsh" src"pure.zsh"
+# zinit light sindresorhus/pure
+
+
+#######
+#use awesomepanda
+#
+#
+# A.
+setopt promptsubst
+# B.
+zinit wait lucid for \
+				OMZL::git.zsh \
+	atload"unalias grv" \
+				OMZP::git
+PS1="READY >" # provide a simple prompt till the theme loads
+# C.
+zinit wait'!' lucid for \
+		OMZL::prompt_info_functions.zsh \
+		OMZT::awesomepanda
+# D.
+zinit wait lucid for \
+	atinit"zicompinit; zicdreplay"  \
+				zdharma/fast-syntax-highlighting \
+			OMZP::colored-man-pages \
+	as"completion" \
+				OMZP::docker/_docker
 
 # User configuration
 
