@@ -166,8 +166,8 @@ zinit wait lucid for \
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias zrc="nvim ~/.config/zsh/zshrc"
-alias zsh="source ~/.zshrc"
+alias zrc='nvim ~/.config/zsh/zshrc'
+alias zsh='source ~/.zshrc'
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 alias l=list
 alias r=ranger
@@ -179,7 +179,7 @@ alias vim=nvim
 alias H='cd ~/'
 alias cc='cd ~/.config'
 alias lg='lazygit'
-# alias f=thefuck
+alias gp='git push'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

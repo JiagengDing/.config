@@ -518,3 +518,11 @@ fd896b3db0ca0610001bfab6e0f8f091|file:///Users/JiagengDing/.zprofile|7|1|V|zsh
 	source .config/zsh/zshrc
 7b404cbafdd8f29326a55dcf9eea05c3|file:///Users/JiagengDing/.config/zsh/zshrc|198|1|V|zsh
 	# fuck --yeah
+114bb584089b990c7f950a29ae5da5c0|file:///Users/JiagengDing/.config/zsh/zshrc|182|1|V|zsh
+	# alias f=thefuck
+ad838e65c82fc551ea6d210ebab444db|file:///Users/JiagengDing/.config/zsh/zshrc|169|12|v|zsh
+	nvim ~/.config/zsh/zshrc
+f2018836632a5a7eaccc1610fe6abcd0|file:///Users/JiagengDing/.config/zsh/zshrc|182|1|V|zsh
+	alias ga='git add .'
+c6d8ed8efc566e4d29047db28397a73a|file:///Users/JiagengDing/.config/zsh/zshrc|182|1|V|zsh
+	alias gc='git commit -m'
