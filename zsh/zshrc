@@ -1,3 +1,10 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -118,29 +125,32 @@ zinit snippet OMZ::plugins/git/git.plugin.zsh
 # zinit light sindresorhus/pure
 
 
-#######
-#use awesomepanda
-#
-#
-# A.
-setopt promptsubst
-# B.
-zinit wait lucid for \
-				OMZL::git.zsh \
-	atload"unalias grv" \
-				OMZP::git
-PS1="READY >" # provide a simple prompt till the theme loads
-# C.
-zinit wait'!' lucid for \
-		OMZL::prompt_info_functions.zsh \
-		OMZT::awesomepanda
-# D.
-zinit wait lucid for \
-	atinit"zicompinit; zicdreplay"  \
-				zdharma/fast-syntax-highlighting \
-			OMZP::colored-man-pages \
-	as"completion" \
-				OMZP::docker/_docker
+# #######
+# #use awesomepanda
+# #
+# #
+# # A.
+# setopt promptsubst
+# # B.
+# zinit wait lucid for \
+#         OMZL::git.zsh \
+#   atload"unalias grv" \
+#         OMZP::git
+# PS1="READY >" # provide a simple prompt till the theme loads
+# # C.
+# zinit wait'!' lucid for \
+#     OMZL::prompt_info_functions.zsh \
+#     OMZT::awesomepanda
+# # D.
+# zinit wait lucid for \
+#   atinit"zicompinit; zicdreplay"  \
+#         zdharma/fast-syntax-highlighting \
+#       OMZP::colored-man-pages \
+#   as"completion" \
+#         OMZP::docker/_docker
+
+##USE powerlevel10k
+zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # User configuration
 
@@ -176,10 +186,12 @@ alias c='clear'
 alias up='brew update && brew upgrade && brew cu -a -y && mas upgrade'
 alias s=neofetch
 alias vim=nvim
-alias H='cd ~/'
-alias cc='cd ~/.config'
 alias lg='lazygit'
 alias gp='git push'
+
+
+hash -d H=~
+hash -d cc='~/.config'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
@@ -198,3 +210,6 @@ unset __conda_setup
 
 eval $(thefuck --alias)
 eval $(thefuck --alias f)
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
