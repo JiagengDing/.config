@@ -552,3 +552,9 @@ be342d84c1d4f97539f497b92dc57a4a|file:///Users/JiagengDing/.config/ranger/rc.con
 	
 	hi NonText ctermfg=gray guifg=grey10
 	hi CursorColumn ctermfg=Whit
+557da8ed39645c28d46b753546f626d5|file:///Users/JiagengDing/.config/.gitignore|3|1|V|gitignore
+	zsh/.zsh_sessions/
+72f72fc11cc320bd0e8c9abd874957df|file:///Users/JiagengDing/.config/.gitignore|2|1|V|gitignore
+	coc/extensions/
+c1ef5ef04994c6d5ed8231c0b4d1d3cb|file:///Users/JiagengDing/.config/.gitignore|1|1|V|gitignore
+	nvim/

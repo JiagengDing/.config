@@ -1,3 +1,9 @@
+/Users/JiagengDing/.config/.gitignore
+/Users/JiagengDing/.config/zsh/fzf.zsh
+/Users/JiagengDing/.config/ 
+/Users/JiagengDing/.config/fzf
+/Users/JiagengDing/.config/init.vim
+/fzf
 /Users/JiagengDing/.config/nvim/init.vim
 /Users/JiagengDing/.config/nvim/md-snippets.vim
 /Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
@@ -19,7 +25,6 @@
 /Users/JiagengDing/tt.sh
 /Users/JiagengDing/.zshrc
 /Users/JiagengDing/.zprofile
-/Users/JiagengDing/.config/.gitignore
 <<<<<<< HEAD
 /Users/JiagengDing/.config/zsh/vi.zsh
 =======
