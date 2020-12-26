@@ -176,7 +176,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias zrc='nvim ~/.config/zsh/zshrc'
+alias zr='nvim ~/.config/zsh/zshrc'
 alias zsh='source ~/.zshrc'
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 alias l=list
@@ -187,8 +187,6 @@ alias up='brew update && brew upgrade && brew cu -a -y && mas upgrade'
 alias s=neofetch
 alias vim=nvim
 
-alias ga='git add '
-alias gc='git commit -m '
 alias lg='lazygit'
 alias gp='git push'
 

@@ -534,3 +534,7 @@ f791a6dbd887e666381a8dd4c29db7a8|file:///Users/JiagengDing/.config/zsh/zshrc|201
 	# alias H='cd ~/'
 4a3b3e325d92141d08cfe47bb5d5b340|file:///Users/JiagengDing/.config/zsh/zshrc|189|1|V|zsh
 	# alias cc='cd ~/.config'
+da9222a198faf1f250cfe3b687072f15|file:///Users/JiagengDing/.config/zsh/zshrc|190|1|V|zsh
+	alias ga='git add '
+2b12f3f893a0fce15e34c012aa876d00|file:///Users/JiagengDing/.config/zsh/zshrc|190|1|V|zsh
+	alias gc='git commit -m '
