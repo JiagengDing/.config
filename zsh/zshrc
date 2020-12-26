@@ -179,7 +179,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 alias zr='nvim ~/.config/zsh/zshrc'
 alias zsh='source ~/.zshrc'
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
-alias l=list
+alias l='ls -a'
 alias r=ranger
 alias i=ipython
 alias c='clear'
@@ -192,9 +192,44 @@ alias gp='git push'
 
 alias H='cd ~'
 alias cc='cd ~/.config'
+alias D='cd ~/Desktop'
 
-# hash -d H=~
-# hash -d cc='~/.config'
+
+#防止出现删除错误的问题
+alias rm='deletefile'
+alias rl='trashlist'
+alias ur='undeletefile'
+alias mycl='cleartrash'
+#替换rm指令移动文件到~/.trash/中
+deletefile()
+{
+   mv $@  /Users/JiagengDing/.Trash
+}
+#显示~/.trash/中内容
+trashlist()
+{
+   echo -e "\a[========================== ls trash ==========================]"
+   ls -ail  ~/.trash
+   echo -e "\a[==========================  ls end ===========================]"
+}
+#将被删除文件还原到当前目录
+undeletefile()
+{
+   mv -i ~/.Trash/$@ ./
+}
+#清空回收站
+cleartrash()
+{
+   echo -ne "\a[====================== Clear ~/.trash, Sure? =================] [y/n] >_"
+   read confirm
+   if [ $confirm == 'y' -o $confirm == 'Y' ] ;then
+      /bin/rm -rf ~/.Trash/*
+      /bin/rm -rf ~/.Trash/.* 2>/dev/null
+      echo -e "\a[===================== Clear Successfully =====================]\a"
+   fi
+}
+# 结束
+
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

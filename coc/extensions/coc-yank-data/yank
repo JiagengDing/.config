@@ -538,3 +538,11 @@ da9222a198faf1f250cfe3b687072f15|file:///Users/JiagengDing/.config/zsh/zshrc|190
 	alias ga='git add '
 2b12f3f893a0fce15e34c012aa876d00|file:///Users/JiagengDing/.config/zsh/zshrc|190|1|V|zsh
 	alias gc='git commit -m '
+1645b2c55648fd845340103c4c8229c6|file:///Users/JiagengDing/.config/zsh/zshrc|197|1|V|zsh
+	# hash -d H=~
+3c2c64fc62785f0367e92d819b3307d8|file:///Users/JiagengDing/.config/zsh/zshrc|197|1|V|zsh
+	# hash -d cc='~/.config'
+be342d84c1d4f97539f497b92dc57a4a|file:///Users/JiagengDing/.config/ranger/rc.conf|452|1|V|conf
+	map dD console delete
+2d4c903b570d1ea336a426678e2daba4|file:///Users/JiagengDing/.config/ranger/rc.conf|293|1|V|conf
+	alias sh         show_files_in_finder
