@@ -548,3 +548,7 @@ be342d84c1d4f97539f497b92dc57a4a|file:///Users/JiagengDing/.config/ranger/rc.con
 	alias sh         show_files_in_finder
 0ba5951d8d5d3a43b51b76f511981b9f|file:///Users/JiagengDing/tt.tex|170|1|V|tex
 	$\mathscr{F}$
+7e866c3e43870cf3f354ff3f74d0b9b9|file:///Users/JiagengDing/.config/nvim/init.vim|591|1|v|vim
+	
+	hi NonText ctermfg=gray guifg=grey10
+	hi CursorColumn ctermfg=Whit
