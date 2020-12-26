@@ -1,3 +1,7 @@
+/Users/JiagengDing/.config/zsh/zshrc
+/Users/JiagengDing/.config/zsh/completion.zsh
+/Users/JiagengDing/.config/zsh/vi.zsh
+/zsh/vi.zsh
 /Users/JiagengDing/.config/.gitignore
 /Users/JiagengDing/.config/zsh/fzf.zsh
 /Users/JiagengDing/.config/ 
@@ -14,7 +18,6 @@
 /Users/JiagengDing/.config/ranger/scope.sh
 /Users/JiagengDing/.config/ranger/commands.py
 /Users/JiagengDing/.config/ranger/rifle.conf
-/Users/JiagengDing/.config/zsh/zshrc
 /private/var/folders/t1/k7f_k2cs0md3j_lcw7jv1tzh0000gn/T/tmpNE6DoP
 /private/var/folders/t1/k7f_k2cs0md3j_lcw7jv1tzh0000gn/T/tmpG7MsZ8
 /private/var/folders/t1/k7f_k2cs0md3j_lcw7jv1tzh0000gn/T/tmpbgyojH
@@ -26,7 +29,6 @@
 /Users/JiagengDing/.zshrc
 /Users/JiagengDing/.zprofile
 <<<<<<< HEAD
-/Users/JiagengDing/.config/zsh/vi.zsh
 =======
 >>>>>>> 222398b19f85b2a020fbdf66870bbae7ec19155d
 /Users/JiagengDing/.config/nvim/_machine_specific.vim

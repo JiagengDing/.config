@@ -558,3 +558,33 @@ be342d84c1d4f97539f497b92dc57a4a|file:///Users/JiagengDing/.config/ranger/rc.con
 	coc/extensions/
 c1ef5ef04994c6d5ed8231c0b4d1d3cb|file:///Users/JiagengDing/.config/.gitignore|1|1|V|gitignore
 	nvim/
+b67bd7c5101132a6c1a858120281255b|file:///Users/JiagengDing/.config/zsh/vi.zsh|38|1|V|zsh
+	KEYTIMEOUT=1
+14aaa80a6b680418e7fa5f1a1e9ac89f|file:///Users/JiagengDing/.config/zsh/vi.zsh|36|1|V|zsh
+	precmd_functions+=(_fix_cursor)
+96845b395065e36098073820df45bf19|file:///Users/JiagengDing/.config/zsh/vi.zsh|34|2|V|zsh
+		echo -ne '\e[5 q'
+26c8c513a87fea5e13bb04610e2e16f1|file:///Users/JiagengDing/.config/zsh/vi.zsh|33|1|V|zsh
+	_fix_cursor() {
+98365a732cdc472ffaa6f3466a4cadbf|file:///Users/JiagengDing/.config/zsh/vi.zsh|29|1|V|zsh
+	preexec() {
+18cf1e7cd4af8fd7df17ff6783dad079|file:///Users/JiagengDing/.config/zsh/vi.zsh|28|1|V|zsh
+	# Use beam shape cursor for each new prompt.
+d4fbbf28b0fb53755ab11b17eaefa91b|file:///Users/JiagengDing/.config/zsh/vi.zsh|26|1|V|zsh
+	echo -ne '\e[5 q'
+27c40e3598c524d057bdf687bf57e6a4|file:///Users/JiagengDing/.config/zsh/vi.zsh|25|1|V|zsh
+	# Use beam shape cursor on startup.
+677eb7684d04d02e231accccf35c7229|file:///Users/JiagengDing/.config/zsh/vi.zsh|23|1|V|zsh
+	zle -N zle-keymap-select
+c63b2c277a32379bc5a6f064e4e24dc3|file:///Users/JiagengDing/.config/zsh/vi.zsh|21|3|V|zsh
+	  fi
+133ecd905a80987e1dc4f3b8d41350c0|file:///Users/JiagengDing/.config/zsh/vi.zsh|20|3|V|zsh
+			echo -ne '\e[5 q'
+bae9f967bbcf74116e842418720b773d|file:///Users/JiagengDing/.config/zsh/vi.zsh|19|2|V|zsh
+		elif [[ ${KEYMAP} == main ]] || [[ ${KEYMAP} == viins ]] || [[ ${KEYMAP} = '' ]] || [[ $1 = 'beam' ]]; then
+12d8261c588cac6d3a14ec0b4a626304|file:///Users/JiagengDing/.config/zsh/vi.zsh|18|3|V|zsh
+			echo -ne '\e[1 q'
+f882223f09049e6a42c9feafe2c7465a|file:///Users/JiagengDing/.config/zsh/vi.zsh|17|2|V|zsh
+		if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
+6787efeebc622553a95bc8140eb273c2|file:///Users/JiagengDing/.config/zsh/vi.zsh|16|1|V|zsh
+	function zle-keymap-select {
