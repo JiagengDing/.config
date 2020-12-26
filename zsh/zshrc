@@ -198,5 +198,3 @@ unset __conda_setup
 
 eval $(thefuck --alias)
 eval $(thefuck --alias f)
-# fuck -y
-#fuck -r
