@@ -1,18 +1,23 @@
 /Users/JiagengDing/.config/zsh/zshrc
+/Users/JiagengDing/.config/nvim/init.vim
+/Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
+/Users/JiagengDing/tt.tex
 /Users/JiagengDing/.config/zsh/completion.zsh
+/Users/JiagengDing/.config/zsh/fzf.zsh
+/Users/JiagengDing/.config/\ini
+/Users/JiagengDing/.zshrc
+/Users/JiagengDing/.config/init
+/Users/JiagengDing/local_document/Equity.md
+/Users/JiagengDing/.config/nvim/plugged/fzf.vim/doc/tags
 /Users/JiagengDing/.config/zsh/vi.zsh
 /zsh/vi.zsh
 /Users/JiagengDing/.config/.gitignore
-/Users/JiagengDing/.config/zsh/fzf.zsh
 /Users/JiagengDing/.config/ 
 /Users/JiagengDing/.config/fzf
 /Users/JiagengDing/.config/init.vim
 /fzf
-/Users/JiagengDing/.config/nvim/init.vim
 /Users/JiagengDing/.config/nvim/md-snippets.vim
-/Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets
 /Users/JiagengDing/.config/ranger/rc.conf
-/Users/JiagengDing/tt.tex
 /Users/JiagengDing/.config/latexmkrc
 /Users/JiagengDing/.config/ranger/trash_history
 /Users/JiagengDing/.config/ranger/scope.sh
@@ -26,7 +31,6 @@
 /private/var/folders/t1/k7f_k2cs0md3j_lcw7jv1tzh0000gn/T/tmpUqAZkD
 /Users/JiagengDing/Desktop/ttt/tt
 /Users/JiagengDing/tt.sh
-/Users/JiagengDing/.zshrc
 /Users/JiagengDing/.zprofile
 <<<<<<< HEAD
 =======
@@ -54,7 +58,6 @@
 /Users/JiagengDing/Desktop/.swp
 /Users/JiagengDing/local_document/Alternative Investment.md
 /Users/JiagengDing/local_document/形政.tex
-/Users/JiagengDing/local_document/Equity.md
 /Users/JiagengDing/.vim/vimrc
 /Users/JiagengDing/.vimrc
 /Users/JiagengDing/Desktop/mm.tex

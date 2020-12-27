@@ -192,6 +192,7 @@ alias vim=nvim
 
 alias lg='lazygit'
 alias gp='git push'
+alias gt='git status'
 
 alias H='cd ~'
 alias cc='cd ~/.config'

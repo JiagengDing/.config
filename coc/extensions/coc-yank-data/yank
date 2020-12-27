@@ -588,3 +588,9 @@ f882223f09049e6a42c9feafe2c7465a|file:///Users/JiagengDing/.config/zsh/vi.zsh|17
 		if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
 6787efeebc622553a95bc8140eb273c2|file:///Users/JiagengDing/.config/zsh/vi.zsh|16|1|V|zsh
 	function zle-keymap-select {
+1a7feb7151e8cc19b6551227e174e788|file:///Users/JiagengDing/tt.tex|171|1|V|tex
+	│ hiline│
+f9f1ac98a6edcd275aef7bcae04153fa|file:///Users/JiagengDing/tt.tex|171|1|V|tex
+	└──┘
+cabc93deac69c2e40bce8d0249a50c88|file:///Users/JiagengDing/tt.tex|170|1|V|tex
+	┌──┐
