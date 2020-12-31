@@ -1,2 +1,4 @@
 trashed 'myfirst_hello.py' from_dir /Users/JiagengDing/Desktop/ttt/aaa
 untrashed /Users/JiagengDing/Desktop/ttt/aaa/myfirst_hello.py
+trashed 'aaa' from_dir /Users/JiagengDing/Desktop/Mathematical Finance
+trashed '.zshrc.swp' from_dir /Users/JiagengDing/.config/zsh

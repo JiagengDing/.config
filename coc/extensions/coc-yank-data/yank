@@ -594,3 +594,206 @@ f9f1ac98a6edcd275aef7bcae04153fa|file:///Users/JiagengDing/tt.tex|171|1|V|tex
 	└──┘
 cabc93deac69c2e40bce8d0249a50c88|file:///Users/JiagengDing/tt.tex|170|1|V|tex
 	┌──┐
+6f925d562c9216a2b0f221f93adac039|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|10|1|V|tex
+	\usepackage{algorithm}
+1f60c27965e13929e207f119279bcd6c|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|11|1|V|tex
+	\renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
+a9878d003fa8cb6b02657c01e73ca0d3|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|11|1|V|tex
+	\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
+40fa7061be188492e3fd86ba145ea7c5|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|11|1|V|tex
+	\usepackage{graphicx}
+1ab607977dacd2c689aba5f0882e84ef|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|12|1|V|tex
+	\usepackage{subfigure}
+1e449947115d3f9767664b9e2d04c525|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|35|1|v|tex
+	numbers=left,
+	numberstyle= \tiny,
+	keywordstyle= \color{ blue!70},
+	commentstyle= \color{red!50!green!50!blue!50},
+	frame=shadowbox, % 阴影效果
+	rulesepcolor= \color{ red!20!green!20!blue!20},
+	escapeinside=Error: The argument 'file' cannot be empty. Received '', % 英文分号中可写入中文
+	xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+	framexleftmargin=2em
+	
+d7923e84a39e6c96ba3b08ddcf41956b|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|35|1|V|tex
+	} %修改代码显示效果
+fce19152765dfc2f868be70d74294532|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|34|1|V|tex
+	\lstset{
+	
+f84fe46f1a4fbd3ea00e9cc12e2be653|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|75|1|V|tex
+	\tableofcontents
+562505d567faf02dfc9388e81e89d07b|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|75|1|V|tex
+	\newpage
+631f272d87cdb277b05817a732ab074d|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|75|1|V|tex
+	%\setcounter{page}{1}
+b8b804134b5a73951f35afd760f839fd|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|62|1|V|tex
+	资本资产定价模型（CAPM）是由美国学者威廉·夏普（William Sharpe）、林特尔（John Lintner）、特里诺（Jack Treynor）和莫辛（Jan Mossin）等人在现代投资组合理论的基础上发展起来的，是现代金融市场价格理论的支柱，广泛应用于投资决策和公司理财领域。
+3a9fade3a4ae0eff1cd5159fa5ea1a85|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|62|1|V|tex
+	CAPM主张投资组的回报只跟系统性风险有关。资本资产定价模型（CAPM）是一个均衡定价模型，它是由美国经济学家在二十世纪六十年代建立的基于风险资产预期收益率均衡基础上的预测模型，随着这个模型的建立，资产定价理论迅速发展起来。
+6a9e666883ad1329640fec3143960477|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\title{\heiti \zihao{3} 资本资产定价模型（CAPM）内容综述}\author{丁家赓}
+c42e300b8611588a5f04000a8bbd899e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\date{}
+8c2c639d86edea1cc4f73cee3deb42fa|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	%设置页眉页脚
+dbc79d1a2c37ae537f5c68320fc2b7bd|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\pagestyle{fancy}
+521692b3b328e85c28df861d46519fb0|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\chead{}
+2273a9cda8ea3b0e502507b02ccea28a|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	%\rhead{}
+de3c59d3330fe9a6d9cdc0deeeed72eb|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\lhead{}
+04f3391ba4897fa56562ad868076c78c|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\cfoot[<65;60;23M[\songti \fontsize{9pt}]{\thepage}
+676977e11cff1677a86cbcad9020a957|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\maketitle
+c69aadf38c4111e41d47f455c0d9c789|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\begin{cnabstract}
+a9543784fba05c61d07812f21acc4921|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\par\textbf{关键字: }{}
+d10126a3bfd66b0924825651b8e7b31f|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\end{cnabstract}
+e06b461fe1578b5318c47271605f29eb|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	% \begin{enabstract}
+e20522ba0ac6b05b52a2791de665d489|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	% English abstract
+d4e40f0d36bd16568d7990528c5b7491|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	% \par\textbf{Keywords:}{}
+05d4c938f481e27adb41561b402b4493|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	% \end{enabstract}
+9040807072b51f83a50889b27e9a120a|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|46|1|V|tex
+	\bibitem{}
+fbf98df64c3f44932022598997f9bc54|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|43|1|V|tex
+	\vskip 2.5ex}{\par\vskip 2.5ex}
+6108c38fcb32f0e91ad19dd7b160c21e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|42|1|V|tex
+	\noindent\mbox{}\hfill{\bfseries \cnabstractname}\hfill\mbox{}\par
+5d0e3b9c4d064b506a8df6c20b47f033|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|41|1|V|tex
+	\par\small
+ae8c0dcdb1d5e1f8c12e5e05ffccd89e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|40|1|V|tex
+	\newenvironment{cnabstract}{%
+682a83f02bed4d9b26757ff4f6c6b76b|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|38|1|V|tex
+	\noindent\mbox{}\hfill{\bfseries \enabstractname}\hfill\mbox{}\par
+f99a0c4fc0f05305b062c73ca741147b|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|36|1|V|tex
+	\newenvironment{enabstract}{%
+4c9af94d366eb127f43d0b7be157e79d|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|35|1|V|tex
+	\newcommand{\cnabstractname}{摘要}
+e53aefc66eac8666eaea0d361142c0f4|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|34|1|V|tex
+	\newcommand{\enabstractname}{Abstract}
+5f184c641dbedff492b296da27de5b34|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|32|1|V|tex
+	\usepackage{xcolor}
+7d3e742770a42732b88004444ee93fc4|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|27|1|V|tex
+	\zihao{-4}%设置小四号字
+9e520f9c1626c13d835e91c3fb21eaa0|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|24|1|V|tex
+	\CTEXsetup[<65;60;23Mnumber=\arabic{subsubsection}]{subsubsection}             %subsubsection形式改为1，2，3，...
+e4a523c9405447d66e4018aaf0e3ac9e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|23|1|V|tex
+	\CTEXsetup[<65;60;23Mnumber={\chinese{subsection}}]{subsection}                %subsection形式改为（一,二,三,...）
+a1f2018d89b42ae04da80c3660d80172|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|21|1|V|tex
+	\CTEXsetup[<65;60;23Mname={（,）}]{subsection}
+b2dd755455d74697e010b704e0619cda|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|20|1|V|tex
+	\CTEXsetup[<65;60;23Mnumber={\chinese{section}}]{section}                      %section形式改为一,二,三,..
+df45ade075633788510d10e6e55c8956|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|19|1|V|tex
+	\renewcommand{\baselinestretch}{1.25}%设置1.25倍行距
+1e986ab52803e362e1608fa3bd8211de|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|13|1|V|tex
+	\usepackage<65;60;23Mtop=2.5cm,bottom=2cm,left=2.5cm,right=2cm,headheight=1.5cm]{geometry}
+ff565677f35709bf4a596693f1622581|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|10|1|V|tex
+	\usepackage{algpseudocode}
+2d82e982f48ff208d9e5f79157befd3e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|9|1|V|tex
+	\usepackage{cite}
+4b95158c4a958f40a0c2be7ea5885a7c|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|6|1|V|tex
+	\documentclass[<65;60;23Må<0;59;22m a4paper,12pt,UTF8]{ctexart}%A4纸，小四号字
+9bfcfda5a5683c3540446875c9597a08|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|4|1|V|tex
+	%Mail:   @JiagengDing@gmail.com
+7920bb7d0b1ebe5840e7ce0c69947952|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|3|1|V|tex
+	%Author：@JiagengDing
+83634ae1ba29a51501a5c2858de907db|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|2|1|V|tex
+	%MacTex
+be5f8898d92e7d3bd706687039ee7106|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|1|1|V|tex
+	%!TEX TS-program = xelatex
+95cf00b18162a9d44b3fc53006b12281|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|85|1|V|tex
+	% \begin{enabstract}
+	% \end{enabstract}
+c87ad7bc2f204feea9cf6a1a66d66d00|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|92|1|V|tex
+	
+	\end{document}
+cf97f49fbbf32dff1d177652b3767bf8|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|10|1|V|tex
+	\usepackage{algpseudocode}
+	\renewcommand{\algorithmicrequire}{\textbf{Input:}}  % Use Input in the format of Algorithm
+14ddcc38a51b053d77aaa1ef34d7b791|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|374|9|v|snippets
+	Tab_trigger
+b5a7adde1af5c87d7fd797b6245c2a39|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|374|14|v|snippets
+	Description
+9042b7ab2b183bdf967c7fb4792e3277|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|76|1|v|tex
+	\subsection{模型背景}
+	
+	
+	
+	
+8a35fe5bd82ca6586f046f865adf4159|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|108|1|V|tex
+	(3. 3.20
+7b7a8f49d28f363a14a79e06e1439c29|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|99|1|V|tex
+	7, 所有资产的数量是给定的和固定不变的。\\
+597be5d233bf05792181093bbf0ebad1|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	1, 所有投资者均追求单期财富的期望效用最大化，并以各备选组合的期望收益和标准差为基础进行组合选择。\\
+20de085146584b12e0fc6ce39ba2767d|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	2, 所有投资者均可以无风险利率无限制地借入或贷出资金。\\
+17dbccddd1807f72f3add8fa8d0fbe73|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	3, 所有投资者拥有同样预期，即对所有资产收益的均值、方差和协方差等，投资者均有完全相同的主观估计。\\
+9a29e0098bed6ff4b38db48beb0554c0|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	4, 所有资产均可被完全细分，拥有充分的流动性且没有交易成本。\\
+6868e9f4cdb164db71532169e24b521e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	5, 没有税金。\\
+2d712298ccf35daf609ec9d31a94e4ed|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	6, 所有投资者均为价格接受者。即任何一个投资者的买卖行为都不会对股票价格产生影响。\\
+f0494a29fa00eabab0c57f4d47aa3524|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	近年的实证研究表明，CAPM模型在实际中并不能验证历史的投资收益，由此Roll在1977年提出了两种可能：一种是CAPM模型在市场上是无效的，一种是CAPM理论存在模型的设定误差；基于后一种可能，APT理论和不少多因子模型不断诞生——例如FAMA-FRENCH的三因子模型。但是由于CAPM的简单和便于理解，在业界运用非常广泛，特别是在估值分析中确定必要报酬率。
+fefc97b8f95275ff8d1bf878c96f5b03|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|93|1|V|tex
+	
+	CAPM 的基本假设:
+975502e9cbec7ee3c26d7c57ab9b1454|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|107|1|V|tex
+	(3. 3. 20
+923bd92c06813f0821ffeae49fb5a95f|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|103|1|V|tex
+	方差资产组合,W,是
+e50607be59a60968359daf39d38ca29e|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|94|1|V|tex
+	CAPM 的基本假设:
+7418174329b9757f9620296c572e4c99|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|210|1|V|tex
+	E(ri)=rF+[E(rM)-rF]βi
+a66c6f15c5c1d03f366b7bf3016ddb2d|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|216|1|V|tex
+	当把公式中的期末价格视作未来现金流的贴现值时，公式也可以被用来判断证券市场价格是否被误定。
+03bd0a48c1480d6819642e5d192e0516|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|130|2|V|tex
+		\beta_i=\frac{cov(r_i,r_m)}{Var(r_m)}
+29adc4d202e69a680d39516caab0b3bf|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|116|1|V|tex
+	可以简单地将假设概括成三方面:
+353746c9446b32074810db7060d152c2|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|116|1|V|tex
+	1关于资本市场的假设有:市场是完备的，处于完全竞争状态，也就是不存在交易成本和交易方面的税收，而且所有资产均为无限可分割的。市场上有足够多的投资者使得他们可以按市场价格买卖他们所想买卖的任何数量的任何交易资产。这些假设对资本市场进行了理想化，认为市场应该是完备的，无摩擦的，资源的配置是有效的。
+b59d03aa2d49db28c0e7f0e62d95ed4f|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|116|1|V|tex
+	2关于投资者的假设有:所有投资者均为风险厌恶者，同时具有不满足性，所有投资者都追求财富的期望效用极大化。所有投资者都对未来具有一致性的预期，投资者对投资的评价依赖于收益和风险这两个主要的指标。
+a18c9914e6ab05c12f1cf8d4b20126eb|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|116|1|V|tex
+	3关于资金的假设有:资本市场上的借贷利率相等，且对所有投资者都相同。
+a1d03a6a24d39f2fb95f8465c30b2c39|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|126|1|V|tex
+	资本资产定价模型的说明如下:
+689608e3d1b1d59bba196a03f0803021|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|126|1|V|tex
+	1.单个证券的期望收益率由两个部分组成，无风险利率以及对所承担风险的补偿-风险溢价。
+1548a1d4db420ca25a03f5167d6fcfb7|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|126|1|V|tex
+	2.风险溢价的大小取决于$\beta$值的大小。$\beta$值越高，表明单个证券的风险越高，所得到的补偿也就越高。
+3b5d724e767d2a373f1a547ea36a3dbf|file:///Users/JiagengDing/Desktop/Mathematical%20Finance/paper.tex|126|1|V|tex
+	3. $\beta$度量的是单个证券的系统风险，非系统性风险没有风险补偿。
+28ebcadb0ca154d24d8ce5f6f015857f|file:///Users/JiagengDing/.zprofile|8|1|V|zsh
+	brew update && brew upgrade && brew cu -a -y && mas upgrade
+b8df24fb43a64ea36e4ecb6747c40d63|file:///Users/JiagengDing/.config/zsh/zshrc|147|3|V|zsh
+			OMZT::powerlevel10k
+749694f610739c7bbad558b9e89d85f0|file:///Users/JiagengDing/.config/zsh/zshrc|240|1|V|zsh
+	# >>> conda initialize >>>
+	# !! Contents within this block are managed by 'conda init' !!
+	__conda_setup="$('/usr/local/Caskroom/miniconda/base/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+	if [ $? -eq 0 ]; then
+	    eval "$__conda_setup"
+	else
+	    if [ -f "/usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh" ]; then
+	        . "/usr/local/Caskroom/miniconda/base/etc/profile.d/conda.sh"
+	    else
+	        export PATH="/usr/local/Caskroom/miniconda/base/bin:$PATH"
+	    fi
+	fi
+	unset __conda_setup
+	# <<< conda initialize <<<
