@@ -1,7 +1,3 @@
-18e1b80b505c2465047abcf7ab4ac2d9|untitled:1|1|1|V|
-	sr = "narth"
-	r = "atith"
-	sss = "artts"
 2b5cbefe6ebe7ffc1e38d811f0c8a35d|file:///Users/JiagengDing/tt.py|2|1|V|python
 	sr = "narth"
 5139fa4f7fd1ef56f8cf98c002231f45|file:///Users/JiagengDing/tt.py|2|1|V|python
@@ -797,3 +793,19 @@ b8df24fb43a64ea36e4ecb6747c40d63|file:///Users/JiagengDing/.config/zsh/zshrc|147
 	fi
 	unset __conda_setup
 	# <<< conda initialize <<<
+c2256d873ea83b160d5e2a8d1e46b9d2|file:///Users/JiagengDing/.config/nvim/init.vim|609|33|v|vim
+	/path/to/your/zotero/7XX8XX72/zotero_folder/
+8cd35e13b3f3898ff0e7fc6e8934605f|file:///Users/JiagengDing/.config/nvim/init.vim|557|1|V|vim
+	Plug 'chrisbra/csv.vim, {'for': 'csv'}
+04a4152f3dcdfeef8909c070b917aaea|file:///Users/JiagengDing/Desktop/%E4%BA%8C%E4%B8%93%E4%B8%9A%E5%AD%A6%E5%B9%B4%E8%AE%BA%E6%96%87/%E4%B8%81%E5%AE%B6%E8%B5%93_%E4%BA%8C%E4%B8%93%E4%B8%9A%E5%AD%A6%E5%B9%B4%E8%AE%BA%E6%96%87.tex|72|8|v|tex
+	山东财经大学金融学学年论文
+a75e7bc4975f0777e1875e4d9c78747e|file:///Users/JiagengDing/Desktop/%E4%BA%8C%E4%B8%93%E4%B8%9A%E5%AD%A6%E5%B9%B4%E8%AE%BA%E6%96%87/%E4%B8%81%E5%AE%B6%E8%B5%93_%E4%BA%8C%E4%B8%93%E4%B8%9A%E5%AD%A6%E5%B9%B4%E8%AE%BA%E6%96%87.tex|1|1|V|tex
+		%Mac TexLive
+c37994bd70f60c27f293abada094c3e6|file:///Users/JiagengDing/Desktop/%E4%BA%8C%E4%B8%93%E4%B8%9A%E5%AD%A6%E5%B9%B4%E8%AE%BA%E6%96%87/%E4%B8%81%E5%AE%B6%E8%B5%93_%E4%BA%8C%E4%B8%93%E4%B8%9A%E5%AD%A6%E5%B9%B4%E8%AE%BA%E6%96%87.tex|1|2|V|tex
+		%author：@JiagengDing
+feaa1213499bb22f9c878b03f946dd16|file:///Users/JiagengDing/.config/.latexmkrc|5|1|V|
+	$pdflatex = "xelatex -synctex=1 -interaction=nonstopmode";
+5c79c4958ad70233fe7eb8f7ee91cbca|file:///Users/JiagengDing/.config/.latexmkrc|8|1|V|
+	$pdflatex = 'pdflatex -synctex=1 -interaction=nonstopmode';
+ed675d31923a18c637c1acadb8eb48b2|file:///Users/JiagengDing/.config/nvim/init.vim|366|3|V|vim
+			:sp
