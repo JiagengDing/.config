@@ -2,3 +2,7 @@ trashed 'myfirst_hello.py' from_dir /Users/JiagengDing/Desktop/ttt/aaa
 untrashed /Users/JiagengDing/Desktop/ttt/aaa/myfirst_hello.py
 trashed 'aaa' from_dir /Users/JiagengDing/Desktop/Mathematical Finance
 trashed '.zshrc.swp' from_dir /Users/JiagengDing/.config/zsh
+trashed 'ttt.tex' from_dir /Users/JiagengDing
+trashed 'ttt.toc' from_dir /Users/JiagengDing
+trashed 'latex.out' from_dir /Users/JiagengDing
+trashed 'tt.py' from_dir /Users/JiagengDing

@@ -9,8 +9,8 @@ $pdf_previewer = 'open -a Skim';
 @generated_exts = (@generated_exts, 'synctex.gz');
 
 #clean and continue
-# $cleanup_mode = 1;
-$preview_continuous_mode = 1;
+$cleanup_mode = 1;
+$preview_continuous_mode = 0;
 #@default_files = ('main.tex');
 
-$out_dir = "latex.out";
+# $out_dir = "latex.out";

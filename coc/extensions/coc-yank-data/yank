@@ -1,194 +1,3 @@
-2b5cbefe6ebe7ffc1e38d811f0c8a35d|file:///Users/JiagengDing/tt.py|2|1|V|python
-	sr = "narth"
-5139fa4f7fd1ef56f8cf98c002231f45|file:///Users/JiagengDing/tt.py|2|1|V|python
-	r = "atith"
-430e0d2eb251ac812099dad06842ec36|file:///Users/JiagengDing/tt.py|2|1|V|python
-	sss = "artts"
-b54a723ad4c7d509aff57b93bf47c98d|file:///Users/JiagengDing/tt.md|1|1|V|markdown
-	nihao | ni | ni
-	---
-	1     | 1  | 1
-6b916263cd62bc7e855873c51212452f|file:///Users/JiagengDing/.config/nvim/init.vim|572|1|V|vim
-	color snazzy
-57b76bbfe51c58cdd236141c75c888ff|file:///Users/JiagengDing/.config/nvim/init.vim|387|1|V|vim
-	Plug 'bling/vim-bufferline'
-7258886edf3ccf039a511178e891bdcd|file:///Users/JiagengDing/.config/nvim/init.vim|552|1|V|vim
-	" ===
-	" === Dress up my vim
-	" ===
-	set termguicolors " enable true colors support
-	"let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-	"set background=dark
-	"let ayucolor="mirage"
-	"let g:oceanic_next_terminal_bold = 1
-	"let g:oceanic_next_terminal_italic = 1
-	"let g:one_allow_italics = 1
-b444f8b497128ac3340bdee0ba6da10a|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|2|1|V|markdown
-	|----|--------|----|----|
-ce3f372a94d179db0a781f6d6df6f98c|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|8|1|V|markdown
-	<++>
-ad66e33d00657492dd5abb3063dcfd19|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|7|1|V|markdown
-	1[](<++>) <++>
-ba331a40dedc395e13a3627850e2d527|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|7|1|V|markdown
-	kiniiiiieeeeiiiiiiiiiiq
-aca8b989f36c361d4fb1b4d52ed3d9f7|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|6|1|V|markdown
-	
-	## Fundamentals
-4edfa894185d1f4cf62788083dab1d63|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|7|1|V|markdown
-	"nin"				
-994d06622c761cbceb384fd10a0b53f3|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|8|5|v|markdown
-	Characters
-b007be300f03bbdb7d99ff1e12e38ebf|file:///Users/JiagengDing/local_document/Alternative%20Investment.md|8|1|V|markdown
-	### 'Characters'
-	### Categories
-	#### Hedge Fund and Private Equity Funds
-	#### Real Estate/Commodities/Infrastructure
-	### Strategies
-	#### Absolute Return
-	#### Market Segmentation
-	#### Concentrated Protfolios
-	### Benefits
-	#### ShapeRatio=(Rp-Rf)/sigma(p), higher Rp and lower sigma
-	### Risk
-	#### SharpeRatio may be biased upward
-	### Partnership
-	#### LImited Partner(LP)
-	#### General Partner(GP)
-	### Fee Structure
-	#### Management Fee and Incentive Fee
-	## Hedge Fund
-	### 投资特点
-	### FoFs
-	####  Benefits and Drawbacks
-	### Strategies
-	#### Event Driven
-	##### Merger Abitrage
-	##### Distresssed Securties
-	##### Activist Shareholder
-	##### Special Situations
-	#### Relative Value
-	##### Fixed Income Convertible Arbitrage
-	##### Fixed Income Asset Backed(ABS)
-	##### Fixed Income General
-	##### Volatility
-	##### Multi-strategies
-	#### Macro
-	#### Equity Hedge
-	##### Market Neutral
-	##### Fundamental Growth
-	##### Fundamental Value
-	##### Quantitative Directional
-	##### Sector Specific
-	### Calculations
-	#### Management Fee
-	##### Year-End
-	##### Year-Begin
-	#### Incentive Fee
-	##### Net/Independent of mgt fee
-	##### High water mark
-	##### Hurdle rate
-	###### Hard
-	###### Soft
-	#### Return after Fees
-	#### Valuation Issues
-	##### Common Approach:(bid+ask)/2
-	##### Conservative Approach:bid price for long position and ask price for short price
-	#### Valuation in Highly Illiquid Investments
-	##### Reporting NAV:is based on quoted market price
-	##### Trading NAV:incorporates liquidity discounts
-	#### Due Diligence
-	## Private Equity
-	### Categories
-	#### Leverage Buyouts(LBOS)
-	#### Venture Capital(VC)
-	#### Developmental Capital
-	#### Distressed Investing
-	### Benefits and Risks
-	#### high average return
-	#### low correlation
-	#### underestimation of volatility and correlation
-	##### survivorship bias
-	##### backfill bias
-	### Fee Structure
-	#### management fee
-	#### incentive fee
-	##### clawback provision
-	##### set escrow account
-	### potfolio company valuation
-	#### market/comparable approach
-	#### discounted after-tax cash flow approach
-	#### asset-based approach
-	### LBO
-	#### buyin/buyout
-	#### attractive companies for LBO
-	### VC
-	#### formative stage
-	##### angel investing
-	##### seed stage financing
-	##### early stage financing
-	#### later stage
-	#### mazzanine-stage
-	### exit strategies
-	#### trade sale
-	#### initial public offerings(IPO)
-	#### recapitalization
-	#### secondary sale
-	#### write-off/liquidation
-	### due diligence
-	## Real Estate and Infrastructure
-	### why
-	#### high total return
-	#### anti inflation
-	### Categories
-	#### debt/equity
-	#### direct/indirect
-	### index
-	#### appraisal/repeat sales/REIT
-	### valuation method
-	#### comparable sales/income/cost
-	### risk of RE
-	### infrastructure
-	#### categories
-	##### brownfield
-	##### greenfield
-	#### forms
-	##### directly
-	##### Master Limited Partnerships(MLPs)
-	#### Risks and Returns
-	##### brownfield:lower
-	##### greenfield:higher
-	## Commodity
-	### Characteristics
-	### Investment Vehicles
-	#### commodity derivertives
-	#### commodity exchange-traded funds(ETF)
-	#### equities directly linked to a commodity
-	#### managed future funds
-	#### individual managed accounts
-	#### specialized funds in specific conmmodity sectors
-	### Commodity Futures
-	#### formula
-	##### future price ≈ spot price(1+r)+storage costs -convenience yield
-	#### convenience yield
-	##### contango
-	###### futurePrice>spotPrice
-	* little or no covenience yield
-	##### backwardation
-	###### futurePrice<spotPrice
-	* high covenience yield
-	#### three sources of returns
-	##### collateral yield（抵押收益率）
-	##### Roll Yield（展期收益率）
-	###### positive in backwardation
-	###### negative in contango
-	##### Yield from changes in spot price(Spot Yield)
-3dd7aa0eaaf86ce7edebc38ddfeffb92|file:///Users/JiagengDing/tt.py|2|5|V|python
-	    pass
-fb5f038ce23063f5865ebbf449e3b2eb|file:///Users/JiagengDing/tt.py|1|1|V|python
-	print("hello world!"):
-	a = 1 + 1
-3f9178c25b78ed8bed19091bcb62e266|file:///Users/JiagengDing/tt.py|4|4|v|python
-	condition
 53573d5cd4ac3a23a1ce9f70d5691245|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|28|1|V|snippets
 	Gilles Castel
 f0ed9e4f93154ab46698b4457cbc0cea|file:///Users/JiagengDing/tt.tex|22|1|V|tex
@@ -809,3 +618,98 @@ feaa1213499bb22f9c878b03f946dd16|file:///Users/JiagengDing/.config/.latexmkrc|5|
 	$pdflatex = 'pdflatex -synctex=1 -interaction=nonstopmode';
 ed675d31923a18c637c1acadb8eb48b2|file:///Users/JiagengDing/.config/nvim/init.vim|366|3|V|vim
 			:sp
+24aeeeee91dc9fb8dcf9a71aec80657c|file:///Users/JiagengDing/.config/nvim/.gitignore|9|1|V|gitignore
+	_machine_specific.vim
+0a1c221c6d1f1f1be16b765e4cadc711|file:///Users/JiagengDing/.config/nvim/init.vim|371|1|V|vim
+			set splitbelow
+			:sp
+e59f07bd73bc2141fda183f5d7e6696c|file:///Users/JiagengDing/.config/nvim/init.vim|370|1|V|vim
+		elseif &filetype == 'javascript'
+			set splitbelow
+b2c298387453e7a772e12f5554c34756|file:///Users/JiagengDing/.config/nvim/init.vim|371|1|V|vim
+			set splitbelow
+fc9e22d50343f12cc0d4c8edf00591b5|file:///Users/JiagengDing/.config/.p10k.zsh|57|1|V|zsh
+			battery
+e090d9e657b8899fe7cb5947e9ddb385|untitled:1|14|9|V|
+	         
+	 _______ 
+	|_  / __|
+	 / / (__ 
+	/___\___|
+	         
+8e228c11b22722886c0b3d5bfff3d207|untitled:1|12|18|V|
+	|_|\___/ \_/ \___|
+	                  
+5d4ca5465dc7b4cbf571f90298c90a71|untitled:1|14|1|V|
+	 _                
+	| | _____   _____ 
+	| |/ _ \ \ / / _ \
+	| | (_) \ V /  __/
+	|_|\___/ \_/ \___|
+	                  
+d41a46a76f4dfb452a06857441e208b1|untitled:1|14|1|V|
+	 _                
+3e90fd6fedfcafaf7d2e7d3d19719908|untitled:1|21|1|V|
+	| | _____   _____ 
+	| |/ _ \ \ / / _ \
+	| | (_) \ V /  __/
+	|_|\___/ \_/ \___|
+	                  
+	         
+	 _______ 
+	|_  / __|
+	 / / (__ 
+	/___\___|
+	         
+26a8511310dd02062a38387d232d21ba|untitled:1|1|1|V|
+	
+	         
+	 _______ 
+	|_  / __|
+	 / / (__ 
+	/___\___|
+	         
+	 _                
+	| | _____   _____ 
+	| |/ _ \ \ / / _ \
+	| | (_) \ V /  __/
+	|_|\___/ \_/ \___|
+	                  
+	 _               
+	| |__   ___ _ __ 
+	| '_ \ / _ \ '__|
+	| | | |  __/ |   
+	|_| |_|\___|_|   
+	                 
+	                         
+	 _ __   __ _ _ __   __ _ 
+	| '_ \ / _` | '_ \ / _` |
+	| |_) | (_| | |_) | (_| |
+	| .__/ \__,_| .__/ \__,_|
+	|_|         |_|          
+	 _                
+5d4dfe5b8a1b657dbcf8b0d43dc5a3e8|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|248|1|V|snippets
+	% \usepackage{listings}%导入代码块包
+d5b0be0b16e0eeafa4808711a456fd9d|file:///Users/JiagengDing/tt.tex|82|1|V|tex
+	│ hello │
+466453ee7e4eda065bf8898e6441906a|file:///Users/JiagengDing/.config/nvim/init.vim|1008|1|V|vim
+	let g:tex_flavor='latex'
+e73ffc8ff7ecdb82e246a8758bae2029|file:///Users/JiagengDing/.config/nvim/init.vim|1018|1|V|vim
+	" let g:vimtex_compiler_latexmk = {
+	"     \ 'options' : [
+	"     \   '-xelatex',
+	"     \   '-verbose',
+	"     \   '-file-line-error',
+	"     \   '-synctex=1',
+	"     \   '-interaction=nonstopmode',
+	"     \ ],
+	"     \}
+	
+597d2fee40df266d5aff06218f13d072|file:///Users/JiagengDing/tt.tex|127|3|V|tex
+		 $C_i$ & $i = 1,2,\cdots,6$ & 对应资产的交易费用\\
+852a0a4b70bab38cdb7768d9b61d6d39|file:///Users/JiagengDing/tt.tex|78|10|V|tex
+	┌──┐
+	│ hi this is my latex! │
+	└──┘
+94c6328c42f73711dead569d93a190a3|file:///Users/JiagengDing/.config/nvim/init.vim|366|1|V|vim
+			exec "VimtexClean"
