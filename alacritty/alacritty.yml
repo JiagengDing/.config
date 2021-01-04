@@ -52,21 +52,23 @@ window:
   # Values for `decorations` (macOS only):
   #     - transparent: Title bar, transparent background and title bar buttons
   #     - buttonless: Title bar, transparent background, but no title bar buttons
-  #decorations: full
+  decorations: transparent
 
   # Startup Mode (changes require restart)
   #
   # Values for `startup_mode`:
   #   - Windowed
-  #   - Maximized
-  #   - Fullscreen
+    # - Maximized
+    # - Fullscreen
   #
-  Values for `startup_mode` (macOS only):
-    - SimpleFullscreen
+  # Values for `startup_mode` (macOS only):
+  #   - SimpleFullscreen
   #startup_mode: Windowed
 
+  startup_mode: SimpleFullscreen
+
   # Window title
-  #title: Alacritty
+  title: HappyEveryday!
 
   # Window class (Linux/BSD only):
   #class:
@@ -168,10 +170,10 @@ font:
   #
   # This is a global setting and will require a log out or restart to take
   # effect.
-  #use_thin_strokes: true
+  use_thin_strokes: true
 
 # If `true`, bold text is drawn using the bright color variants.
-draw_bold_text_with_bright_colors: true
+draw_bold_text_with_bright_colors: false
 
 # Colors (Dracula)
 colors:
@@ -272,7 +274,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-#background_opacity: 1.0
+background_opacity: 0.99
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -513,12 +515,12 @@ key_bindings:
 
   - { key: A,         mods: Command,       chars: "\x01"                       }
   - { key: B,         mods: Command,       chars: "\x02"                       }
-  - { key: C,         mods: Command,       chars: "\x03"                       }
+  # - { key: C,         mods: Command,       chars: "\x03"                       }
   - { key: D,         mods: Command,       chars: "\x04"                       }
   - { key: E,         mods: Command,       chars: "\x05"                       }
   - { key: F,         mods: Command,       chars: "\x06"                       }
   - { key: G,         mods: Command,       chars: "\x07"                       }
-  - { key: H,         mods: Command,       chars: "\x08"                       }
+  # - { key: H,         mods: Command,       chars: "\x08"                       }
   - { key: I,         mods: Command,       chars: "\x09"                       }
   - { key: J,         mods: Command,       chars: "\x0A"                       }
   - { key: K,         mods: Command,       chars: "\x0B"                       }
@@ -527,13 +529,13 @@ key_bindings:
   - { key: N,         mods: Command,       chars: "\x0E"                       }
   - { key: O,         mods: Command,       chars: "\x0F"                       }
   - { key: P,         mods: Command,       chars: "\x10"                       }
-  - { key: Q,         mods: Command,       chars: "\x11"                       }
+  # - { key: Q,         mods: Command,       chars: "\x11"                       }
   - { key: R,         mods: Command,       chars: "\x12"                       }
   - { key: S,         mods: Command,       chars: "\x13"                       }
   - { key: T,         mods: Command,       chars: "\x14"                       }
   - { key: U,         mods: Command,       chars: "\x15"                       }
-  - { key: V,         mods: Command,       chars: "\x16"                       }
-  - { key: W,         mods: Command,       chars: "\x17"                       }
+  # - { key: V,         mods: Command,       chars: "\x16"                       }
+  # - { key: W,         mods: Command,       chars: "\x17"                       }
   - { key: X,         mods: Command,       chars: "\x18"                       }
   - { key: Y,         mods: Command,       chars: "\x19"                       }
   - { key: Z,         mods: Command,       chars: "\x1A"                       }
@@ -692,19 +694,19 @@ key_bindings:
   # (macOS only)
   #- { key: Key0,   mods: Command, action: ResetFontSize    }
   #- { key: Equals, mods: Command, action: IncreaseFontSize }
-  #- { key: Add,    mods: Command, action: IncreaseFontSize }
-  #- { key: Minus,  mods: Command, action: DecreaseFontSize }
+  # - { key: Add,    mods: Command, action: IncreaseFontSize }
+  # - { key: Minus,  mods: Command, action: DecreaseFontSize }
   #- { key: K,      mods: Command, action: ClearHistory     }
   #- { key: N,      mods: Command, action: SpawnNewInstance     }
   #- { key: K,      mods: Command, chars: "\x0c"            }
-  #- { key: V,      mods: Command, action: Paste            }
-  #- { key: C,      mods: Command, action: Copy             }
-  #- { key: H,      mods: Command, action: Hide             }
-  #- { key: Q,      mods: Command, action: Quit             }
-  #- { key: W,      mods: Command, action: Quit             }
+  - { key: V,      mods: Command, action: Paste            }
+  - { key: C,      mods: Command, action: Copy             }
+  - { key: H,      mods: Command, action: Hide             }
+  - { key: Q,      mods: Command, action: Quit             }
+  # - { key: W,      mods: Command, action: Quit             }
 
-  - { key: Paste,                   action: Paste                            }
-  - { key: Copy,                    action: Copy                             }
+  # - { key: Paste,                   action: Paste                            }
+  # - { key: Copy,                    action: Copy                             }
   - { key: L,        mods: Control, action: ClearLogNotice                   }
   - { key: F,    mods: Command|Shift, action: ToggleFullscreen                   }
   - { key: L,        mods: Control, chars: "\x0c"                            }
