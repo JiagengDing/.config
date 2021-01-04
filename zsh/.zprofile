@@ -5,3 +5,4 @@
 PATH="/Users/JiagengDing/Library/Python/3.8/bin:${PATH}"
 export PATH
 #export ZDOTDIR=$HOME/.config/zsh
+rm -f $ZINIT[BIN_DIR]/*.zwc

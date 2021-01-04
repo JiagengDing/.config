@@ -6,3 +6,13 @@ trashed 'ttt.tex' from_dir /Users/JiagengDing
 trashed 'ttt.toc' from_dir /Users/JiagengDing
 trashed 'latex.out' from_dir /Users/JiagengDing
 trashed 'tt.py' from_dir /Users/JiagengDing
+trashed 'powerlevel10k' from_dir /Users/JiagengDing
+trashed 'shell' from_dir /Users/JiagengDing/.config
+trashed '.zinit' from_dir /Users/JiagengDing
+trashed 'zinit-additional.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-autoload.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-install.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-install.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-side.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'tt.aux' 'tt.fdb_latexmk' 'tt.fls' 'tt.log' 'tt.md' 'tt.pdf' 'tt.synctex.gz' 'tt.tex' 'tt.toc' 'tt.xdv' 'ttt.aux' 'ttt.fdb_latexmk' 'ttt.fls' 'ttt.log' 'ttt.md' 'ttt.xdv' from_dir /Users/JiagengDing

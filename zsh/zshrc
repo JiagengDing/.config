@@ -5,6 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+
 source ~/.config/zsh/vi.zsh
 source ~/.config/zsh/fzf.zsh
 
@@ -200,6 +201,8 @@ alias H='cd ~'
 alias cc='cd ~/.config'
 alias D='cd ~/Desktop'
 
+alias zinit='zinit self-update && zinit update'
+
 
 #防止出现删除错误的问题
 alias rm='deletefile'
@@ -249,3 +252,7 @@ cleartrash()
 # autojump
 # ####
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+POWERLEVEL9K_DEBUG_ISSUE_315=true
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

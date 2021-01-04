@@ -1,60 +1,3 @@
-53573d5cd4ac3a23a1ce9f70d5691245|file:///Users/JiagengDing/.config/nvim/Ultisnips/tex.snippets|28|1|V|snippets
-	Gilles Castel
-f0ed9e4f93154ab46698b4457cbc0cea|file:///Users/JiagengDing/tt.tex|22|1|V|tex
-	\frac{}{\frac{}{}}
-485e4d6099a378cbd2fdc96547586345|file:///Users/JiagengDing/tt.tex|22|1|V|tex
-	123123123123123123123123123123123\frac{}{dd}12i3
-5cefdc5ff55d03623fb0907359317518|file:///Users/JiagengDing/.config/nvim/init.vim|438|1|V|vim
-	Plug 'KeitaNakamura/tex-conceal.vim'
-96c409fbae7bf756792dcf05f1e07837|file:///Users/JiagengDing/tt.tex|22|1|V|tex
-	Yours sincerely,
-3070de5352485dd6a6f4db66da0a1691|file:///Users/JiagengDing/tt.tex|22|1|V|tex
-	Jiageng Ding
-1356051a324c5ce42c61a1a674b964e9|file:///Users/JiagengDing/tt.tex|23|1|V|tex
-	\frac{}{}
-489b00bdce6dbd88f14ed7fdb4d5b8d5|file:///Users/JiagengDing/tt.tex|25|1|V|tex
-	\usepackage{makecell}%处理表格宏包
-5daae6f34bdee6aa719a874cf3a140eb|file:///Users/JiagengDing/tt.tex|24|1|V|tex
-	\usepackage{xcolor}
-	
-73e10dc20df9ace4c6040eed774764e5|file:///Users/JiagengDing/tt.tex|23|1|V|tex
-	\usepackage{listings}%导入代码块包
-713dad58412d0c50e16a83f7f2bbc226|file:///Users/JiagengDing/tt.tex|22|1|V|tex
-	\usepackage{fontspec, xunicode, xltxtra}
-2fc32c2a01db607de51fd23d6898e960|file:///Users/JiagengDing/tt.tex|21|1|V|tex
-	\setlength{\parindent}{2em}
-0b55134d0ade7dfa83d57589fdb699d0|file:///Users/JiagengDing/tt.tex|20|1|V|tex
-	\renewcommand {\thetable} {\thesection{}-\arabic{table}}%对表格编码修改
-1ca3dc87d0aafe12eb6d87a7c14a9993|file:///Users/JiagengDing/tt.tex|19|1|V|tex
-	%\zihao{-4}%设置小四号字
-2265f1309467c9087be32eff45e52076|file:///Users/JiagengDing/tt.tex|17|1|V|tex
-	\CTEXsetup[number=\arabic{subsubsection}]{subsubsection}             %subsubsection形式改为1，2，3，...
-54c7c988e3bdaf416012021467444b53|file:///Users/JiagengDing/tt.tex|15|1|V|tex
-	\CTEXsetup[name={（,）}]{subsection}                                 
-9828d11959d3561247e066b5fb57257f|file:///Users/JiagengDing/tt.tex|15|1|V|tex
-	\CTEXsetup[number={\chinese{subsection}}]{subsection}                %subsection形式改为（一,二,三,...）                         
-e6d59a243905cfa4654ebdb1bcde9e6e|file:///Users/JiagengDing/tt.tex|14|1|V|tex
-	\CTEXsetup[number={\chinese{section}}]{section}                      %section形式改为一,二,三,..
-2a756e25224ad5c16bb711929ba8eed5|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\begin{thebibliography}{99}
-54482f9ce9a20a18ca91fe7168d0b9e6|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{} 张玲.财务危机预警分析判别模型[M].数量经济技术经济研究，2000，(3).
-66557b1f1085191ad1532a8690d83137|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{} 王劲潇. 基于Z-Score模型下我国中小企业财务预警研究[D].东华大学,2013.
-2bc2f0dcbe2e97c94414766c65e6ba92|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{}（加）约翰·赫尔（John C. Hull）著.期权、期货及其他衍生产品[M].北京：机械工业出版社.2018.
-3048344b9a41e35358f79c48cb3e1dbf|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{}（加）约翰·赫尔著.风险管理与金融机构[M].北京：机械工业出版社.2008.
-837c23ddd1bc7a671adc11e2d255d6a3|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{}（美）麦金尼（McKinney W.）著；唐学韬译.利用Python进行数据分析[M].北京：机械工业出版社.2016.
-6ebc30357385477e98b1e6cdd8be44a3|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{} 熊正德,文慧,熊一鹏.我国外汇市场与股票市场间波动溢出效应实证研究——基于小波多分辨的多元BEKK-GARCH(1,1)模型分析[J].中国管理科学,2015,23(04):30-38.
-5a89b6ae09f1be0ddcd3256169ac40c7|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\bibitem{} 成城. 基于GARCH模型的上证指数波动率特征分析[D].山东大学,2014.
-22d90aba5e121facb26bfc8df588abc6|file:///Users/JiagengDing/tt.tex|45|1|V|tex
-	\end{thebibliography}
-123c42f9be1db9f3d31d80af01bb4713|file:///Users/JiagengDing/tt.tex|36|10|v|tex
-	section name
 8b04d5e3775d298e78455efc5ca404d5|file:///Users/JiagengDing/tt.tex|37|12|v|tex
 	first
 7294d36a5920751196981382090fb767|file:///Users/JiagengDing/tt.tex|35|1|V|tex
@@ -713,3 +656,72 @@ e73ffc8ff7ecdb82e246a8758bae2029|file:///Users/JiagengDing/.config/nvim/init.vim
 	└──┘
 94c6328c42f73711dead569d93a190a3|file:///Users/JiagengDing/.config/nvim/init.vim|366|1|V|vim
 			exec "VimtexClean"
+bd905e0abd7866fed4758f8433e108ba|file:///Users/JiagengDing/.config/zsh/zshrc|4|11|v|zsh
+	${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh
+147d959ac9fc1d748a13cf1f78a08211|file:///Users/JiagengDing/.config/zsh/zshrc|8|1|V|zsh
+	typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+2d0d6e6334dfc0206c0efaa23d6fa337|file:///Users/JiagengDing/.config/zsh/zshrc|8|1|V|zsh
+	POWERLEVEL9K_DEBUG_ISSUE_315=true
+5c60e2a7d10c751fdfb8494c65c38b7d|file:///Users/JiagengDing/.config/zsh/zshrc|254|1|V|zsh
+	git -C ~/.config/shell/powerlevel10k pull
+4740b961649fbedaa231d350453cbb2c|file:///Users/JiagengDing/.config/zsh/zshrc|254|1|V|zsh
+	source ~/powerlevel10k/powerlevel10k.zsh-theme
+6c5d4f54bf881cdab9b9e7de44cba265|file:///Users/JiagengDing/.config/zsh/zshrc|99|13|v|zsh
+	skywind3000/z.lua
+6244e4d72496e8d8f57f38daf295f220|file:///Users/JiagengDing/.config/zsh/zshrc|99|13|v|zsh
+	skywind3000/z.lua
+	
+dc33b70d768b2aea4fbe55fccaca7f16|file:///Users/JiagengDing/.config/zsh/zshrc|108|1|V|zsh
+	zinit ice lucid wait="0" atload='_zsh_autosuggest_start'
+01bc6f8efa4202821e95f4fdf6298b30|file:///Users/JiagengDing/.zprofile|9|1|V|zsh
+	clear
+285157f38dfc3beb17e37aa97de9b980|file:///Users/JiagengDing/Desktop/tt.tex|105|1|V|tex
+	作者：温尊
+c3225e7e2715baae2e3fb4acfcb3aeff|file:///Users/JiagengDing/Desktop/tt.tex|105|1|V|tex
+	链接：https://www.zhihu.com/question/38306880/answer/1208319906
+e596f5c367b3108c2b1f9878e5169931|file:///Users/JiagengDing/Desktop/tt.tex|105|1|V|tex
+	来源：知乎
+5a3905db0104b2c22d84b468b233ea6c|file:///Users/JiagengDing/Desktop/tt.tex|105|1|V|tex
+	著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+b414a23333082c191d89daf687a92d5e|file:///Users/JiagengDing/Desktop/tt.tex|104|1|V|tex
+	%\setcounter{page}{1}
+	\newtheorem{theorem}{Theorem}
+692885906407e0a0d3b2bc28e3099783|file:///Users/JiagengDing/Desktop/tt.tex|19|24|V|tex
+	\catcodeError: Command failed: \┘=\active \catcode
+	/bin/sh: ┘=active: command not found\┌=\active \def ┌{\begin{mdframed}\centering} \def ┘{\end{mdframed}}%
+52bc84216dfbc53374c8a3aea51b51cc|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/loadWord.py|24|1|V|python
+	load_cab_vector()
+ed9f4b8f879ddbb59fda1057ea3a2810|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/main.py|1|1|V|python
+	import os
+098f6bcd4621d373cade4e832627b4f6|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|78|36|v|python
+	test
+6af8307c2460f2d208ad254f04be4b0d|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|79|24|v|python
+	test_data
+fb70ad0d7269b88b4c838811bccdf229|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|81|15|v|python
+	test_data[i][0]
+643d983279b277f4f0f8e68a31e5fa39|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|81|15|v|python
+	test_data)):
+3ebe1b75587455cabb1c61be5a5b4f9c|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|81|15|v|python
+	test_data[i][0
+c597da426918d427aaa2a6794a7b65a5|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|81|15|v|python
+	test_data)
+08213b8d8ae749b84b6036538e4fd33c|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|81|15|v|python
+	test_data[i]
+7a4c027b3c9511c4a0b17301027eed6e|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|81|15|v|python
+	test_data[i][
+5d3aecaae387e36bf9fe0b505d9336c4|file:///Users/JiagengDing/Desktop/Project2_DingJiageng/__main__.py|10|1|V|python
+	import random
+	
+	#  load_cab_vector()
+	
+	
+	# load file
+	def load_data(path, flag='train'):
+	    labels = ['pos', 'neg']
+	    data = []
+	    for label in labels:
+b26ce4b97ae7fa964c70aa91f111a9f0|file:///Users/JiagengDing/.config/alacritty/alacritty.yml|103|13|v|yaml
+	FiraCode Nerd Font Mono
+	
+d4ee32f809cb9b250ac0789b23110cdf|file:///Users/JiagengDing/.config/alacritty/alacritty.yml|136|13|v|yaml
+	FiraCode Nerd Font Mono
