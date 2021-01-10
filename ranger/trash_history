@@ -16,3 +16,9 @@ trashed 'zinit-install.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
 trashed 'zinit-side.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
 trashed 'zinit.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
 trashed 'tt.aux' 'tt.fdb_latexmk' 'tt.fls' 'tt.log' 'tt.md' 'tt.pdf' 'tt.synctex.gz' 'tt.tex' 'tt.toc' 'tt.xdv' 'ttt.aux' 'ttt.fdb_latexmk' 'ttt.fls' 'ttt.log' 'ttt.md' 'ttt.xdv' from_dir /Users/JiagengDing
+trashed '.bash_profile.swp' from_dir /Users/JiagengDing
+trashed 'Python.framework' from_dir /usr/local/Frameworks
+trashed '2to3-3.8' from_dir /usr/local/bin
+trashed 'Rime' from_dir /Users/JiagengDing/Library
+trashed 'Brewfile' from_dir /Users/JiagengDing/.config
+trashed 'brew_list.sh' from_dir /Users/JiagengDing/.config

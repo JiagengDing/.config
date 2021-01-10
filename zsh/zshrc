@@ -187,6 +187,7 @@ alias l='ls -a'
 alias r=ranger
 alias i=ipython
 alias j=julia
+alias m='matlab -nodesktop -nosplash'
 alias c='clear'
 alias up='brew update && brew upgrade && brew cu -a -y && mas upgrade'
 
