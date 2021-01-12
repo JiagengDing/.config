@@ -65,7 +65,7 @@ window:
   #   - SimpleFullscreen
   #startup_mode: Windowed
 
-  startup_mode: SimpleFullscreen
+  startup_mode: Fullscreen
 
   # Window title
   title: HappyEveryday!
