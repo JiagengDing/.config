@@ -1,0 +1,26 @@
+trashed 'myfirst_hello.py' from_dir /Users/JiagengDing/Desktop/ttt/aaa
+untrashed /Users/JiagengDing/Desktop/ttt/aaa/myfirst_hello.py
+trashed 'aaa' from_dir /Users/JiagengDing/Desktop/Mathematical Finance
+trashed '.zshrc.swp' from_dir /Users/JiagengDing/.config/zsh
+trashed 'ttt.tex' from_dir /Users/JiagengDing
+trashed 'ttt.toc' from_dir /Users/JiagengDing
+trashed 'latex.out' from_dir /Users/JiagengDing
+trashed 'tt.py' from_dir /Users/JiagengDing
+trashed 'powerlevel10k' from_dir /Users/JiagengDing
+trashed 'shell' from_dir /Users/JiagengDing/.config
+trashed '.zinit' from_dir /Users/JiagengDing
+trashed 'zinit-additional.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-autoload.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-install.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-install.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit-side.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'zinit.zsh.zwc' from_dir /Users/JiagengDing/.zinit/bin
+trashed 'tt.aux' 'tt.fdb_latexmk' 'tt.fls' 'tt.log' 'tt.md' 'tt.pdf' 'tt.synctex.gz' 'tt.tex' 'tt.toc' 'tt.xdv' 'ttt.aux' 'ttt.fdb_latexmk' 'ttt.fls' 'ttt.log' 'ttt.md' 'ttt.xdv' from_dir /Users/JiagengDing
+trashed '.bash_profile.swp' from_dir /Users/JiagengDing
+trashed 'Python.framework' from_dir /usr/local/Frameworks
+trashed '2to3-3.8' from_dir /usr/local/bin
+trashed 'Rime' from_dir /Users/JiagengDing/Library
+trashed 'Brewfile' from_dir /Users/JiagengDing/.config
+trashed 'brew_list.sh' from_dir /Users/JiagengDing/.config
+trashed '7737184de7edde72c8d01f88037bf8ead7ea1d96824f88579a4debee5ac0b277--Alacritty-v0.7.1.dmg' from_dir /Users/JiagengDing/Library/Caches/Homebrew/downloads
+trashed '.joplin-bin' from_dir /Users/JiagengDing
