@@ -50,3 +50,4 @@ jesseduffield/lazynpm/state.yml
 !Brewfile
 
 !/Joplin
+/Joplin/log.txt

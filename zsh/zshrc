@@ -198,6 +198,8 @@ alias vim=nvim
 alias lg='lazygit'
 alias gp='git push'
 alias gs='git status'
+alias ga='git a'
+alias gc='git commit -m'
 
 alias H='cd ~'
 alias cc='cd ~/.config'
@@ -205,6 +207,13 @@ alias D='cd ~/Desktop'
 
 alias zinit='zinit self-update && zinit update'
 
+alias o=joplin
+alias os='joplin status'
+alias om='joplin mknote'
+alias ot='joplin mktodo'
+alias oo='joplin mknote `date +%Y/%m/%d`'
+alias ol='joplin ls -l'
+alias oss='joplin sync'
 
 #防止出现删除错误的问题
 alias rm='deletefile'
