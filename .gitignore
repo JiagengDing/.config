@@ -53,4 +53,5 @@ jesseduffield/lazynpm/state.yml
 !/joplin/
 /joplin/log.txt
 /joplin/resources/
+/joplin/database.sqlite
 !/thefuck/
