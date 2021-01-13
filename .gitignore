@@ -50,5 +50,7 @@ ranger/plugins/ranger_devicons
 jesseduffield/lazynpm/state.yml
 !Brewfile
 
-!/joplin/keymap.json
+!/joplin/
+/joplin/log.txt
+/joplin/resources/
 !/thefuck/
