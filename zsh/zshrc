@@ -208,12 +208,16 @@ alias D='cd ~/Desktop'
 alias zinit='zinit self-update && zinit update'
 
 alias o=joplin
+alias oe='joplin edit'
+alias oc='joplin cat'
 alias os='joplin status'
+alias oex='joplin export --format md'
 alias om='joplin mknote'
 alias ot='joplin mktodo'
 alias oo='joplin mknote `date +%Y/%m/%d`'
 alias ol='joplin ls -l'
 alias oss='joplin sync'
+alias oh='joplin help all'
 
 #防止出现删除错误的问题
 alias rm='deletefile'

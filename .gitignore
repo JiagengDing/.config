@@ -55,3 +55,4 @@ jesseduffield/lazynpm/state.yml
 /joplin/resources/
 /joplin/database.sqlite
 !/thefuck/
+!/karabiner/
