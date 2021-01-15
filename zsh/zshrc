@@ -190,7 +190,7 @@ alias j=julia
 alias m='matlab -nodesktop -nosplash'
 alias c='clear'
 alias up='brew update && brew upgrade && brew cu -a -y && mas upgrade'
-alias prox='export ALL_PROXY=socks5://127.0.0.1:1080'
+alias pr='export ALL_PROXY=socks5://127.0.0.1:1080'
 
 alias s=neofetch
 alias vim=nvim
