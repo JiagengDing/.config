@@ -173,6 +173,21 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+
+# 启动代理
+proxy () {
+  export all_proxy=socks5://127.0.0.1:1080
+  echo "HTTP Proxy on"
+}
+
+# 关闭代理
+noproxy () {
+  unset http_proxy
+  unset https_proxy
+  unset all_proxy
+  echo "HTTP Proxy off"
+}
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -190,7 +205,7 @@ alias j=julia
 alias m='matlab -nodesktop -nosplash'
 alias c='clear'
 alias up='brew update && brew upgrade && brew cu -a -y && mas upgrade'
-alias pr='export ALL_PROXY=socks5://127.0.0.1:1080'
+# alias pr='export ALL_PROXY=socks5://127.0.0.1:1080'
 
 alias s=neofetch
 alias vim=nvim
