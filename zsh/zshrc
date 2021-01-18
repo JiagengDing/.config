@@ -188,6 +188,17 @@ noproxy () {
   echo "HTTP Proxy off"
 }
 
+# homebrew upprade
+up(){
+	proxy
+	brew update
+	brew upgrade
+	brew cu -a -y
+	mas upgrade
+	brew cleanup
+	noproxy
+}
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -204,7 +215,7 @@ alias i=ipython
 alias j=julia
 alias m='matlab -nodesktop -nosplash'
 alias c='clear'
-alias up='brew update && brew upgrade && brew cu -a -y && mas upgrade'
+# alias up='proxy && brew update && brew upgrade && brew cu -a -y && mas upgrade && brew cleanup'
 # alias pr='export ALL_PROXY=socks5://127.0.0.1:1080'
 
 alias s=neofetch
