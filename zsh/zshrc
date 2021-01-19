@@ -209,7 +209,7 @@ up(){
 alias zr='nvim ~/.config/zsh/zshrc'
 alias zsh='source ~/.zshrc'
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
-alias l='ls -a'
+alias l='ls -al'
 alias r=ranger
 alias i=ipython
 alias j=julia
@@ -244,6 +244,8 @@ alias oo='joplin mknote `date +%Y/%m/%d`'
 alias ol='joplin ls -l'
 alias oss='joplin sync'
 alias oh='joplin help all'
+
+alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
 #防止出现删除错误的问题
 alias rm='deletefile'
