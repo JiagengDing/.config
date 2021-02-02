@@ -3,6 +3,7 @@
 /*/
 
 # ... but these:
+!/tt
 !/.latexmkrc
 !/.p10k.zsh
 !/i3/
