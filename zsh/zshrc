@@ -188,16 +188,24 @@ noproxy () {
   echo "HTTP Proxy off"
 }
 
-# homebrew upprade
+# homebrew upgrade
 up(){
+	brew upgrade firefox
 	proxy
 	brew update
 	brew upgrade
 	brew cu -a -y
 	mas upgrade
 	brew cleanup
+	omw update
+	omw
 	noproxy
+	cd ~/.config
+	mv Brewfile ~/.Trash
+	brew bundle dump
+	cd ~
 }
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -299,3 +307,5 @@ cleartrash()
 POWERLEVEL9K_DEBUG_ISSUE_315=true
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"

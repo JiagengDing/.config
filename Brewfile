@@ -11,6 +11,7 @@ brew "python@3.9"
 brew "autojump"
 brew "ccat"
 brew "clamav"
+brew "emacs"
 brew "figlet"
 brew "fish"
 brew "fzf"
@@ -24,6 +25,7 @@ brew "lazygit"
 brew "mackup"
 brew "make"
 brew "mas"
+brew "mysql"
 brew "neofetch"
 brew "neovim"
 brew "p7zip"
@@ -36,17 +38,20 @@ brew "tmux"
 brew "w3m"
 brew "zsh"
 brew "zsh-syntax-highlighting"
+cask "basictex"
 cask "betterzip"
-cask "craft"
+cask "firefox"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 cask "free-download-manager"
-cask "glance"
 cask "hammerspoon"
 cask "imageoptim"
 cask "joplin"
 cask "karabiner-elements"
 cask "keka"
+cask "latexit"
+cask "macvim"
+cask "maczip"
 cask "netnewswire"
 cask "qlcolorcode"
 cask "qlimagesize"
@@ -60,6 +65,7 @@ cask "r"
 cask "skim"
 cask "spotify"
 cask "suspicious-package"
+cask "texshop"
 cask "typora"
 cask "visual-studio-code"
 cask "webpquicklook"
@@ -69,27 +75,26 @@ mas "Atom Run", id: 850435736
 mas "Bitwarden", id: 1352778147
 mas "CAJ云阅读", id: 1121965993
 mas "CHM Viewer Star", id: 650683226
+mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
 mas "FE File Explorer", id: 1444382558
 mas "GoodNotes", id: 1444383602
 mas "Grammarly for Safari", id: 1462114288
 mas "iMovie 剪辑", id: 408981434
+mas "Input Source Pro", id: 1537056428
 mas "Insomniac", id: 1434172648
 mas "iShot", id: 1485844094
 mas "Keynote 讲演", id: 409183694
 mas "LastPass", id: 926036361
 mas "Mathpix Snipping Tool", id: 1349670778
 mas "Microsoft To Do", id: 1274495053
-mas "MyZip Pro", id: 1533946416
 mas "Numbers 表格", id: 409203825
 mas "OneDrive", id: 823766827
 mas "Pages 文稿", id: 409201541
-mas "PDFGuru", id: 684812309
 mas "QQ", id: 451108668
 mas "Tab Space", id: 1473726602
 mas "Table Tool", id: 1122008420
 mas "Tampermonkey", id: 1482490089
-mas "Tot", id: 1491071483
 mas "Vimari", id: 1480933944
 mas "WidsMob Denoise", id: 1393718073
 mas "万得股票", id: 1271308896
