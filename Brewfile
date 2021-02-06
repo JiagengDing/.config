@@ -7,7 +7,7 @@ tap "homebrew/cask-versions", "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew
 tap "homebrew/core", "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
 tap "homebrew/services"
 brew "atool"
-brew "python@3.9"
+brew "python@3.9", link: false
 brew "autojump"
 brew "ccat"
 brew "clamav"
@@ -40,10 +40,12 @@ brew "zsh"
 brew "zsh-syntax-highlighting"
 cask "basictex"
 cask "betterzip"
+cask "brave-browser"
 cask "firefox"
 cask "font-fira-code-nerd-font"
 cask "font-hack-nerd-font"
 cask "free-download-manager"
+cask "goldendict"
 cask "hammerspoon"
 cask "imageoptim"
 cask "joplin"
@@ -72,7 +74,6 @@ cask "webpquicklook"
 mas "Adblock Plus", id: 1432731683
 mas "Agenda", id: 1287445660
 mas "Atom Run", id: 850435736
-mas "Bitwarden", id: 1352778147
 mas "CAJ云阅读", id: 1121965993
 mas "CHM Viewer Star", id: 650683226
 mas "DuckDuckGo Privacy Essentials", id: 1482920575
@@ -106,4 +107,4 @@ mas "看图", id: 1314842898
 mas "网易邮箱大师", id: 1233593954
 mas "腾讯视频", id: 1231336508
 mas "自动切换输入法", id: 1470350547
-mas "超级右键", id: 1497428978
+mas "超级右键 Lite版", id: 1497428978

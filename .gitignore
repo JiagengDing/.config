@@ -4,6 +4,7 @@
 
 # ... but these:
 !/tt
+!/vimrc
 !/.latexmkrc
 !/.p10k.zsh
 !/i3/
