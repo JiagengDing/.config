@@ -190,22 +190,38 @@ noproxy () {
 
 # homebrew upgrade
 up(){
-	brew upgrade firefox
-	proxy
+  export all_proxy=socks5://127.0.0.1:1080
+  echo "HTTP Proxy on"
 	brew update
-	brew upgrade
+	brew upgrade --greedy
 	brew cu -a -y
 	mas upgrade
 	brew cleanup
-	omw update
-	omw
+	npm install -g npm
+	# omw update
+	# omw
 	noproxy
+	cnpm update joplin -g
 	cd ~/.config
 	mv Brewfile ~/.Trash
 	brew bundle dump
 	cd ~
 }
 
+# homebrew upgrade
+upp(){
+	brew update
+	brew upgrade --greedy
+	brew cu -a -y
+	mas upgrade
+	brew cleanup
+	npm install -g npm
+	cnpm update joplin -g
+	cd ~/.config
+	mv Brewfile ~/.Trash
+	brew bundle dump
+	cd ~
+}
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
