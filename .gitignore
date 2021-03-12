@@ -3,6 +3,8 @@
 /*/
 
 # ... but these:
+!/clash/jsss.yaml
+!/clash/config.yaml
 !/tt
 !/vimrc
 !/.latexmkrc
