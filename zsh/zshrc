@@ -176,8 +176,9 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 
 # 启动代理
 proxy () {
-  export all_proxy=socks5://127.0.0.1:1080
-  echo "HTTP Proxy on"
+  # export all_proxy=socks5://127.0.0.1:1080
+	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+  echo "Proxy on"
 }
 
 # 关闭代理
@@ -185,14 +186,14 @@ noproxy () {
   unset http_proxy
   unset https_proxy
   unset all_proxy
-  echo "HTTP Proxy off"
+  echo "Proxy off"
 }
 
 # homebrew upgrade
 up(){
-  # export all_proxy=socks5://127.0.0.1:1080
+	brew upgrade firefox brave-browser
 	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-  echo "HTTP Proxy on"
+  echo "Proxy on"
 	brew update
 	brew upgrade --greedy
 	brew cu -a -y
@@ -326,3 +327,4 @@ POWERLEVEL9K_DEBUG_ISSUE_315=true
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
