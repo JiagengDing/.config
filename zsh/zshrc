@@ -250,7 +250,7 @@ alias s=neofetch
 alias vim=nvim
 
 alias lg='lazygit'
-alias gp='git push'
+alias gp='proxy && git push'
 alias gs='git status'
 alias ga='git a'
 alias gc='git commit -m'
