@@ -4,7 +4,7 @@ tap "homebrew/cask", "https://mirrors.ustc.edu.cn/homebrew-cask.git"
 tap "homebrew/cask-drivers", "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-drivers.git"
 tap "homebrew/cask-fonts", "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-fonts.git"
 tap "homebrew/cask-versions", "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-versions.git"
-tap "homebrew/core", "https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+tap "homebrew/core", "git://mirrors.ustc.edu.cn/homebrew-core.git"
 tap "homebrew/services"
 brew "openssl@1.1"
 brew "atool"
@@ -14,13 +14,14 @@ brew "autojump"
 brew "ccat"
 brew "jansson"
 brew "clamav"
+brew "curl"
 brew "figlet"
 brew "fzf"
-brew "gh"
 brew "git"
 brew "glib"
 brew "libevent"
 brew "go"
+brew "handbrake"
 brew "lua"
 brew "imagemagick"
 brew "ipython", link: false
@@ -28,6 +29,7 @@ brew "lastpass-cli"
 brew "lazygit"
 brew "libconfig"
 brew "libgcrypt"
+brew "libressl"
 brew "mackup"
 brew "make"
 brew "mas"
@@ -39,10 +41,10 @@ brew "pandoc"
 brew "ranger"
 brew "rust"
 brew "subversion"
+brew "swift"
 brew "the_silver_searcher"
 brew "tmux"
 brew "translate-shell"
-brew "v2ray"
 brew "w3m"
 brew "zsh"
 brew "zsh-syntax-highlighting"
@@ -65,11 +67,13 @@ cask "iterm2"
 cask "joplin"
 cask "karabiner-elements"
 cask "keka"
+cask "keycastr"
 cask "latexit"
 cask "macvim"
 cask "maczip"
 cask "netnewswire"
 cask "notion"
+cask "omnidisksweeper"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -79,11 +83,10 @@ cask "quicklook-csv"
 cask "quicklook-json"
 cask "quicklookase"
 cask "r"
+cask "raycast"
 cask "skim"
-cask "spotify"
 cask "suspicious-package"
 cask "telegram-desktop"
-cask "texshop"
 cask "typora"
 cask "visual-studio-code"
 cask "webpquicklook"
@@ -98,29 +101,28 @@ mas "DuckDuckGo Privacy Essentials", id: 1482920575
 mas "Encrypto", id: 935235287
 mas "FE File Explorer", id: 1444382558
 mas "Grammarly for Safari", id: 1462114288
-mas "iMovie 剪辑", id: 408981434
-mas "Input Source Pro", id: 1537056428
+mas "iMovie", id: 408981434
 mas "Insomniac", id: 1434172648
+mas "iRightMouse", id: 1497428978
 mas "iShot", id: 1485844094
-mas "Keynote 讲演", id: 409183694
+mas "Keynote", id: 409183694
 mas "LastPass", id: 926036361
 mas "Mathpix Snipping Tool", id: 1349670778
 mas "Microsoft To Do", id: 1274495053
-mas "Numbers 表格", id: 409203825
-mas "OneDrive", id: 823766827
-mas "Pages 文稿", id: 409201541
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
 mas "PanText", id: 1551183766
 mas "QQ", id: 451108668
+mas "Spark", id: 1176895641
 mas "Tab Space", id: 1473726602
 mas "Table Tool", id: 1122008420
 mas "Tampermonkey", id: 1482490089
 mas "Vimari", id: 1480933944
+mas "WeChat", id: 836500024
 mas "WidsMob Denoise", id: 1393718073
-mas "万得股票", id: 1271308896
+mas "Wind Stock", id: 1271308896
 mas "同花顺", id: 1247341465
-mas "微信", id: 836500024
 mas "每日英语听力", id: 734383760
 mas "爱奇艺", id: 1012296988
 mas "网易邮箱大师", id: 1233593954
 mas "腾讯视频", id: 1231336508
-mas "超级右键", id: 1497428978
