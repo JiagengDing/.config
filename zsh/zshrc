@@ -210,6 +210,9 @@ up(){
 	brew bundle dump
 	cd ~
 	sudo softwareupdate -i -a
+	# pip_pypy3 install --upgrade pip setuptools
+	pip3 install --upgrade pip
+	pip-review --local --interactive
 }
 
 # homebrew upgrade

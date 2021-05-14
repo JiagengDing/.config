@@ -30,3 +30,4 @@ trashed 'python3.8' from_dir /usr/local/lib
 trashed 'windows-bindings.lua' from_dir /Users/JiagengDing/.hammerspoon
 trashed 'windows.lua' from_dir /Users/JiagengDing/.hammerspoon
 trashed '1windows.lua' from_dir /Users/JiagengDing/.hammerspoon/keyboard
+trashed 'kdeconnect-indicator.app' from_dir /Applications
