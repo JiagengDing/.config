@@ -191,7 +191,7 @@ noproxy () {
 
 # homebrew upgrade
 up(){
-	brew upgrade firefox brave-browser
+	# brew upgrade firefox brave-browser
 	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 	brew update
@@ -203,14 +203,14 @@ up(){
 	sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
 	# omw update
 	# omw
-	noproxy
+	# noproxy
 	cnpm update joplin -g
 	cd ~/.config
 	mv Brewfile ~/.Trash
 	brew bundle dump
+	noproxy
 	cd ~
 	sudo softwareupdate -i -a
-	# pip_pypy3 install --upgrade pip setuptools
 	pip3 install --upgrade pip
 	pip-review --local --interactive
 }
@@ -251,11 +251,12 @@ alias c='clear'
 
 alias s=neofetch
 alias vim=nvim
+alias ml='matlab -nodesktop -nosplash'
 
 alias lg='lazygit'
 alias gp='proxy && git push'
 alias gs='git status'
-alias ga='git a'
+alias ga='git add'
 alias gc='git commit -m'
 
 alias H='cd ~'

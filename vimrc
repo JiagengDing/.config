@@ -564,6 +564,7 @@ Plug 'daeyun/vim-matlab', { 'do': function('DoRemote') , 'for': ['m']}
 
 Plug 'rust-lang/rust.vim'
 
+Plug 'neoclide/coc.nvim'
 
 call plug#end()
 set re=0
