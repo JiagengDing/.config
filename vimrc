@@ -1,4 +1,3 @@
-" test
 
 " ===
 " === Create a _machine_specific.vim file to adjust machine specific stuff, like python interpreter location

@@ -111,47 +111,23 @@ zinit ice lucid wait='0'
 zinit light zsh-users/zsh-completions
 
 # 加载 OMZ 框架及部分插件
-zinit snippet OMZ::lib/completion.zsh
-zinit snippet OMZ::lib/history.zsh
-zinit snippet OMZ::lib/key-bindings.zsh
-zinit snippet OMZ::lib/theme-and-appearance.zsh
-zinit snippet OMZ::plugins/colored-man-pages/colored-man-pages.plugin.zsh
-zinit snippet OMZ::plugins/sudo/sudo.plugin.zsh
+zinit snippet OMZL::completion.zsh
+zinit snippet OMZL::history.zsh
+zinit snippet OMZL::key-bindings.zsh
+zinit snippet OMZL::theme-and-appearance.zsh
+zinit snippet OMZP::colored-man-pages/colored-man-pages.plugin.zsh
+zinit snippet OMZP::sudo/sudo.plugin.zsh
 
 zinit ice svn
-zinit snippet OMZ::plugins/extract
+zinit snippet OMZP::extract
 
 zinit ice lucid wait='1'
-zinit snippet OMZ::plugins/git/git.plugin.zsh
+zinit snippet OMZP::git/git.plugin.zsh
 
 # # 加载 pure 主题
 # zinit ice pick"async.zsh" src"pure.zsh"
 # zinit light sindresorhus/pure
 
-
-# #######
-# #use awesomepanda
-# #
-# #
-# # A.
-# setopt promptsubst
-# # B.
-# zinit wait lucid for \
-#         OMZL::git.zsh \
-#   atload"unalias grv" \
-#         OMZP::git
-# PS1="READY >" # provide a simple prompt till the theme loads
-# # C.
-# zinit wait'!' lucid for \
-#     OMZL::prompt_info_functions.zsh \
-#     OMZT::awesomepanda
-# # D.
-# zinit wait lucid for \
-#   atinit"zicompinit; zicdreplay"  \
-#         zdharma/fast-syntax-highlighting \
-#       OMZP::colored-man-pages \
-#   as"completion" \
-#         OMZP::docker/_docker
 
 ##USE powerlevel10k
 zinit ice depth=1; zinit light romkatv/powerlevel10k
@@ -177,7 +153,7 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # 启动代理
 proxy () {
   # export all_proxy=socks5://127.0.0.1:1080
-	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+	export https_proxy=http://128.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 }
 
@@ -190,37 +166,11 @@ noproxy () {
 }
 
 # homebrew upgrade
-up(){
-	# brew upgrade firefox brave-browser
-	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-  echo "Proxy on"
-	brew update
-	brew upgrade --greedy
-	brew cu -a -y
-	mas upgrade
-	brew cleanup
-	# npm install -g npm
-	sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
-	# omw update
-	# omw
-	# noproxy
-	cnpm update joplin -g
-	cd ~/.config
-	mv Brewfile ~/.Trash
-	brew bundle dump
-	noproxy
-	cd ~
-	sudo softwareupdate -i -a
-	pip3 install --upgrade pip
-	pip-review --local --interactive
-}
-
-# homebrew upgrade
 upp(){
 	brew update
 	brew upgrade
 	brew cu -a -y
-	mas upgrade
+	# mas upgrade
 	brew cleanup
 	npm install -g npm
 	cnpm update joplin -g
@@ -229,6 +179,30 @@ upp(){
 	brew bundle dump
 	cd ~
 }
+
+# homebrew upgrade
+up(){
+	# brew upgrade firefox brave-browser
+	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+  echo "Proxy on"
+	brew update
+	brew upgrade --greedy
+	brew cu -a -y
+	# mas upgrade
+	brew cleanup
+	# npm install -g npm
+	sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+	cnpm update joplin -g
+	cd ~/.config
+	mv Brewfile ~/.Trash
+	brew bundle dump
+	noproxy
+	cd ~
+	pip3 install --upgrade pip
+	pip-review --local --interactive
+	sudo softwareupdate -i -a
+}
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -239,7 +213,7 @@ upp(){
 # alias zshconfig="mate ~/.zshrc"
 alias zr='nvim ~/.config/zsh/zshrc'
 alias zsh='source ~/.zshrc'
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
+# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 alias l='ls -al'
 alias r=ranger
 alias i=ipython
@@ -335,4 +309,4 @@ eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
 eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/opt/libressl/bin:$PATH"
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
