@@ -3,9 +3,6 @@
 /*/
 
 # ... but these:
-!/clash/
-/clash/country.mmdb
-/clash/.cache
 !/tt
 !/vimrc
 !/.latexmkrc

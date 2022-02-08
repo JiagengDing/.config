@@ -178,6 +178,8 @@ upp(){
 	mv Brewfile ~/.Trash
 	brew bundle dump
 	cd ~
+	clear
+	echo "Upgrade completed"
 }
 
 # homebrew upgrade
@@ -201,6 +203,8 @@ up(){
 	pip3 install --upgrade pip
 	pip-review --local --interactive
 	sudo softwareupdate -i -a
+	clear
+	echo "Upgrade completed"
 }
 
 
