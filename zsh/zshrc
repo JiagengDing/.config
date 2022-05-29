@@ -1,3 +1,5 @@
+ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+source "${ZINIT_HOME}/zinit.zsh"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -92,45 +94,72 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 ##################################3
 #zinit
 #################################33
-source ~/.zinit/bin/zinit.zsh
 
-# 快速目录跳转
-zinit ice lucid wait='1'
-zinit light skywind3000/z.lua
+# A.
+setopt promptsubst
 
-# 语法高亮
-zinit ice lucid wait='0' atinit='zpcompinit'
-zinit light zdharma/fast-syntax-highlighting
+# B.
+zinit wait lucid for \
+        OMZL::git.zsh \
+        OMZL::history.zsh \
+				OMZP::sudo/sudo.plugin.zsh \
+  atload"unalias grv" \
+        OMZP::git
 
-# 自动建议
-zinit ice lucid wait="0" atload='_zsh_autosuggest_start'
-zinit light zsh-users/zsh-autosuggestions
+PS1="READY >" # provide a simple prompt till the theme loads
 
-# 补全
-zinit ice lucid wait='0'
-zinit light zsh-users/zsh-completions
+# C.
+zinit wait'!' lucid for \
+    OMZL::prompt_info_functions.zsh \
+    OMZT::gnzh
 
-# 加载 OMZ 框架及部分插件
-zinit snippet OMZL::completion.zsh
-zinit snippet OMZL::history.zsh
-zinit snippet OMZL::key-bindings.zsh
-zinit snippet OMZL::theme-and-appearance.zsh
-zinit snippet OMZP::colored-man-pages/colored-man-pages.plugin.zsh
-zinit snippet OMZP::sudo/sudo.plugin.zsh
-
-zinit ice svn
-zinit snippet OMZP::extract
-
-zinit ice lucid wait='1'
-zinit snippet OMZP::git/git.plugin.zsh
-
-# # 加载 pure 主题
-# zinit ice pick"async.zsh" src"pure.zsh"
-# zinit light sindresorhus/pure
+# D.
+zinit wait lucid for \
+  atinit"zicompinit; zicdreplay"  \
+        zdharma-continuum/fast-syntax-highlighting \
+      OMZP::colored-man-pages \
+	atload"_zsh_autosuggest_start" \
+      zsh-users/zsh-autosuggestions \
+	blockf atpull'zinit creinstall -q .' \
+      zsh-users/zsh-completions
+  as"completion" \
+        OMZP::docker/_docker
 
 
-##USE powerlevel10k
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+# # 快速目录跳转
+# zinit ice lucid wait='1'
+# zinit light skywind3000/z.lua
+#
+# # 语法高亮
+# zinit ice lucid wait='0' atinit='zpcompinit'
+# zinit light zdharma/fast-syntax-highlighting
+#
+# # 自动建议
+# zinit ice lucid wait="0" atload='_zsh_autosuggest_start'
+# zinit light zsh-users/zsh-autosuggestions
+#
+# # 补全
+# zinit ice lucid wait='0'
+# zinit light zsh-users/zsh-completions
+#
+# # 加载 OMZ 框架及部分插件
+# zinit snippet OMZL::completion.zsh
+# zinit snippet OMZL::history.zsh
+# zinit snippet OMZL::key-bindings.zsh
+# zinit snippet OMZL::theme-and-appearance.zsh
+# zinit snippet OMZP::colored-man-pages/colored-man-pages.plugin.zsh
+# zinit snippet OMZP::sudo/sudo.plugin.zsh
+#
+# zinit ice svn
+# zinit snippet OMZP::extract
+#
+# zinit ice lucid wait='1'
+# zinit snippet OMZP::git/git.plugin.zsh
+
+
+# Load powerlevel10k theme
+zinit ice depth=1
+zinit light romkatv/powerlevel10k
 
 # User configuration
 
@@ -153,7 +182,8 @@ zinit ice depth=1; zinit light romkatv/powerlevel10k
 # 启动代理
 proxy () {
   # export all_proxy=socks5://127.0.0.1:1080
-	export https_proxy=http://128.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+	# export https_proxy=http://128.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 }
 
@@ -177,6 +207,7 @@ upp(){
 	cd ~/.config
 	mv Brewfile ~/.Trash
 	brew bundle dump
+  zinit self-update && zinit update --parallel
 	cd ~
 	clear
 	echo "Upgrade completed"
@@ -198,6 +229,7 @@ up(){
 	cd ~/.config
 	mv Brewfile ~/.Trash
 	brew bundle dump
+  zinit self-update && zinit update --parallel
 	noproxy
 	cd ~
 	pip3 install --upgrade pip
@@ -205,6 +237,7 @@ up(){
 	sudo softwareupdate -i -a
 	clear
 	echo "Upgrade completed"
+	neofetch
 }
 
 
@@ -218,7 +251,11 @@ up(){
 alias zr='nvim ~/.config/zsh/zshrc'
 alias zsh='source ~/.zshrc'
 # export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
-alias l='ls -al'
+# alias l='ls -al'
+alias ls='exa'
+alias l='exa --long --all --git --icons --time-style iso'
+# alias cd='z'
+alias cat='bat'
 alias r=ranger
 alias i=ipython
 alias j=julia
@@ -241,7 +278,7 @@ alias H='cd ~'
 alias cc='cd ~/.config'
 alias D='cd ~/Desktop'
 
-alias zinit='zinit self-update && zinit update'
+alias zinit='zinit self-update && zinit update --parallel'
 
 alias o=joplin
 alias oe='joplin edit'
@@ -314,3 +351,13 @@ eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib=$HOME/perl5)"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="/usr/local/opt/libressl/bin:$PATH"
 # export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+### End of Zinit's installer chunk

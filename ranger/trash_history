@@ -54,3 +54,6 @@ trashed 'test' from_dir /Users/JiagengDing/hugo-blog/public/en/categories
 trashed 'zifeishan.github.com' from_dir /Users/JiagengDing/Downloads
 trashed 'lib' from_dir /Users/JiagengDing/.config/coc/extensions/node_modules/coc-prettier
 trashed 'coc-prettier' from_dir /Users/JiagengDing/.config/coc/extensions/node_modules
+trashed 'zinit' from_dir /Users/JiagengDing/.config
+trashed '.zinit' from_dir /Users/JiagengDing
+trashed '.zplug' from_dir /Users/JiagengDing
