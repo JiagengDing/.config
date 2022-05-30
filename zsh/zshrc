@@ -283,7 +283,7 @@ alias H='cd ~'
 alias cc='cd ~/.config'
 alias D='cd ~/Desktop'
 
-alias zinitup='zinit self-update && zinit update'
+alias zinitup='zinit self-update && zinit update --parallel'
 
 alias o=joplin
 alias oe='joplin edit'
