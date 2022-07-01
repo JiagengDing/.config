@@ -307,19 +307,19 @@ alias mycl='cleartrash'
 #替换rm指令移动文件到~/.trash/中
 deletefile()
 {
-   mv $@  /Users/JiagengDing/.Trash
+   mv $@  ~/.local/share/Trash/files
 }
 #显示~/.trash/中内容
 trashlist()
 {
    echo -e "\a[========================== ls trash ==========================]"
-   ls -ail  ~/.trash
+   ls -ail  ~/.local/share/Trash/files
    echo -e "\a[==========================  ls end ===========================]"
 }
 #将被删除文件还原到当前目录
 undeletefile()
 {
-   mv -i ~/.Trash/$@ ./
+   mv -i ~/.local/share/Trash/files/$@ ./
 }
 #清空回收站
 cleartrash()
@@ -327,13 +327,24 @@ cleartrash()
    echo -ne "\a[====================== Clear ~/.trash, Sure? =================] [y/n] >_"
    read confirm
    if [ $confirm == 'y' -o $confirm == 'Y' ] ;then
-      /bin/rm -rf ~/.Trash/*
-      /bin/rm -rf ~/.Trash/.* 2>/dev/null
+      /bin/rm -rf ~/.local/share/Trash/files/*
+      /bin/rm -rf ~/.local/share/Trash/files/.* 2>/dev/null
       echo -e "\a[===================== Clear Successfully =====================]\a"
    fi
 }
 # 结束
 
+
+# Load a few important annexes, without Turbo
+# (this is currently required for annexes)
+zinit light-mode for \
+    zdharma-continuum/zinit-annex-as-monitor \
+    zdharma-continuum/zinit-annex-bin-gem-node \
+    zdharma-continuum/zinit-annex-patch-dl \
+    zdharma-continuum/zinit-annex-rust
+
+### End of Zinit's installer chunk
+### End of Zinit's installer chunk
 
 # Load a few important annexes, without Turbo
 # (this is currently required for annexes)
