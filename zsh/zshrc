@@ -300,10 +300,10 @@ alias oh='joplin help all'
 alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
 #防止出现删除错误的问题
-alias rm='deletefile'
-alias rl='trashlist'
-alias ur='undeletefile'
-alias mycl='cleartrash'
+# alias rm='deletefile'
+# alias rl='trashlist'
+# alias ur='undeletefile'
+# alias mycl='cleartrash'
 #替换rm指令移动文件到~/.trash/中
 deletefile()
 {
@@ -355,3 +355,5 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 ### End of Zinit's installer chunk
+#
+PATH=$PATH:~/.local/bin
