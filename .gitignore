@@ -29,8 +29,7 @@ ranger/folders.conf
 !/vimium-options.json
 !/zsh
 !/i3status/
-!/mutt/
-/mutt/accounts/*
+/mutt/
 !/my-packages.txt
 !/jesseduffield/
 /jesseduffield/lazygit/*
@@ -43,6 +42,7 @@ ranger/plugins/__init__.pyo
 ranger/plugins/devicons.pyo
 ranger/plugins/devicons_linemode.pyo
 ranger/plugins/ranger_devicons
+ranger/trash_history
 !/pudb/
 /pudb/*
 !/pudb/pudb.cfg
