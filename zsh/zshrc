@@ -188,7 +188,7 @@ zinit wait lucid for \
 proxy () {
   # export all_proxy=socks5://127.0.0.1:1080
 	# export https_proxy=http://128.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 }
 
@@ -221,7 +221,7 @@ upp(){
 # homebrew upgrade
 up(){
 	# brew upgrade firefox brave-browser
-	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 	brew update
 	brew upgrade --greedy
@@ -229,7 +229,6 @@ up(){
 	# mas upgrade
 	brew cleanup
 	# npm install -g npm
-	sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
 	cnpm update joplin -g
 	cd ~/.config
 	mv Brewfile ~/.Trash
@@ -255,12 +254,11 @@ up(){
 # alias zshconfig="mate ~/.zshrc"
 alias zr='nvim ~/.config/zsh/zshrc'
 alias zsh='source ~/.zshrc'
-# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 # alias l='ls -al'
 alias ls='exa'
 alias l='exa --long --all --git --time-style iso'
 # alias cd='z'
-alias cat='bat'
+# alias cat='bat'
 alias r=ranger
 alias i=ipython
 alias j=julia
@@ -300,10 +298,10 @@ alias oh='joplin help all'
 alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
 #防止出现删除错误的问题
-alias rm='deletefile'
-alias rl='trashlist'
-alias ur='undeletefile'
-alias mycl='cleartrash'
+# alias rm='deletefile'
+# alias rl='trashlist'
+# alias ur='undeletefile'
+# alias mycl='cleartrash'
 #替换rm指令移动文件到~/.trash/中
 deletefile()
 {
