@@ -188,7 +188,7 @@ zinit wait lucid for \
 proxy () {
   # export all_proxy=socks5://127.0.0.1:1080
 	# export https_proxy=http://128.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
-	export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 all_proxy=socks5://127.0.0.1:7890
+	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 }
 
@@ -260,7 +260,7 @@ alias zsh='source ~/.zshrc'
 alias ls='exa'
 alias l='exa --long --all --git --time-style iso'
 # alias cd='z'
-alias cat='bat'
+# alias cat='bat'
 alias r=ranger
 alias i=ipython
 alias j=julia
@@ -300,7 +300,7 @@ alias oh='joplin help all'
 alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
 #防止出现删除错误的问题
-alias rm='deletefile'
+# alias rm='deletefile'
 alias rl='trashlist'
 alias ur='undeletefile'
 alias mycl='cleartrash'
