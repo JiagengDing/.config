@@ -221,8 +221,8 @@ upp(){
 # homebrew upgrade
 up(){
 	# brew upgrade firefox brave-browser
-	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
-  echo "Proxy on"
+	# export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
+  # echo "Proxy on"
 	brew update
 	brew upgrade --greedy
 	brew cu -a -y

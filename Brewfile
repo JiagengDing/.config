@@ -126,6 +126,7 @@ cask "microsoft-teams"
 cask "motrix"
 cask "neteasemusic"
 cask "netnewswire"
+cask "nextcloud"
 cask "obs"
 cask "obsidian"
 cask "omnidisksweeper"
@@ -140,10 +141,11 @@ cask "quicklookase"
 cask "r"
 cask "raycast"
 cask "secretive"
+cask "signal"
 cask "skim"
 cask "spotify"
 cask "stats"
-cask "sublime-text"
+cask "steam"
 cask "suspicious-package"
 cask "telegram-desktop"
 cask "tencent-meeting"
@@ -156,24 +158,25 @@ cask "virtualbox"
 cask "visual-studio-code"
 cask "webpquicklook"
 cask "zotero"
+mas "AdGuard for Safari", id: 1440147259
 mas "CAJ云阅读", id: 1121965993
 mas "CHM Viewer Star", id: 650683226
 mas "Cubox", id: 1113361350
 mas "Cubox for Safari", id: 1550721541
 mas "Grammarly for Safari", id: 1462114288
 mas "Home Assistant", id: 1099568401
-mas "iMovie 剪辑", id: 408981434
+mas "iMovie", id: 408981434
 mas "Insomniac", id: 1434172648
+mas "iRightMouse", id: 1497428978
 mas "iShot", id: 1485844094
-mas "Keynote 讲演", id: 409183694
+mas "Keynote", id: 409183694
 mas "MarginNote 3", id: 1423522373
 mas "Mathpix Snipping Tool", id: 1349670778
-mas "Numbers 表格", id: 409203825
+mas "Numbers", id: 409203825
 mas "Octotree", id: 1457450145
 mas "OneDrive", id: 823766827
-mas "Pages 文稿", id: 409201541
+mas "Pages", id: 409201541
 mas "QQ", id: 451108668
-mas "Rayon", id: 1609781496
 mas "Save to Pocket", id: 1477385213
 mas "SimpleLogin", id: 1494051017
 mas "Tab Space", id: 1473726602
@@ -181,10 +184,8 @@ mas "Table Tool", id: 1122008420
 mas "Tencent Lemon Lite", id: 1449962996
 mas "Termius", id: 1176074088
 mas "Vimari", id: 1480933944
+mas "WeChat", id: 836500024
 mas "WidsMob Denoise", id: 1393718073
-mas "万得股票", id: 1271308896
+mas "Wind Stock", id: 1271308896
 mas "同花顺", id: 1247341465
-mas "微信", id: 836500024
 mas "每日英语听力", id: 734383760
-mas "谜底时钟", id: 1536358464
-mas "超级右键", id: 1497428978
