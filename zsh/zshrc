@@ -200,22 +200,50 @@ noproxy () {
   echo "Proxy off"
 }
 
-# homebrew upgrade
+# arch upgrade
+archup(){
+	sudo pacman -Syyu
+  zinit self-update && zinit update
+	pip install --upgrade pip
+	pip-review --auto
+	cd .config && git pull
+	cd nvim && git pull
+	cd ~
+	neofetch
+}
+
+# debian upgrade
+debup(){
+	sudo apt update && sudo apt upgrade
+  zinit self-update && zinit update
+	pip install --upgrade pip
+	pip-review --auto
+	cd .config && git pull
+	cd nvim && git pull
+	cd ~
+	neofetch
+}
+
+# mac upgrade
 upp(){
-	brew update
-	brew upgrade
+	brew update && brew upgrade
 	brew cu -a -y
 	# mas upgrade
 	brew cleanup
 	npm install -g npm
-	cnpm update joplin -g
+	# cnpm update joplin -g
 	cd ~/.config
 	mv Brewfile ~/.Trash
 	brew bundle dump
   zinit self-update && zinit update
 	cd ~
-	clear
+	pip install --upgrade pip
+	pip-review --auto
+	cd .config && git pull
+	cd nvim && git pull
+	cd ~
 	echo "Upgrade completed"
+	neofetch
 }
 
 # homebrew upgrade
