@@ -272,7 +272,7 @@ alias vim=nvim
 alias ml='matlab -nodesktop -nosplash'
 
 alias lg='lazygit'
-alias gp='proxy && git push'
+alias gp='git push'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'

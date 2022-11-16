@@ -60,7 +60,7 @@ bindsym $mod+Ctrl+m exec alacritty -e 'alsamixer'
 
 # Start Applications
 bindsym $mod+Ctrl+b exec alacritty -e 'bmenu'
-bindsym $mod+c exec google-chrome-stable
+bindsym $mod+c exec firefox
 bindsym $mod+d exec pcmanfm
 # bindsym $mod+F3 exec ranger
 #bindsym $mod+d exec gksu pcmanfm
