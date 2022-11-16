@@ -272,7 +272,7 @@ alias vim=nvim
 alias ml='matlab -nodesktop -nosplash'
 
 alias lg='lazygit'
-alias gp='proxy && git push'
+alias gp='git push'
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
@@ -299,9 +299,9 @@ alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
 #防止出现删除错误的问题
 # alias rm='deletefile'
-# alias rl='trashlist'
-# alias ur='undeletefile'
-# alias mycl='cleartrash'
+alias rl='trashlist'
+alias ur='undeletefile'
+alias mycl='cleartrash'
 #替换rm指令移动文件到~/.trash/中
 deletefile()
 {
