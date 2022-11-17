@@ -19,12 +19,13 @@ order += "cpu_usage"
 order += "cpu_temperature 0"
 order += "disk /"
 # order += "disk /home"
-order += "wireless _first_"
+order += "wireless wlo1"
 #order += "ethernet _first_"
 #order += "battery all"
 #order += "load"
 order += "memory"
 order += "tztime local"
+# order += "tztime Shanghai"
 
 cpu_usage {
 	format = "🚀 %usage "
@@ -40,6 +41,11 @@ load {
 disk "/" {
 # format = " hdd %avail "
 	format = " ⛁ %avail "
+}
+
+wireless wlo1 {
+        format_up = "W: %essid %bitrate"
+        format_down = "no wireless"
 }
 
 ethernet _first_ {
@@ -76,4 +82,11 @@ memory {
 tztime local {
 	format = " 📅 %Y-%m-%d  🕑 %H:%M   "
 #format = " %d.%m. %H:%M "
+}
+
+tztime Shanghai {
+        format = "time: %H:%M "
+        format_time = " %H:%M "
+        timezone = "Asia/Shanghai"
+        hide_if_equals_localtime = true
 }

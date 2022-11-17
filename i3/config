@@ -27,7 +27,7 @@ hide_edge_borders none
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec st
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -382,7 +382,7 @@ bar {
  #background #222D31
  #statusline #F9FAF9
  #separator  #454947
-			background #222222
+			background #282A36
 			statusline #eeeeee
 			separator #666666
 
