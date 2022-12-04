@@ -62,6 +62,7 @@ bindsym $mod+Ctrl+m exec alacritty -e 'alsamixer'
 bindsym $mod+Ctrl+b exec alacritty -e 'bmenu'
 bindsym $mod+c exec firefox
 bindsym $mod+d exec pcmanfm
+bindsym $mod+l exec i3lock -i ~/Wallpaper/lock/lock.png
 # bindsym $mod+F3 exec ranger
 #bindsym $mod+d exec gksu pcmanfm
 bindsym $mod+F5 exec alacritty -e 'mocp'
@@ -79,8 +80,8 @@ bindsym $mod+b exec variety -n
 bindsym $mod+shift+b exec variety -p
 
 # Switching keyboard layouts
-bindsym $mod+Shift+k exec xmodmap ~/.Xmodmap-cn
-bindsym $mod+Shift+m exec xmodmap ~/.Xmodmap
+# bindsym $mod+Shift+k exec xmodmap ~/.Xmodmap-cn
+# bindsym $mod+Shift+m exec xmodmap ~/.Xmodmap
 
 # focus_follows_mouse no
 
@@ -321,12 +322,8 @@ exec fcitx5
 #exec_always --no-startup-id ~/.config/i3/tap-to-click.sh
 exec --no-startup-id ~/.config/i3/inverse-scroll.sh
 # exec --no-startup-id feh --bg-scale "/usr/share/backgrounds/wallpapers-2018/mountains-1412683.jpg
-# exec --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id $HOME/.config/polybar/launch.sh --hack
 # finds out, if available)
-# bar {
-#     i3bar_command $HOME/.config/polybar/launch.sh
-#
-# }
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -364,37 +361,37 @@ set_from_resource $term_color15    color15
 #status_command ~/cmake-apps/bumblebee-status/bumblebee-status -m cpu memory battery time pasink pasource -p time.format="%H:%M" -t iceberg-powerline
 #}
 
-bar {
-	id bar-1
-		i3bar_command i3bar
-		status_command i3status
-		position top
-
-## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
-#	tray_output primary
-#	tray_output eDP1
-
-		bindsym button4 nop
-		bindsym button5 nop
-		font xft:URWGothic-Book 15
-		strip_workspace_numbers yes
-
-		colors {
- #background #222D31
- #statusline #F9FAF9
- #separator  #454947
-			background #282A36
-			statusline #eeeeee
-			separator #666666
-
-#                      border  backgr. text
-				focused_workspace  #F9FAF9 #16a085 #292F34
-				active_workspace   #595B5B #353836 #FDF6E3
-				inactive_workspace #595B5B #222D31 #EEE8D5
-				binding_mode       #16a085 #2C2C2C #F9FAF9
-				urgent_workspace   #16a085 #FDF6E3 #E5201D
-		}
-}
+# bar {
+#   id bar-1
+#     i3bar_command i3bar
+#     status_command i3status
+#     position top
+#
+# ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
+# #	tray_output primary
+# #	tray_output eDP1
+#
+#     bindsym button4 nop
+#     bindsym button5 nop
+#     font xft:URWGothic-Book 15
+#     strip_workspace_numbers yes
+#
+#     colors {
+#  #background #222D31
+#  #statusline #F9FAF9
+#  #separator  #454947
+#       background #282A36
+#       statusline #eeeeee
+#       separator #666666
+#
+# #                      border  backgr. text
+#         focused_workspace  #F9FAF9 #16a085 #292F34
+#         active_workspace   #595B5B #353836 #FDF6E3
+#         inactive_workspace #595B5B #222D31 #EEE8D5
+#         binding_mode       #16a085 #2C2C2C #F9FAF9
+#         urgent_workspace   #16a085 #FDF6E3 #E5201D
+#     }
+# }
 
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
