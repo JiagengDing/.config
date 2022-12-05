@@ -10,6 +10,7 @@
 
 !/i3/
 !/polybar/
+!/variety/variety.conf
 !/ranger/
 ranger/__pycache__/
 ranger/plugins/__pycache__/*
