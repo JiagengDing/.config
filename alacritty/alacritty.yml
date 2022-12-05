@@ -3,18 +3,18 @@
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
 # set by alacritty itself.
-env:
+# env:
   # TERM variable
   #
   # This value is used to set the `$TERM` environment variable for
   # each instance of Alacritty. If it is not present, alacritty will
   # check the local terminfo database and use `alacritty` if it is
   # available, otherwise `xterm-256color` is used.
-  TERM: xterm-256color
+  # TERM: xterm-256color
   #WINIT_X11_SCALE_FACTOR: '2.0'
 
-hide_cursor_when_typing: true
-window.opacity: 0.8
+mouse:
+  hide_when_typing: true
 
 window:
   # Window dimensions (changes require restart)
@@ -25,6 +25,7 @@ window:
     columns: 120
     lines: 50
 
+  opacity: 1.0
   # Window position (changes require restart)
   #
   # Specified in number of pixels.
@@ -275,7 +276,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-# background_opacity: 1
+# background_opacity: 0.6
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"

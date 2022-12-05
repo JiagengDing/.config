@@ -63,7 +63,7 @@ bindsym $mod+Ctrl+b exec alacritty -e 'bmenu'
 bindsym $mod+c exec firefox
 bindsym $mod+d exec pcmanfm
 bindsym $mod+l exec i3lock -i ~/Wallpaper/lock/lock.png
-# bindsym $mod+F3 exec ranger
+bindsym $mod+m exec ranger
 #bindsym $mod+d exec gksu pcmanfm
 bindsym $mod+F5 exec alacritty -e 'mocp'
 #bindsym $mod+t exec --no-startup-id pkill compton
@@ -394,7 +394,7 @@ set_from_resource $term_color15    color15
 # }
 
 # hide/unhide i3status bar
-bindsym $mod+m bar mode toggle
+# bindsym $mod+m bar mode toggle
 
 # Theme colors
 # class                   border  backgr. text    indic.   child_border
