@@ -208,7 +208,8 @@ archup(){
 	pip-review --auto
 	cd .config && git pull
 	mv arch-pkglist ~/.Trash
-	comm -23 <(yay -Qeq|sort) <(yay -Qmq|sort) > arch-pkglist
+	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > official-arch-pkglist
+	(yay -Qeq|sort) > all-arch-pkglist
 	cd nvim && git pull
 	cd ~
 	neofetch
