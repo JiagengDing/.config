@@ -207,6 +207,8 @@ archup(){
 	pip install --upgrade pip
 	pip-review --auto
 	cd .config && git pull
+	mv arch-pkglist ~/.Trash
+	comm -23 <(yay -Qeq|sort) <(yay -Qmq|sort) > arch-pkglist
 	cd nvim && git pull
 	cd ~
 	neofetch

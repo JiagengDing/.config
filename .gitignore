@@ -8,6 +8,7 @@
 !/.latexmkrc
 !/.p10k.zsh
 
+!/arch-pkglist
 !/i3/
 !/polybar/
 !/variety/variety.conf
