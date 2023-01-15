@@ -204,12 +204,12 @@ noproxy () {
 archup(){
 	sudo pacman -Syyu
   zinit self-update && zinit update
-	pip install --upgrade pip
+	pip install --upgrade pip pip-review
 	pip-review --auto
 	cd .config && git pull
-	mv arch-pkglist ~/.Trash
 	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > official-arch-pkglist
 	(yay -Qeq|sort) > all-arch-pkglist
+	pip list > python-pkglist
 	cd nvim && git pull
 	cd ~
 	neofetch
@@ -299,6 +299,7 @@ alias c='clear'
 # alias pr='export ALL_PROXY=socks5://127.0.0.1:1080'
 
 alias s=neofetch
+alias vi=/bin/vim
 alias vim=nvim
 alias ml='matlab -nodesktop -nosplash'
 
@@ -327,6 +328,8 @@ alias oss='joplin sync'
 alias oh='joplin help all'
 
 alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
+
+alias b2='backblaze-b2'
 
 #防止出现删除错误的问题
 # alias rm='deletefile'
