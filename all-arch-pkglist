@@ -72,6 +72,7 @@ noto-fonts-sc
 npm
 ntfs-3g
 nutstore
+obsidian
 onedrive
 openssh
 os-prober
@@ -182,4 +183,5 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+zotero
 zsh
