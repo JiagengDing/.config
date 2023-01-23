@@ -37,7 +37,7 @@ brew "hexo"
 brew "hugo"
 brew "imagemagick"
 brew "iperf3"
-brew "ipython"
+brew "ipython", link: false
 brew "isync"
 brew "lastpass-cli"
 brew "lazygit"
@@ -65,6 +65,7 @@ brew "sbcl"
 brew "speedtest-cli"
 brew "subversion"
 brew "syncthing", restart_service: true
+brew "texlive"
 brew "the_silver_searcher"
 brew "tmux"
 brew "translate-shell"
@@ -130,6 +131,7 @@ cask "nextcloud"
 cask "obs"
 cask "obsidian"
 cask "omnidisksweeper"
+cask "onedrive"
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
@@ -146,7 +148,10 @@ cask "skim"
 cask "spotify"
 cask "stats"
 cask "steam"
+cask "sublime-text"
 cask "suspicious-package"
+cask "tableau"
+cask "tableau-prep"
 cask "telegram-desktop"
 cask "tencent-meeting"
 cask "thunderbird"
@@ -156,6 +161,7 @@ cask "ubersicht"
 cask "upic"
 cask "virtualbox"
 cask "visual-studio-code"
+cask "warp"
 cask "webpquicklook"
 cask "zotero"
 mas "AdGuard for Safari", id: 1440147259
@@ -164,7 +170,6 @@ mas "CHM Viewer Star", id: 650683226
 mas "Cubox", id: 1113361350
 mas "Cubox for Safari", id: 1550721541
 mas "Grammarly for Safari", id: 1462114288
-mas "Home Assistant", id: 1099568401
 mas "iMovie", id: 408981434
 mas "Insomniac", id: 1434172648
 mas "iRightMouse", id: 1497428978
@@ -174,7 +179,6 @@ mas "MarginNote 3", id: 1423522373
 mas "Mathpix Snipping Tool", id: 1349670778
 mas "Numbers", id: 409203825
 mas "Octotree", id: 1457450145
-mas "OneDrive", id: 823766827
 mas "Pages", id: 409201541
 mas "QQ", id: 451108668
 mas "Save to Pocket", id: 1477385213
