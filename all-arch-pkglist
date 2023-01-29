@@ -6,6 +6,7 @@ adobe-source-han-serif-cn-fonts
 adobe-source-sans-fonts
 adobe-source-serif-fonts
 alacritty
+alsa-utils-git
 autoconf
 automake
 backblaze-b2
@@ -17,6 +18,7 @@ bluez
 bluez-utils
 chromium
 clipmenu
+code-marketplace
 coreshot
 debugedit
 deepin-wine-wechat
@@ -36,6 +38,7 @@ feh
 firefox
 flex
 font-manager
+frpc
 gcc
 geeqie
 git
@@ -84,7 +87,7 @@ pcmanfm
 picom
 pkgconf
 polybar
-pycharm-community-edition
+pycharm-professional
 python-pip
 ranger
 redshift
@@ -125,7 +128,9 @@ udevil
 unzip
 variety
 vim
+visual-studio-code-bin
 vlc
+vscodium
 w3m
 web-greeter
 wget

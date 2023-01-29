@@ -284,7 +284,7 @@ up(){
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 alias zr='nvim ~/.config/zsh/zshrc'
-alias zsh='source ~/.zshrc'
+alias szr='source ~/.zshrc'
 # alias l='ls -al'
 alias ls='exa'
 alias l='exa --long --all --git --time-style iso'

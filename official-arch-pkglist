@@ -12,13 +12,17 @@ bison
 bluedevil
 bluez
 bluez-utils
+cbindgen
 chromium
+clang
 clipmenu
+compiler-rt
 debugedit
 dhcpcd
 dialog
 digikam
 dmenu
+dump_syms
 dunst
 efibootmgr
 exa
@@ -39,6 +43,8 @@ hugo
 i3blocks
 i3status
 i3-wm
+imake
+inetutils
 intel-ucode
 ipython
 jq
@@ -70,7 +76,6 @@ pcmanfm
 picom
 pkgconf
 polybar
-pycharm-community-edition
 python-pip
 ranger
 redshift
