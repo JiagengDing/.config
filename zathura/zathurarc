@@ -1,0 +1,34 @@
+# GENERAL SETTINGS
+# ----------------
+set window-title-basename true
+set statusbar-home-tilde  true
+#set recolor               true
+set selection-clipboard   clipboard
+
+
+# LAYOUT SETTINGS
+# ---------------
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set show-scrollbars     false
+
+
+# KEY MAPPINGS
+# ------------
+map u scroll up
+map U scroll half-up
+map e scroll down
+map E scroll half-down
+map n scroll left
+map i scroll right
+
+
+map = zoom in
+map - zoom out
+map R rotate
+
+map D toggle_page_mode
+
+map r reload
+map p print
+map Q quit
