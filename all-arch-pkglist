@@ -19,6 +19,7 @@ bluez-utils
 chromium
 clipmenu
 code-marketplace
+code-server
 coreshot
 debugedit
 deepin-wine-wechat
@@ -26,6 +27,8 @@ dhcpcd
 dialog
 digikam
 dmenu
+docker
+docker-compose
 dunst
 efibootmgr
 exa
@@ -57,6 +60,7 @@ jq
 keepassxc
 libimobiledevice
 libreoffice-fresh
+librewolf-bin
 libtool
 lightdm
 lightdm-web-greeter-theme-arch
@@ -65,11 +69,13 @@ linux
 linux-firmware
 m4
 make
+miniconda3
 mpd
 neofetch
 neovim
 netctl
 net-tools
+nginx
 nodejs-lts-hydrogen
 noto-fonts-sc
 npm
@@ -81,7 +87,7 @@ openssh
 os-prober
 p7zip
 pamac-aur
-pandoc
+pandoc-cli
 patch
 pcmanfm
 picom
@@ -92,7 +98,9 @@ python-pip
 ranger
 redshift
 rofi
+rustdesk-bin
 signal-desktop
+snapd
 sublime-text-4
 sudo
 supervisor
@@ -188,5 +196,7 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 yay
+zathura
+zathura-pdf-poppler
 zotero
 zsh

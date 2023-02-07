@@ -12,17 +12,15 @@ bison
 bluedevil
 bluez
 bluez-utils
-cbindgen
 chromium
-clang
 clipmenu
-compiler-rt
 debugedit
 dhcpcd
 dialog
 digikam
 dmenu
-dump_syms
+docker
+docker-compose
 dunst
 efibootmgr
 exa
@@ -43,8 +41,6 @@ hugo
 i3blocks
 i3status
 i3-wm
-imake
-inetutils
 intel-ucode
 ipython
 jq
@@ -63,6 +59,7 @@ neofetch
 neovim
 netctl
 net-tools
+nginx
 nodejs-lts-hydrogen
 npm
 ntfs-3g
@@ -70,7 +67,7 @@ obsidian
 openssh
 os-prober
 p7zip
-pandoc
+pandoc-cli
 patch
 pcmanfm
 picom
@@ -164,4 +161,6 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
+zathura
+zathura-pdf-poppler
 zsh
