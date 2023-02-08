@@ -85,7 +85,8 @@ archup(){
 
 # debian upgrade
 debup(){
-	sudo apt update && sudo apt upgrade
+	sudo apt update && sudo apt upgrade -y
+	sudo apt autoremove
   zinit self-update && zinit update
 	pip install --upgrade pip
 	pip-review --auto
