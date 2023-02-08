@@ -1,15 +1,14 @@
-##################################3
+##################################
 # Zinit Config
-#################################33
+##################################
 
-[[ ! -f ~/.config/.p10k.zsh ]] || source ~/.config/.p10k.zsh
+[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 # A. Load without Turbo mode
 setopt promptsubst
 
 zinit ice depth=1
 zinit light romkatv/powerlevel10k
-
 zinit snippet OMZL::history.zsh
 
 zinit light-mode for \
@@ -61,7 +60,5 @@ zinit as"null" wait"2" lucid from"gh-r" for \
     mv"fd* -> fd" sbin"fd/fd"  @sharkdp/fd \
     sbin"fzf"  junegunn/fzf-bin
 
-
-#
 # zinit ice svn
 # zinit snippet OMZP::extract
