@@ -18,6 +18,9 @@ alias vi=/bin/vim
 alias vim=nvim
 alias ml='matlab -nodesktop -nosplash'
 
+##############
+# git
+##############
 alias lg='lazygit'
 alias gp='git push'
 alias gs='git status'
@@ -30,6 +33,9 @@ alias D='cd ~/Desktop'
 
 alias zinitup='zinit self-update && zinit update --parallel'
 
+###############
+## joplin
+###############
 alias o=joplin
 alias oe='joplin edit'
 alias oc='joplin cat'
@@ -41,6 +47,15 @@ alias oo='joplin mknote `date +%Y/%m/%d`'
 alias ol='joplin ls -l'
 alias oss='joplin sync'
 alias oh='joplin help all'
+
+
+###############
+## tmux
+###############
+alias tnew='tmux new -s '
+alias tl='tmux ls'
+alias tn='tmux rename -t'
+
 
 alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
