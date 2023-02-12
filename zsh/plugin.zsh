@@ -52,6 +52,8 @@ zinit light sharkdp/bat
 
 # E. Load after 1 or 2 seconds
 zinit wait"1" lucid for \
+	  OMZP::extract \
+		OMZP::command-not-found \
   	hlissner/zsh-autopair \
   	skywind3000/z.lua
 
