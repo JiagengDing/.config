@@ -31,6 +31,7 @@ docker
 docker-compose
 dunst
 efibootmgr
+element-desktop
 exa
 fakeroot
 fcitx5-configtool
@@ -53,7 +54,6 @@ i3lock-fancy-git
 i3status
 i3-wm
 intel-ucode
-ios-emoji
 ipython
 jetbrains-fleet
 jq
@@ -77,6 +77,7 @@ netctl
 net-tools
 nginx
 nodejs-lts-hydrogen
+noto-fonts-emoji
 noto-fonts-sc
 npm
 ntfs-3g
@@ -141,6 +142,7 @@ vlc
 vscodium
 w3m
 web-greeter
+weechat-matrix-rs-git
 wget
 which
 wpa_supplicant

@@ -23,6 +23,7 @@ docker
 docker-compose
 dunst
 efibootmgr
+element-desktop
 exa
 fakeroot
 fcitx5-configtool
@@ -61,6 +62,7 @@ netctl
 net-tools
 nginx
 nodejs-lts-hydrogen
+noto-fonts-emoji
 npm
 ntfs-3g
 obsidian
