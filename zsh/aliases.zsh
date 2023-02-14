@@ -118,13 +118,13 @@ upp(){
 	brew cu -a -y
 	# mas upgrade
 	brew cleanup
-	npm install -g npm
+	# npm install -g npm
 	# cnpm update joplin -g
-	cd ~/.config
+	cd ~/.config/pkg-backup/
 	mv Brewfile ~/.Trash
 	brew bundle dump
-  zinit self-update && zinit update
 	cd ~
+  zinit self-update && zinit update
 	pip install --upgrade pip
 	pip-review --auto
 	cd .config && git pull
