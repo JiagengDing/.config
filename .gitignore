@@ -8,8 +8,6 @@
 !/.latexmkrc
 !/.p10k.zsh
 
-!/official-arch-pkglist
-!/all-arch-pkglist
 !/i3/
 !/polybar/
 !/variety/variety.conf
@@ -23,6 +21,7 @@ ranger/folders.conf
 !/fish/
 !/neofetch/
 !/omf/
+!/pkg-backup/
 !/compton.conf
 !/.Xmodmap
 !/.Xmodmap-cn

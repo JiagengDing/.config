@@ -38,6 +38,7 @@ gcc
 geeqie
 git
 grub
+htop
 hugo
 i3blocks
 i3status
@@ -97,6 +98,7 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texlive-science
+tmux
 ttf-droid
 ttf-fira-code
 ttf-firacode-nerd

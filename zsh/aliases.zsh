@@ -86,13 +86,14 @@ noproxy () {
 # arch upgrade
 archup(){
 	sudo pacman -Syyu
+	yay -Syu
   zinit self-update && zinit update
 	pip install --upgrade pip pip-review
 	pip-review --auto
 	cd .config && git pull
-	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > official-arch-pkglist
-	(yay -Qeq|sort) > all-arch-pkglist
-	pip list > python-pkglist
+	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > pkg-backup/official-arch-pkglist
+	(yay -Qeq|sort) > pkg-backup/all-arch-pkglist
+	pip list > pkg-backup/python-pkglist
 	cd nvim && git pull
 	cd ~
 	neofetch

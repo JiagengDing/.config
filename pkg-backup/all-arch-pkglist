@@ -47,6 +47,7 @@ gcc
 geeqie
 git
 grub
+htop
 hugo
 i3blocks
 i3lock-color
@@ -120,6 +121,7 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 texlive-science
+tmux
 tor-browser
 ttf-droid
 ttf-fira-code
