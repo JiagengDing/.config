@@ -1,5 +1,5 @@
 Package                       Version
------------------------------ -----------
+----------------------------- ----------
 absl-py                       1.4.0
 abydos                        0.5.0
 aiofiles                      23.1.0
@@ -64,7 +64,7 @@ dill                          0.3.6
 distlib                       0.3.6
 docstring-to-markdown         0.11
 docutils                      0.19
-dulwich                       0.21.2
+dulwich                       0.21.3
 entrypoints                   0.4
 eth-abi                       3.0.1
 eth-account                   0.8.0
@@ -85,7 +85,7 @@ fqdn                          1.5.1
 frozenlist                    1.3.3
 future                        0.18.3
 gast                          0.5.3
-google-auth                   2.16.0
+google-auth                   2.16.1
 google-auth-oauthlib          1.0.0
 google-pasta                  0.2.0
 grpcio                        1.51.1
@@ -125,12 +125,12 @@ joblib                        1.2.0
 json5                         0.9.11
 jsonpointer                   2.3
 jsonschema                    4.17.3
-jupyter_client                8.0.2
+jupyter_client                8.0.3
 jupyter_core                  5.2.0
 jupyter-events                0.6.3
 jupyter_packaging             0.12.3
-jupyter_server                2.2.1
-jupyter_server_fileid         0.6.0
+jupyter_server                2.3.0
+jupyter_server_fileid         0.7.0
 jupyter_server_terminals      0.4.4
 jupyter_server_ydoc           0.7.0
 jupyter-ydoc                  0.3.1
@@ -166,7 +166,7 @@ msgpack                       1.0.4
 multiaddr                     0.0.9
 multidict                     6.0.4
 mypy-extensions               1.0.0
-nbclassic                     0.5.1
+nbclassic                     0.5.2
 nbclient                      0.7.2
 nbconvert                     7.2.9
 nbformat                      5.7.3
@@ -198,7 +198,7 @@ pexpect                       4.8.0
 phx-class-registry            4.0.6
 pickleshare                   0.7.5
 Pillow                        9.4.0
-pip                           23.0
+pip                           23.0.1
 pip-review                    1.3.0
 pkginfo                       1.9.6
 platformdirs                  3.0.0
@@ -209,10 +209,11 @@ poetry-plugin-export          1.3.0
 pretty-errors                 1.2.25
 prometheus-client             0.16.0
 prompt-toolkit                3.0.36
-protobuf                      4.21.12
+protobuf                      4.22.0
 psutil                        5.9.4
 ptyprocess                    0.7.0
 pure-eval                     0.2.2
+py-solc-x                     1.1.1
 pyasn1                        0.4.8
 pyasn1-modules                0.2.8
 pycairo                       1.23.0
@@ -220,7 +221,7 @@ pycodestyle                   2.10.0
 pycparser                     2.21
 pycryptodome                  3.17
 pycurl                        7.45.2
-pydantic                      1.10.4
+pydantic                      1.10.5
 pydocstyle                    6.3.0
 pyflakes                      3.0.1
 Pygments                      2.14.0
@@ -239,7 +240,7 @@ PyQt5-sip                     12.11.1
 PyQtWebEngine                 5.15.6
 pyrsistent                    0.19.3
 python-dateutil               2.8.2
-python-json-logger            2.0.5
+python-json-logger            2.0.6
 python-lsp-black              1.2.1
 python-lsp-jsonrpc            1.0.0
 python-lsp-server             1.7.1
@@ -279,8 +280,9 @@ scikit-learn                  1.2.1
 scipy                         1.10.0
 seaborn                       0.12.2
 SecretStorage                 3.3.3
+semantic-version              2.10.0
 Send2Trash                    1.8.0
-setuptools                    67.3.1
+setuptools                    67.3.2
 setuptools-scm                7.1.0
 shellingham                   1.5.1
 six                           1.16.0
@@ -288,7 +290,7 @@ sklearn                       0.0.post1
 sniffio                       1.3.0
 snowballstemmer               2.2.0
 sortedcontainers              2.4.0
-soupsieve                     2.3.2.post1
+soupsieve                     2.4
 Sphinx                        6.1.3
 sphinxcontrib-applehelp       1.0.4
 sphinxcontrib-devhelp         1.0.2
@@ -326,7 +328,7 @@ tornado                       6.2
 tqdm                          4.64.1
 traitlets                     5.9.0
 trove-classifiers             2023.2.8
-typing_extensions             4.4.0
+typing_extensions             4.5.0
 uc-micro-py                   1.0.1
 ujson                         5.7.0
 unpaddedbase64                2.1.0
@@ -345,7 +347,7 @@ webcolors                     1.12
 webencodings                  0.5.1
 websocket-client              1.5.1
 websockets                    10.4
-Werkzeug                      2.2.2
+Werkzeug                      2.2.3
 whatthepatch                  1.0.4
 wheel                         0.38.4
 wrapt                         1.14.1
@@ -354,4 +356,4 @@ y-py                          0.5.5
 yapf                          0.32.0
 yarl                          1.8.2
 ypy-websocket                 0.8.2
-zipp                          3.13.0
+zipp                          3.14.0
