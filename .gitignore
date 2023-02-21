@@ -23,6 +23,7 @@ ranger/folders.conf
 !/omf/
 !/pkg-backup/
 !/compton.conf
+!/scripts/
 !/.Xmodmap
 !/.Xmodmap-cn
 !/.zshrc

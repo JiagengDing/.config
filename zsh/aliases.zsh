@@ -86,8 +86,11 @@ noproxy () {
 # arch upgrade
 archup(){
 	sudo pacman -Syyu
+	sudo pacman -Scc
+  sudo pacman -Rns $(pacman -Qtdq) # Remove unused packages
+  sudo updatedb # Update mlocate database
 	yay -Syu
-  zinit self-update && zinit update
+  zinit self-update && zinit update --parallel
 	pip install --upgrade pip pip-review
 	pip-review --auto
 	cd .config && git pull
@@ -99,11 +102,30 @@ archup(){
 	neofetch
 }
 
+
+# Clean arch shit files
+archclean(){
+  echo ''
+  echo '====== rmshit ====='
+  echo ''
+	cd .config/scripts/
+  if [  -f rmshit.py ]; then
+     python rmshit.py
+  else
+  echo "rmshit.py not found!"
+  echo 'Downloading....'
+  echo ''
+  sudo curl -O https://raw.githubusercontent.com/lahwaacz/Scripts/master/rmshit.py
+     python rmshit.py
+  fi
+	cd ~
+}
+
 # debian upgrade
 debup(){
 	sudo apt update && sudo apt upgrade -y
 	sudo apt autoremove
-  zinit self-update && zinit update
+  zinit self-update && zinit update --parallel
 	pip install --upgrade pip
 	pip-review --auto
 	cd .config && git pull
@@ -124,7 +146,7 @@ upp(){
 	mv Brewfile ~/.Trash
 	brew bundle dump
 	cd ~
-  zinit self-update && zinit update
+  zinit self-update && zinit update --parallel
 	pip install --upgrade pip
 	pip-review --auto
 	cd .config && git pull
