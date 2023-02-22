@@ -1,14 +1,13 @@
 Package                      Version
 ---------------------------- ----------
 absl-py                      1.4.0
-aiofiles                     22.1.0
+aiofiles                     23.1.0
 aiohttp                      3.8.4
 aiosignal                    1.3.1
 aiosqlite                    0.18.0
 alabaster                    0.7.13
 anyio                        3.6.2
 apparmor                     3.1.2
-appdirs                      1.4.4
 argon2-cffi                  21.3.0
 argon2-cffi-bindings         21.2.0
 arrow                        1.2.3
@@ -17,7 +16,6 @@ asttokens                    2.2.1
 astunparse                   1.6.3
 async-generator              1.10
 async-timeout                4.0.2
-atomicwrites                 1.4.1
 attrs                        22.2.0
 autocommand                  2.2.2
 autopep8                     2.0.1
@@ -31,6 +29,7 @@ bitarray                     2.7.3
 black                        23.1.0
 bleach                       6.0.0
 btrfsutil                    6.1.3
+build                        0.10.0
 CacheControl                 0.12.11
 cachetools                   5.3.0
 certifi                      2022.12.7
@@ -68,7 +67,6 @@ evdev                        1.6.1
 executing                    1.2.0
 fastjsonschema               2.16.2
 filelock                     3.9.0
-flake8                       6.0.0
 flatbuffers                  23.1.21
 fonttools                    4.38.0
 fqdn                         1.5.1
@@ -78,7 +76,7 @@ gast                         0.5.3
 google-auth                  2.16.1
 google-auth-oauthlib         1.0.0
 google-pasta                 0.2.0
-grpcio                       1.51.1
+grpcio                       1.51.3
 h11                          0.14.0
 h5py                         3.8.0
 hexbytes                     0.3.0
@@ -87,6 +85,7 @@ httplib2                     0.21.0
 idna                         3.4
 importlib-metadata           6.0.0
 inflect                      6.0.2
+installer                    0.6.0
 ipfshttpclient               0.8.0a2
 ipykernel                    6.21.2
 ipython                      8.10.0
@@ -111,7 +110,7 @@ jupyter_server               2.3.0
 jupyter_server_fileid        0.7.0
 jupyter_server_terminals     0.4.4
 jupyter_server_ydoc          0.7.0
-jupyter-ydoc                 0.3.3
+jupyter-ydoc                 0.3.4
 jupyterlab                   3.6.1
 jupyterlab-pygments          0.2.2
 jupyterlab_server            2.19.0
@@ -130,12 +129,11 @@ lru-dict                     1.1.8
 lxml                         4.9.2
 Mako                         1.2.4
 Markdown                     3.4.1
-markdown-it-py               2.1.0
+markdown-it-py               2.2.0
 MarkupSafe                   2.1.2
 matplotlib                   3.7.0
 matplotlib-inline            0.1.6
 matrix-nio                   0.20.1
-mccabe                       0.7.0
 mdurl                        0.1.2
 mistune                      2.0.5
 more-itertools               9.0.0
@@ -169,7 +167,6 @@ parsimonious                 0.10.0
 parso                        0.8.3
 pathspec                     0.11.0
 patsy                        0.5.3
-peewee                       3.15.4
 pexpect                      4.8.0
 phx-class-registry           4.0.6
 pickleshare                  0.7.5
@@ -192,13 +189,11 @@ py-solc-x                    1.1.1
 pyasn1                       0.4.8
 pyasn1-modules               0.2.8
 pycairo                      1.23.0
-pycodestyle                  2.10.0
 pycparser                    2.21
 pycryptodome                 3.17
 pycurl                       7.45.2
 pydantic                     1.10.5
 pydocstyle                   6.3.0
-pyflakes                     3.0.1
 Pygments                     2.14.0
 PyGObject                    3.42.2
 pyinotify                    0.9.6
@@ -206,6 +201,7 @@ pylint                       2.16.2
 pynput                       1.7.6
 pyOpenSSL                    23.0.0
 pyparsing                    3.0.9
+pyproject_hooks              1.0.0
 PyQt5                        5.15.9
 PyQt5-Qt5                    5.15.2
 PyQt5-sip                    12.11.1
@@ -214,7 +210,6 @@ pyrsistent                   0.19.3
 python-dateutil              2.8.2
 python-json-logger           2.0.7
 python-lsp-server            1.7.1
-python-olm                   3.2.12
 python-slugify               8.0.0
 python-socks                 2.1.1
 python-xlib                  0.33
@@ -253,7 +248,6 @@ shellingham                  1.5.1
 six                          1.16.0
 sklearn                      0.0.post1
 sniffio                      1.3.0
-snowballstemmer              2.2.0
 soupsieve                    2.4
 Sphinx                       6.1.3
 sphinxcontrib-applehelp      1.0.4
