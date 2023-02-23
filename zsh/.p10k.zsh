@@ -795,6 +795,7 @@
   typeset -g POWERLEVEL9K_TODO_HIDE_ZERO_TOTAL=true
   # Hide todo when the number of tasks after filtering is zero.
   typeset -g POWERLEVEL9K_TODO_HIDE_ZERO_FILTERED=false
+	typeset -g _p9k_todo_file="~/todo/todo.txt"
 
   # Todo format. The following parameters are available within the expansion.
   #

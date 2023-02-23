@@ -25,7 +25,6 @@ alias lg='lazygit'
 alias gp='git push'
 alias gs='git status'
 alias ga='git add'
-alias gc='git commit -m'
 
 alias H='cd ~'
 alias cc='cd ~/.config'
@@ -56,6 +55,12 @@ alias tnew='tmux new -s '
 alias tl='tmux ls'
 alias tn='tmux rename -t'
 
+
+###############
+## todo.sh & gcalcli
+###############
+alias t='todo.sh'
+alias g='gcalcli'
 
 alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
