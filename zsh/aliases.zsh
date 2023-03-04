@@ -91,8 +91,6 @@ noproxy () {
 # arch upgrade
 archup(){
 	sudo pacman -Syyu
-	sudo pacman -Scc
-  sudo pacman -Rns $(pacman -Qtdq) # Remove unused packages
   sudo updatedb # Update mlocate database
 	yay -Syu
   zinit self-update && zinit update --parallel
@@ -110,6 +108,11 @@ archup(){
 
 # Clean arch shit files
 archclean(){
+  echo ''
+  echo '====== rm unused packages ====='
+  echo ''
+	sudo pacman -Scc
+  sudo pacman -Rns $(pacman -Qtdq) # Remove unused packages
   echo ''
   echo '====== rmshit ====='
   echo ''

@@ -16,6 +16,7 @@ bison
 bluedevil
 bluez
 bluez-utils
+brave-bin
 chromium
 clipmenu
 code-marketplace
@@ -43,6 +44,7 @@ firefox
 flex
 font-manager
 frpc
+gcalcli
 gcc
 geeqie
 git
@@ -68,6 +70,7 @@ lightdm-web-greeter-theme-arch
 lightdm-webkit-theme-litarvan
 linux
 linux-firmware
+logseq-desktop-bin
 m4
 make
 miniconda3
@@ -122,6 +125,7 @@ texlive-pstricks
 texlive-publishers
 texlive-science
 tmux
+todotxt
 tor-browser
 ttf-droid
 ttf-fira-code
