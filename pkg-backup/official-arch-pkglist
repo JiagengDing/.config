@@ -1,9 +1,12 @@
 adobe-source-han-sans-cn-fonts
+adobe-source-han-sans-otc-fonts
 adobe-source-han-sans-tw-fonts
 adobe-source-han-serif-cn-fonts
+adobe-source-han-serif-otc-fonts
 adobe-source-sans-fonts
 adobe-source-serif-fonts
 alacritty
+aria2
 autoconf
 automake
 base
@@ -44,6 +47,7 @@ i3blocks
 i3status
 i3-wm
 intel-ucode
+inter-font
 ipython
 jq
 keepassxc
@@ -63,7 +67,7 @@ netctl
 net-tools
 nginx
 nodejs-lts-hydrogen
-noto-fonts-emoji
+noto-fonts-cjk
 npm
 ntfs-3g
 obsidian
@@ -103,8 +107,8 @@ ttf-droid
 ttf-fira-code
 ttf-firacode-nerd
 ttf-font-awesome
+ttf-hack
 ttf-inconsolata
-ttf-joypixels
 ttf-linux-libertine
 unzip
 variety
