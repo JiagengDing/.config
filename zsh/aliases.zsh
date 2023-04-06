@@ -90,7 +90,7 @@ noproxy () {
 
 # arch upgrade
 archup(){
-	sudo pacman -Syyu
+	sudo powerpill -Syyu
   sudo updatedb # Update mlocate database
 	yay -Syu
   zinit self-update && zinit update --parallel
