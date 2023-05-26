@@ -64,6 +64,7 @@ jesseduffield/lazynpm/state.yml
 /joplin/database.sqlite
 !/thefuck/
 !/karabiner/
+!/joshuto/
 
 /clash/*
 clash/cache.db
