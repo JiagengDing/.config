@@ -303,10 +303,26 @@ mode "resize" {
 		bindsym Escape mode "default"
 }
 
+# Assign workspaces:
+# assign [class="Alacritty"] $ws1
+
+assign [class="Firefox"] $ws2
+assign [class="Brave"] $ws2
+assign [class="Chrome"] $ws2
+
+assign [class="pcmanfm"] $ws3
+assign [class="Geeqie"] $ws3
+assign [class="digiKam"] $ws3
+
+assign [class="Code"] $ws3
+
+assign [class="KeePassXC"] $ws0
+
 # Autostart applications
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id picom -b
 exec --no-startup-id nutstore
+exec brave
 #exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
 exec --no-startup-id xfce4-power-manager
@@ -318,8 +334,9 @@ exec --no-startup-id pamac-tray
 exec --no-startup-id ff-theme-util
 exec --no-startup-id fix_xcursor
 exec --no-startup-id ~/.config/i3/run-mailsync.sh
-exec variety
+exec --no-startup-id variety
 exec fcitx5
+exec alacritty
 #exec_always --no-startup-id ~/.config/i3/tap-to-click.sh
 exec --no-startup-id ~/.config/i3/inverse-scroll.sh
 # exec --no-startup-id feh --bg-scale "/usr/share/backgrounds/wallpapers-2018/mountains-1412683.jpg
