@@ -6,6 +6,7 @@ adobe-source-han-serif-otc-fonts
 adobe-source-sans-fonts
 adobe-source-serif-fonts
 alacritty
+alsa-utils
 aria2
 autoconf
 automake
@@ -15,7 +16,6 @@ bison
 bluedevil
 bluez
 bluez-utils
-chromium
 clipmenu
 debugedit
 dhcpcd
@@ -40,6 +40,7 @@ font-manager
 gcc
 geeqie
 git
+gnome-keyring
 grub
 htop
 hugo
@@ -50,7 +51,10 @@ intel-ucode
 inter-font
 ipython
 jq
+jupyter-notebook
 keepassxc
+lazygit
+libgnome-keyring
 libimobiledevice
 libreoffice-fresh
 libtool
@@ -82,7 +86,10 @@ pkgconf
 polybar
 python-pip
 ranger
+rclone
+redis
 redshift
+reflector
 rofi
 signal-desktop
 sudo
@@ -113,6 +120,7 @@ ttf-linux-libertine
 unzip
 variety
 vim
+virtualbox
 vlc
 w3m
 wget

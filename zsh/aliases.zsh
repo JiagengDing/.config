@@ -5,7 +5,7 @@ alias ls='exa'
 alias l='exa --long --all --git --time-style iso'
 # alias cd='z'
 # alias cat='bat'
-alias r=ranger
+alias r=joshuto
 alias i=ipython
 alias j=julia
 alias m='matlab -nodesktop -nosplash'
@@ -90,7 +90,7 @@ noproxy () {
 
 # arch upgrade
 archup(){
-	sudo powerpill -Syyu
+	sudo pacman -Syyu
   sudo updatedb # Update mlocate database
 	yay -Syu
   zinit self-update && zinit update --parallel
