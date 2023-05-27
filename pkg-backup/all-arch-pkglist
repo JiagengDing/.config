@@ -52,6 +52,7 @@ gcc
 geeqie
 git
 gnome-keyring
+google-chrome
 grub
 htop
 hugo
@@ -63,6 +64,7 @@ i3-wm
 intel-ucode
 inter-font
 ipython
+joshuto
 jq
 julia-bin
 jupyter-notebook
@@ -218,5 +220,6 @@ xorg-xwud
 yay
 zathura
 zathura-pdf-poppler
+zip
 zotero
 zsh

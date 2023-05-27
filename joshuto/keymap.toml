@@ -110,8 +110,8 @@ keymap = [
 	{ keys = [ "S" ],		command = "search_fzf" },
 	{ keys = [ "C" ],		command = "subdir_fzf" },
 
-	{ keys = [ "n" ],		command = "search_next" },
-	{ keys = [ "N" ],		command = "search_prev" },
+	{ keys = [ "k" ],		command = "search_next" },
+	{ keys = [ "K" ],		command = "search_prev" },
 
 	{ keys = [ "s", "r" ],		command = "sort reverse" },
 	{ keys = [ "s", "l" ],		command = "sort lexical" },
@@ -125,7 +125,7 @@ keymap = [
 	{ keys = [ "m", "M" ],		command = "linemode sizemtime" },
 
 	{ keys = [ "g", "r" ],		command = "cd /" },
-	{ keys = [ "g", "c" ],		command = "cd ~/.config" },
+	{ keys = [ "g", "f" ],		command = "cd ~/.config" },
 	{ keys = [ "g", "d" ],		command = "cd ~/Downloads" },
 	{ keys = [ "g", "e" ],		command = "cd /etc" },
 	{ keys = [ "g", "h" ],		command = "cd ~/" },
