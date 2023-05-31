@@ -18,6 +18,8 @@ alias vi=/bin/vim
 alias vim=nvim
 alias ml='matlab -nodesktop -nosplash'
 
+alias grep=rg
+
 ##############
 # git
 ##############

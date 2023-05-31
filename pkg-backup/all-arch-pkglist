@@ -117,8 +117,11 @@ rclone-browser
 redis
 redshift
 reflector
+ripgrep
 rofi
 rustdesk-bin
+rust-src
+rustup
 signal-desktop
 snapd
 sublime-text-4

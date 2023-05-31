@@ -90,7 +90,10 @@ rclone
 redis
 redshift
 reflector
+ripgrep
 rofi
+rust-src
+rustup
 signal-desktop
 sudo
 supervisor
