@@ -8,3 +8,6 @@ export PATH
 rm -f $ZINIT[BIN_DIR]/*.zwc
 
 export PATH=$PATH:/Applications/MATLAB_R2018a.app/bin/
+
+# Added by OrbStack: command-line tools and integration
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :

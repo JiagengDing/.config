@@ -48,8 +48,17 @@ yabai -m config                                 \
     mouse_action2                resize         \
     mouse_drop_action            swap
 
-/opt/homebrew/bin/yabai -m rule --add app="^Stats*" sticky=on layer=above manage=off border=off
-/opt/homebrew/bin/yabai -m rule --add app="^System Preferences*" manage=off
+yabai -m rule --add app="^Stats$" sticky=on manage=off
+yabai -m rule --add app="^RustDesk$" manage=off
+yabai -m rule --add app="^OrbStack$" manage=off
+yabai -m rule --add app="^WeChat$" manage=off
+yabai -m rule --add app="^Photos$" manage=off
+yabai -m rule --add app="^KeePassXC$" manage=off
+yabai -m rule --add app="^System Settings$" manage=off
 
+# add 20 padding to the top and 0 padding to the bottom of every space located on the main display
+# yabai -m config external_bar main:25:0
+# add 20 padding to the top and bottom of all spaces regardless of the display it belongs to
+# yabai -m config external_bar all:25:0
 
 echo "yabai configuration loaded.."
