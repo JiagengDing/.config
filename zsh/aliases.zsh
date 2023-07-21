@@ -97,7 +97,7 @@ archup(){
 	yay -Syu
   zinit self-update && zinit update --parallel
 	pip install --upgrade pip pip-review
-	pip-review --auto
+	# pip-review --auto
 	cd .config && git pull
 	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > pkg-backup/official-arch-pkglist
 	(yay -Qeq|sort) > pkg-backup/all-arch-pkglist

@@ -37,6 +37,7 @@ ranger/folders.conf
 !/i3status/
 /mutt/
 !/my-packages.txt
+!/newsboat/
 !/jesseduffield/
 /jesseduffield/lazygit/*
 !/jesseduffield/lazygit/config.yml
