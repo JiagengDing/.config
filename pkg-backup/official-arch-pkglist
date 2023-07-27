@@ -70,6 +70,7 @@ neofetch
 neovim
 netctl
 net-tools
+newsboat
 nginx
 nodejs-lts-hydrogen
 noto-fonts-cjk
@@ -118,6 +119,7 @@ texlive-pictures
 texlive-pstricks
 texlive-publishers
 tmux
+trash-cli
 ttc-iosevka
 ttf-droid
 ttf-fira-code

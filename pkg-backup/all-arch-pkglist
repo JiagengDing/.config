@@ -67,7 +67,6 @@ ipython
 jekyll
 joshuto
 jq
-julia-bin
 jupyter-notebook
 keepassxc
 lazygit
@@ -91,6 +90,7 @@ neofetch
 neovim
 netctl
 net-tools
+newsboat
 nginx
 nodejs-lts-hydrogen
 noto-fonts-cjk
@@ -150,6 +150,7 @@ texlive-publishers
 tmux
 todotxt
 tor-browser
+trash-cli
 ttc-iosevka
 ttf-apple-emoji
 ttf-droid
