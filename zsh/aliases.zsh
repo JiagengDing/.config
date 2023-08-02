@@ -74,7 +74,7 @@ alias rl='trashlist'
 alias ur='undeletefile'
 alias mycl='cleartrash'
 
-
+alias yay='paru'
 
 # 启动代理
 proxy () {
@@ -94,7 +94,8 @@ noproxy () {
 archup(){
 	sudo pacman -Syyu
   sudo updatedb # Update mlocate database
-	yay -Syu
+	sudo conda update conda
+	paru -Syu --devel --timeupdate --ignore miniconda3
   zinit self-update && zinit update --parallel
 	pip install --upgrade pip pip-review
 	# pip-review --auto

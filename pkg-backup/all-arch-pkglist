@@ -43,6 +43,7 @@ fcitx5-gtk
 fcitx5-material-color
 fcitx5-rime
 feh
+figlet
 firefox
 flex
 font-manager
@@ -151,6 +152,7 @@ tmux
 todotxt
 tor-browser
 trash-cli
+tree
 ttc-iosevka
 ttf-apple-emoji
 ttf-droid

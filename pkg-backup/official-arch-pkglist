@@ -35,6 +35,7 @@ fcitx5-gtk
 fcitx5-material-color
 fcitx5-rime
 feh
+figlet
 firefox
 flex
 font-manager
@@ -120,6 +121,7 @@ texlive-pstricks
 texlive-publishers
 tmux
 trash-cli
+tree
 ttc-iosevka
 ttf-droid
 ttf-fira-code
