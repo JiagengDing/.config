@@ -26,6 +26,7 @@ clipmenu
 code-marketplace
 code-server
 coreshot
+dart
 debugedit
 dhcpcd
 dialog
@@ -84,6 +85,7 @@ linuxqq
 logseq-desktop-bin
 m4
 make
+mariadb
 miniconda3
 motrix-bin
 mpd
@@ -107,6 +109,7 @@ os-prober
 p7zip
 pamac-aur
 pandoc-cli
+paru
 patch
 pcmanfm
 picom

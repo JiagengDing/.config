@@ -90,12 +90,13 @@ noproxy () {
   echo "Proxy off"
 }
 
+
 # arch upgrade
 archup(){
-	sudo pacman -Syyu
+	sudo pacman -Syyu --noconfirm
   sudo updatedb # Update mlocate database
 	sudo conda update conda
-	paru -Syu --devel --timeupdate --ignore miniconda3
+	paru -Syu --devel --ignore miniconda3
   zinit self-update && zinit update --parallel
 	pip install --upgrade pip pip-review
 	# pip-review --auto
@@ -146,7 +147,7 @@ debup(){
 }
 
 # mac upgrade
-upp(){
+macup(){
 	brew update && brew upgrade
 	brew cu -a -y
 	# mas upgrade
@@ -167,31 +168,31 @@ upp(){
 	neofetch
 }
 
-# homebrew upgrade
-up(){
-	# brew upgrade firefox brave-browser
-	# export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
-  # echo "Proxy on"
-	brew update
-	brew upgrade --greedy
-	brew cu -a -y
-	# mas upgrade
-	brew cleanup
-	# npm install -g npm
-	cnpm update joplin -g
-	cd ~/.config
-	mv Brewfile ~/.Trash
-	brew bundle dump
-  zinit self-update && zinit update --parallel
-	noproxy
-	cd ~
-	pip3 install --upgrade pip
-	pip-review --local --interactive
-	sudo softwareupdate -i -a
-	clear
-	echo "Upgrade completed"
-	neofetch
-}
+# # homebrew upgrade
+# up(){
+# 	# brew upgrade firefox brave-browser
+# 	# export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
+#   # echo "Proxy on"
+# 	brew update
+# 	brew upgrade --greedy
+# 	brew cu -a -y
+# 	# mas upgrade
+# 	brew cleanup
+# 	# npm install -g npm
+# 	cnpm update joplin -g
+# 	cd ~/.config
+# 	mv Brewfile ~/.Trash
+# 	brew bundle dump
+#   zinit self-update && zinit update --parallel
+# 	noproxy
+# 	cd ~
+# 	pip3 install --upgrade pip
+# 	pip-review --local --interactive
+# 	sudo softwareupdate -i -a
+# 	clear
+# 	echo "Upgrade completed"
+# 	neofetch
+# }
 
 
 
@@ -222,4 +223,24 @@ cleartrash()
       /bin/rm -rf ~/.local/share/Trash/files/.* 2>/dev/null
       echo -e "\a[===================== Clear Successfully =====================]\a"
    fi
+}
+
+
+# upgrade
+up(){
+	if [[ "$(uname)" == "Darwin" ]]; then
+		macup
+	elif [[ "$(uname)" == "Linux" ]]; then
+		if [[ -e "/etc/arch-release" ]]; then
+			archup
+		elif [[ -e "/etc/debian_version" ]]; then
+			debup
+		else
+			echo "Unknown Linux Distribution"
+			exit 1
+		fi
+	else
+		echo "Unknown OS"
+		exit 1
+	fi
 }
