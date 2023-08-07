@@ -53,6 +53,9 @@ yabai -m rule --add app="^RustDesk$" manage=off
 yabai -m rule --add app="^OrbStack$" manage=off
 yabai -m rule --add app="^WeChat$" manage=off
 yabai -m rule --add app="^Photos$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
+yabai -m rule --add app="^Microsoft Teams$" manage=off
+yabai -m rule --add app="^Messages$" manage=off
 yabai -m rule --add app="^KeePassXC$" manage=off
 yabai -m rule --add app="^System Settings$" manage=off
 

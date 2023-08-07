@@ -191,7 +191,6 @@ cask "visual-studio-code"
 cask "webpquicklook"
 cask "zoom"
 cask "zotero"
-mas "AdGuard for Safari", id: 1440147259
 mas "CAJ云阅读", id: 1121965993
 mas "CHM Viewer Star", id: 650683226
 mas "Cubox", id: 1113361350
