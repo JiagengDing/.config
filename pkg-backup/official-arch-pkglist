@@ -18,6 +18,7 @@ bluez
 bluez-utils
 bottom
 clipmenu
+dart
 debugedit
 dhcpcd
 dialog
@@ -66,6 +67,7 @@ linux
 linux-firmware
 m4
 make
+mariadb
 mpd
 neofetch
 neovim
