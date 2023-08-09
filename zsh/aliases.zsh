@@ -20,9 +20,7 @@ alias ml='matlab -nodesktop -nosplash'
 
 alias grep=rg
 
-##############
 # git
-##############
 alias lg='lazygit'
 alias gp='git push'
 alias gs='git status'
@@ -34,9 +32,7 @@ alias D='cd ~/Desktop'
 
 alias zinitup='zinit self-update && zinit update --parallel'
 
-###############
-## joplin
-###############
+# joplin
 alias o=joplin
 alias oe='joplin edit'
 alias oc='joplin cat'
@@ -50,17 +46,13 @@ alias oss='joplin sync'
 alias oh='joplin help all'
 
 
-###############
-## tmux
-###############
+# tmux
 alias tnew='tmux new -s '
 alias tl='tmux ls'
 alias tn='tmux rename -t'
 
 
-###############
-## todo.sh & gcalcli
-###############
+# todo.sh & gcalcli
 alias t='todo.sh'
 alias g='gcalcli'
 
@@ -68,21 +60,20 @@ alias ch='/Applications/Chromium.app/Contents/MacOS/Chromium'
 
 alias b2='backblaze-b2'
 
-#防止出现删除错误的问题
-# alias rm='deletefile'
-alias rl='trashlist'
-alias ur='undeletefile'
-alias mycl='cleartrash'
+# alias for trash-cli
+alias rm='trash-put'
+alias trl='trash-list'
+alias ud='trash-restore'
 
 alias yay='paru'
 
-# 启动代理
+# proxy activate
 proxy () {
 	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 }
 
-# 关闭代理
+# proxy deactivate
 noproxy () {
   unset http_proxy
   unset https_proxy
@@ -92,7 +83,7 @@ noproxy () {
 
 
 # arch upgrade
-archup(){
+arch_upgrade(){
 	sudo pacman -Syyu --noconfirm
   sudo updatedb # Update mlocate database
 	sudo conda update conda
@@ -101,12 +92,17 @@ archup(){
 	pip install --upgrade pip pip-review
 	# pip-review --auto
 	cd .config && git pull
-	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > pkg-backup/official-arch-pkglist
-	(yay -Qeq|sort) > pkg-backup/all-arch-pkglist
-	pip list > pkg-backup/python-pkglist
 	cd nvim && git pull
 	cd ~
 	neofetch
+}
+
+arch_backup(){
+	cd ~/.config
+	comm -23 <(pacman -Qeq|sort) <(pacman -Qmq|sort) > pkg-backup/official-arch-pkglist
+	(yay -Qeq|sort) > pkg-backup/all-arch-pkglist
+	pip list > pkg-backup/python-pkglist
+	cd ~
 }
 
 
@@ -120,7 +116,7 @@ archclean(){
   echo ''
   echo '====== rmshit ====='
   echo ''
-	cd .config/scripts/
+	cd ~/.config/scripts/
   if [  -f rmshit.py ]; then
      python rmshit.py
   else
@@ -134,7 +130,7 @@ archclean(){
 }
 
 # debian upgrade
-debup(){
+deb_upgrade(){
 	sudo apt update && sudo apt upgrade -y
 	sudo apt autoremove
   zinit self-update && zinit update --parallel
@@ -146,18 +142,21 @@ debup(){
 	neofetch
 }
 
+# Debian backup
+deb_backup(){
+	cd .config/pkg-backup
+	dpkg --get-selections > deb-pkglist
+  cd ~
+}
+
 # mac upgrade
-macup(){
+mac_upgrade(){
 	brew update && brew upgrade
 	brew cu -a -y
 	# mas upgrade
 	brew cleanup
 	# npm install -g npm
 	# cnpm update joplin -g
-	cd ~/.config/pkg-backup/
-	mv Brewfile ~/.Trash
-	brew bundle dump
-	cd ~
   zinit self-update && zinit update --parallel
 	pip install --upgrade pip
 	pip-review --auto
@@ -166,6 +165,14 @@ macup(){
 	cd ~
 	echo "Upgrade completed"
 	neofetch
+}
+
+mac_backup(){
+	cd ~/.config/pkg-backup/
+	mv Brewfile ~/.Trash
+	brew bundle dump
+	cd ~
+	echo "MacOS Backup completed"
 }
 
 # # homebrew upgrade
@@ -195,46 +202,33 @@ macup(){
 # }
 
 
-
-#替换rm指令移动文件到~/.trash/中
-deletefile()
-{
-   mv $@  ~/.local/share/Trash/files
-}
-#显示~/.trash/中内容
-trashlist()
-{
-   echo -e "\a[========================== ls trash ==========================]"
-   ls -ail  ~/.local/share/Trash/files
-   echo -e "\a[==========================  ls end ===========================]"
-}
-#将被删除文件还原到当前目录
-undeletefile()
-{
-   mv -i ~/.local/share/Trash/files/$@ ./
-}
-#清空回收站
-cleartrash()
-{
-   echo -ne "\a[====================== Clear ~/.trash, Sure? =================] [y/n] >_"
-   read confirm
-   if [ $confirm == 'y' -o $confirm == 'Y' ] ;then
-      /bin/rm -rf ~/.local/share/Trash/files/*
-      /bin/rm -rf ~/.local/share/Trash/files/.* 2>/dev/null
-      echo -e "\a[===================== Clear Successfully =====================]\a"
-   fi
-}
-
-
 # upgrade
 up(){
 	if [[ "$(uname)" == "Darwin" ]]; then
-		macup
+		mac_upgrade
 	elif [[ "$(uname)" == "Linux" ]]; then
 		if [[ -e "/etc/arch-release" ]]; then
-			archup
+			arch_upgrade
 		elif [[ -e "/etc/debian_version" ]]; then
-			debup
+			deb_upgrade
+		else
+			echo "Unknown Linux Distribution"
+			exit 1
+		fi
+	else
+		echo "Unknown OS"
+		exit 1
+	fi
+}
+
+backup(){
+	if [[ "$(uname)" == "Darwin" ]]; then
+		mac_backup
+	elif [[ "$(uname)" == "Linux" ]]; then
+		if [[ -e "/etc/arch-release" ]]; then
+			arch_backup
+		elif [[ -e "/etc/debian_version" ]]; then
+			deb_backup
 		else
 			echo "Unknown Linux Distribution"
 			exit 1

@@ -54,7 +54,6 @@ gcc
 geeqie
 git
 gnome-keyring
-google-chrome
 grub
 htop
 hugo
@@ -74,7 +73,6 @@ keepassxc
 lazygit
 libgnome-keyring
 libimobiledevice
-libreoffice-fresh
 libtool
 lightdm
 lightdm-web-greeter-theme-arch
@@ -135,7 +133,6 @@ sublime-text-4
 sudo
 supervisor
 syncthing
-teams
 telegram-desktop
 texinfo
 texlive-basic
@@ -233,7 +230,6 @@ xorg-xwayland
 xorg-xwd
 xorg-xwininfo
 xorg-xwud
-yay
 zathura
 zathura-pdf-poppler
 zip
