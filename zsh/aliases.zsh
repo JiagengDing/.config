@@ -107,7 +107,7 @@ arch_backup(){
 
 
 # Clean arch shit files
-archclean(){
+arch_cleanup(){
   echo ''
   echo '====== rm unused packages ====='
   echo ''
@@ -120,11 +120,11 @@ archclean(){
   if [  -f rmshit.py ]; then
      python rmshit.py
   else
-  echo "rmshit.py not found!"
-  echo 'Downloading....'
-  echo ''
-  sudo curl -O https://raw.githubusercontent.com/lahwaacz/Scripts/master/rmshit.py
-     python rmshit.py
+		echo "rmshit.py not found!"
+		echo 'Downloading....'
+		echo ''
+		sudo curl -O https://raw.githubusercontent.com/lahwaacz/Scripts/master/rmshit.py
+		python rmshit.py
   fi
 	cd ~
 }
@@ -229,6 +229,34 @@ backup(){
 			arch_backup
 		elif [[ -e "/etc/debian_version" ]]; then
 			deb_backup
+		else
+			echo "Unknown Linux Distribution"
+			exit 1
+		fi
+	else
+		echo "Unknown OS"
+		exit 1
+	fi
+}
+
+clean(){
+	if [[ "$(uname)" == "Darwin" ]]; then
+		if command -v mac-cleanup &>/dev/null; then
+			echo "Running cleanup command..."
+			mac-cleanup --dry-run
+		else
+			echo "Cleanup command not found. Installing..."
+			wget "https://raw.githubusercontent.com/mac-cleanup/mac-cleanup-sh/main/installer.sh" -O - | bash -s update
+			mac-cleanup --dry-run
+		fi
+	elif [[ "$(uname)" == "Linux" ]]; then
+		if [[ -e "/etc/arch-release" ]]; then
+			arch_cleanup
+		elif [[ -e "/etc/debian_version" ]]; then
+			# Clean up unneeded packages
+			sudo apt autoremove
+			# Clean the APT cache to free up disk space
+			sudo apt clean
 		else
 			echo "Unknown Linux Distribution"
 			exit 1
