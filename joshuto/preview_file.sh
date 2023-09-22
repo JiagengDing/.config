@@ -127,6 +127,16 @@ handle_extension() {
             mediainfo "${FILE_PATH}" && exit 0
             exiftool "${FILE_PATH}" && exit 0
             ;; # Continue with next handler on failure
+
+				## Ts/js
+				ts|tsx|js|jsx)
+			    bat --color=always --paging=never \
+		      --style=plain \
+		      --terminal-width="${PREVIEW_WIDTH}" \
+		      "${FILE_PATH}" && exit 0
+          cat "${FILE_PATH}" && exit 0
+          exit 1;;
+
     esac
 }
 

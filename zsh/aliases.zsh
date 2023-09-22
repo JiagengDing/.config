@@ -4,7 +4,7 @@ alias szr='source ~/.zshrc'
 alias ls='exa'
 alias l='exa --long --all --git --time-style iso'
 # alias cd='z'
-# alias cat='bat'
+alias cat='bat --color=always --paging=never --style=plain'
 alias r=joshuto
 alias i=ipython
 alias j=julia
@@ -85,9 +85,9 @@ noproxy () {
 # arch upgrade
 arch_upgrade(){
 	sudo pacman -Syyu --noconfirm
-  sudo updatedb # Update mlocate database
+  # sudo updatedb # Update mlocate database
 	sudo conda update conda
-	paru -Syu --devel --ignore miniconda3
+	paru -Syu --devel --ignore miniconda3 --noconfirm
   zinit self-update && zinit update --parallel
 	pip install --upgrade pip pip-review
 	# pip-review --auto
