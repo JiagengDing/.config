@@ -1,5 +1,6 @@
 {
   "enableVisualModeIndicator": false,
+  "showRecentEmojis": false,
   "disabled": false,
   "keyBindings": {
     "bottom": "shift+g",
@@ -11,27 +12,27 @@
     "copyCurrentBlockContent": "y y",
     "copyCurrentBlockRef": "shift+y",
     "deleteCurrentBlock": "d d",
-    "down": "e",
+    "down": "j",
     "extend": "z o",
     "extendAll": "z shift+o",
-    "highlightFocusIn": "i",
-    "highlightFocusOut": "n",
-    "indent": "shift+i",
+    "highlightFocusIn": "l",
+    "highlightFocusOut": "h",
+    "indent": "shift+l",
     "insert": [
       "shift+a",
       "a"
     ],
     "insertBefore": [
-      "shift+k",
-      "k"
+      "shift+i",
+      "i"
     ],
     "nextNewBlock": "o",
-    "nextSibling": "shift+e",
-    "outdent": "shift+n",
+    "nextSibling": "shift+j",
+    "outdent": "shift+h",
     "pasteNext": "p",
     "pastePrev": "shift+p",
     "prevNewBlock": "shift+o",
-    "prevSibling": "shift+u",
+    "prevSibling": "shift+k",
     "redo": "ctrl+r",
     "search": "/",
     "searchPrev": "shift+n",
@@ -43,9 +44,9 @@
     "searchStackoverflow": "s s",
     "searchWikipedia": "s e",
     "searchYoutube": "s y",
-    "top": "g g",
-    "undo": "l",
-    "up": "u",
+    "top": "shift+t",
+    "undo": "u",
+    "up": "k",
     "exitEditing": [
       "mod+j mod+j",
       "ctrl+["
@@ -64,7 +65,9 @@
       "mod+alt+;",
       "mod+shift+;"
     ],
-    "emoji": "mod+/"
+    "emoji": "mod+/",
+    "deleteCurrentAndNextSiblingBlocks": "d j",
+    "deleteCurrentAndPrevSiblingBlocks": "d k"
   },
-  "settingsVersion": "v3"
+  "settingsVersion": "v4"
 }

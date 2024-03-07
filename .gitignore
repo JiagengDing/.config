@@ -26,6 +26,7 @@ ranger/folders.conf
 !/scripts/
 !/.Xmodmap
 !/.Xmodmap-cn
+!/yazi/
 !/.zshrc
 !/.gitignore
 #!/llpp.conf

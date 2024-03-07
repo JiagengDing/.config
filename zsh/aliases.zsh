@@ -5,7 +5,8 @@ alias ls='exa'
 alias l='exa --long --all --git --time-style iso'
 # alias cd='z'
 alias cat='bat --color=always --paging=never --style=plain'
-alias r=joshuto
+#alias r=joshuto
+alias r=ya
 alias i=ipython
 alias j=julia
 alias m='matlab -nodesktop -nosplash'
@@ -67,9 +68,19 @@ alias ud='trash-restore'
 
 alias yay='paru'
 
+# Yazi
+function ya() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
+	yazi "$@" --cwd-file="$tmp"
+	if cwd="$(/bin/cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		cd -- "$cwd"
+	fi
+	rm -f -- "$tmp"
+}
+
 # proxy activate
 proxy () {
-	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
+	export https_proxy=http://127.0.0.1:7898 http_proxy=http://127.0.0.1:7898 all_proxy=socks5://127.0.0.1:7898
   echo "Proxy on"
 }
 

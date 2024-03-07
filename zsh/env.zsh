@@ -1,5 +1,5 @@
 export LANG=en_US.UTF-8
-export EDITOR='vim'
+export EDITOR='nvim'
 export TERMINAL=/usr/bin/alacritty
 export GPG_TTY=$TTY
 
@@ -10,3 +10,5 @@ export XDG_CONFIG_HOME=$HOME/.config
 export LOCALBIN=$XDG_CONFIG_HOME/bin
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/snap/bin
+
+eval $(thefuck --alias)

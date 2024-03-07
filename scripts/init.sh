@@ -18,7 +18,7 @@ arch_init() {
 
 	# Install packages
 	paru -Syu --noconfirm
-	paru -S --noconfirm exa joshuto-bin
+	paru -S --noconfirm exa yazi #joshuto-bin
 
 	# Clone dotfiles
 	rm -rf ~/.zshrc
@@ -44,12 +44,12 @@ debian_init() {
 	sudo apt update && sudo apt upgrade -y
 
 	# Install some packages
-	sudo apt install -y git curl wget zsh neofetch python3 lua5.4 exa ripgrep bat cargo
+	sudo apt install -y git curl wget zsh neofetch python3 lua5.4 exa ripgrep bat yazi
 	sudo snap install nvim --classic
 
 	# Install joshuto
-	cargo install --git https://github.com/kamiyaa/joshuto.git --force
-	sudo cp ~/.cargo/bin/joshuto /usr/bin/joshuto
+	# cargo install --git https://github.com/kamiyaa/joshuto.git --force
+	# sudo cp ~/.cargo/bin/joshuto /usr/bin/joshuto
 
 	# Clone dotfiles
 	rm -rf ~/.config
