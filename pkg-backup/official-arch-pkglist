@@ -9,14 +9,17 @@ alacritty
 alsa-utils
 aria2
 autoconf
+autoconf-archive
 automake
 base
+base-devel
 bind
 bison
 bluedevil
 bluez
 bluez-utils
 bottom
+cliphist
 clipmenu
 dart
 debugedit
@@ -29,8 +32,9 @@ docker-compose
 dunst
 efibootmgr
 element-desktop
-exa
+eza
 fakeroot
+fcitx5-chinese-addons
 fcitx5-configtool
 fcitx5-gtk
 fcitx5-material-color
@@ -44,6 +48,7 @@ gcc
 geeqie
 git
 gnome-keyring
+gnu-netcat
 grub
 htop
 hugo
@@ -55,6 +60,7 @@ inter-font
 ipython
 jq
 jupyter-notebook
+kdeconnect
 keepassxc
 lazygit
 libgnome-keyring
@@ -85,6 +91,7 @@ os-prober
 p7zip
 pandoc-cli
 patch
+pavucontrol
 pcmanfm
 picom
 pkgconf
@@ -102,8 +109,10 @@ ruby-bundler
 rust-src
 rustup
 signal-desktop
+spdlog
 sudo
 supervisor
+swaybg
 syncthing
 telegram-desktop
 texinfo
@@ -137,8 +146,10 @@ vim
 virtualbox
 vlc
 w3m
+waybar
 wget
 which
+wofi
 wpa_supplicant
 wqy-microhei
 wqy-zenhei
