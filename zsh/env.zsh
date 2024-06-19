@@ -10,5 +10,6 @@ export XDG_CONFIG_HOME=$HOME/.config
 export LOCALBIN=$XDG_CONFIG_HOME/bin
 export PATH=$PATH:$HOME/go/bin
 export PATH=$PATH:/snap/bin
+export PATH="/usr/local/opt/uutils-coreutils/libexec/uubin:$PATH"
 
 eval $(thefuck --alias)

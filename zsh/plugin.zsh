@@ -18,7 +18,8 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 # B. Load after prompt
-zinit wait lucid for \
+zstyle ':omz:alpha:lib:git' async-prompt no
+zinit lucid wait for \
         OMZL::git.zsh \
         OMZL::theme-and-appearance.zsh \
 				OMZP::sudo/sudo.plugin.zsh \
@@ -33,34 +34,35 @@ PS1="READY >" # provide a simple prompt till the theme loads
 
 
 # C. Load after prompt and reset prompt
-zinit wait'!' lucid for \
+zinit lucid wait'!' for \
 		OMZL::prompt_info_functions.zsh \
 		OMZT::gnzh
 
 
 # D. Some plugins
-zinit wait lucid for \
+zinit lucid wait for \
   atinit"zicompinit; zicdreplay"  \
         zdharma-continuum/fast-syntax-highlighting \
         OMZP::colored-man-pages \
   as"completion" \
-        OMZP::docker/_docker
+        OMZP::docker/completions/_docker
 
-zinit ice as"command" from"gh-r" mv"bat* -> bat" pick"bat/bat"
-zinit light sharkdp/bat
+# zinit ice as"command" from"gh-r" mv"bat* -> bat" pick"bat/bat"
+# zinit light sharkdp/bat
 
 
 # E. Load after 1 or 2 seconds
-zinit wait"1" lucid for \
-	  OMZP::extract \
+zinit lucid wait"1" for \
+    OMZP::extract/extract.plugin.zsh \
 		OMZP::command-not-found \
+    OMZP::docker/docker.plugin.zsh \
+		OMZP::systemd/systemd.plugin.zsh \
   	hlissner/zsh-autopair \
   	skywind3000/z.lua
 
-zinit as"null" wait"2" lucid from"gh-r" for \
-    mv"exa* -> exa" sbin       ogham/exa \
-    mv"fd* -> fd" sbin"fd/fd"  @sharkdp/fd \
-    sbin"fzf"  junegunn/fzf-bin
+# zinit as"null" lucid wait"2" from"gh-r" for \
+#     mv"exa* -> exa" sbin       ogham/exa \
+#     mv"fd* -> fd" sbin"fd/fd"  @sharkdp/fd \
+#     sbin"fzf"  junegunn/fzf-bin
 
 # zinit ice svn
-# zinit snippet OMZP::extract

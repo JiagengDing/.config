@@ -7,6 +7,7 @@ alias l='exa --long --all --git --time-style iso'
 alias cat='bat --color=always --paging=never --style=plain'
 #alias r=joshuto
 alias r=ya
+alias ps=procs
 alias i=ipython
 alias j=julia
 alias m='matlab -nodesktop -nosplash'
@@ -80,7 +81,7 @@ function ya() {
 
 # proxy activate
 proxy () {
-	export https_proxy=http://127.0.0.1:7898 http_proxy=http://127.0.0.1:7898 all_proxy=socks5://127.0.0.1:7898
+	export https_proxy=http://127.0.0.1:7891 http_proxy=http://127.0.0.1:7891 all_proxy=socks5://127.0.0.1:7890
   echo "Proxy on"
 }
 
