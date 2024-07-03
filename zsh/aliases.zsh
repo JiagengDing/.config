@@ -1,12 +1,7 @@
 alias zr='nvim ~/.config/zsh/zshrc'
 alias szr='source ~/.zshrc'
-# alias l='ls -al'
-alias ls='exa'
-alias l='exa --long --all --git --time-style iso'
+alias l='ls --long --all --git --time-style iso'
 # alias cd='z'
-alias cat='bat --color=always --paging=never --style=plain'
-#alias r=joshuto
-alias r=ya
 alias ps=procs
 alias i=ipython
 alias j=julia
@@ -16,11 +11,7 @@ alias c='clear'
 # alias pr='export ALL_PROXY=socks5://127.0.0.1:1080'
 
 alias s=neofetch
-alias vi=/bin/vim
-alias vim=nvim
 alias ml='matlab -nodesktop -nosplash'
-
-alias grep=rg
 
 # git
 alias lg='lazygit'
@@ -77,6 +68,61 @@ function ya() {
 		cd -- "$cwd"
 	fi
 	rm -f -- "$tmp"
+}
+
+function r() {
+    if command -v yazi &> /dev/null; then
+        yazi "$@"
+    elif command -v joshuto &> /dev/null; then
+        joshuto "$@"
+    elif command -v ranger &> /dev/null; then
+        ranger "$@"
+    else
+        echo "yazi, joshuto and ranger not found."
+    fi
+}
+
+
+function cat() {
+	if command -v bat &> /dev/null; then
+		bat --color=always --paging=never --style=plain "$@"
+	else
+		/bin/cat "$@"
+	fi
+}
+
+function ls() {
+	if command -v exa &> /dev/null; then
+		exa "$@"
+	else
+		/bin/ls "$@"
+	fi
+}
+
+function grep() {
+	if command -v rg &> /dev/null; then
+		rg "$@"
+	else
+		/usr/bin/grep "$@"
+	fi
+}
+
+function find() {
+	if command -v fd &> /dev/null; then
+		fd "$@"
+	else
+		/usr/bin/find "$@"
+	fi
+}
+
+function vim() {
+	if command -v nvim &> /dev/null; then
+		nvim "$@"
+	elif command -v /bin/vim &> /dev/null; then
+		/usr/bin/vim "$@"
+	else
+		/bin/vi "$@"
+	fi
 }
 
 # proxy activate
