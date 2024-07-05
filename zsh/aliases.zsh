@@ -1,6 +1,6 @@
 alias zr='nvim ~/.config/zsh/zshrc'
 alias szr='source ~/.zshrc'
-alias l='ls --long --all --git --time-style iso'
+alias l='ls -al --git --time-style iso'
 # alias cd='z'
 alias ps=procs
 alias i=ipython
@@ -92,8 +92,15 @@ function cat() {
 }
 
 function ls() {
-	if command -v exa &> /dev/null; then
-		exa "$@"
+	if command -v eza &> /dev/null; then
+    # 移除 --color=tty 参数（如果存在），并添加 --color=auto
+    local args=()
+    for arg in "$@"; do
+        if [[ "$arg" != "--color=tty" ]]; then
+            args+=("$arg")
+        fi
+    done
+    eza --color=auto "${args[@]}"	
 	else
 		/bin/ls "$@"
 	fi

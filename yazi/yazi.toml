@@ -1,4 +1,4 @@
 [opener]
 text = [
-	{ exec = 'vim "$@"', block = true },
+	{ run = 'vim "$@"', block = true },
 ]
