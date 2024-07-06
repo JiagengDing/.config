@@ -61,7 +61,7 @@ alias ud='trash-restore'
 alias yay='paru'
 
 # Yazi
-function ya() {
+function yy() {
 	local tmp="$(mktemp -t "yazi-cwd.XXXXX")"
 	yazi "$@" --cwd-file="$tmp"
 	if cwd="$(/bin/cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then

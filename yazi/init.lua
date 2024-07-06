@@ -38,3 +38,8 @@ function Status:render(area)
 		table.unpack(Progress:render(area, right:width())),
 	}
 end
+
+-- Show git status
+require("git-status"):setup {
+	style = "linemode" -- beside or linemode
+}
