@@ -8,8 +8,10 @@ prepend_keymap = [
   { on = ["n"], run = "leave", desc = "Go back to the parent directory" },
   { on = ["i"], run = "plugin --sync smart-enter", desc = "Enter the child directory" },
 
-	{ on = ["S"], run = "quit", desc = "Exit the process" },
+	# { on = ["S"], run = "quit", desc = "Exit the process" },
+  { on = [ "S" ], run = 'shell "$SHELL" --block --confirm',desc = "Open shell here"},
 ]
 append_keymap = [
 	{ on = [ "<C-b>" ], run = 'my-fev-command2', desc = "Just for test!" },
 ]
+
